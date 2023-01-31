@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+    @apply h-screen w-screen;
+}
+
 /* Mettre ici les styles "globaux" */
