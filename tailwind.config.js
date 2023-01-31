@@ -9,7 +9,8 @@ module.exports = {
         // Ici vos couleurs exportées de Figma
       },
       "fontFamily": {
-        "space-grotesk": "Space Grotesk"
+        "space-grotesk": "Space Grotesk",
+        "karla": "Karla"
       },
     },
 
