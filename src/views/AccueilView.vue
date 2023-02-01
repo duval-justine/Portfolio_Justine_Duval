@@ -1,7 +1,12 @@
 <template>
   <div class="container z-0 h-[1024px] w-screen bg-gradient-to-b from-pastelbleu to-pastelrose">
     <Header class="relative z-10" />
-    <div class="">
+    <div class="flex flex-row gap-36 items-center">
+      <div class="w-[750px] flex flex-col gap-4 ">
+        <h1 class="font-space-grotesk font-medium text-6xl text-Extended/red/50 ml-20">Justine Duval</h1>
+        <p class="font-space-grotesk font-light text-2xl text-Extended/red/50 ml-20">Étudiante en BUT MMI à Montbéliard
+          et spécialisée dans le design pour devenir Infographiste ou Web-Designeuse.</p>
+      </div>
       <MongolfiereNuages class="float-right mr-10 z-20" />
     </div>
 
