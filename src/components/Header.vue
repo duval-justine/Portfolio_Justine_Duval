@@ -14,8 +14,8 @@
         font-bold
         text-white pr-5
       ">
-            <RouterLink class="lg:text-lg lg:hover:text-white" to="/progall">Projets</RouterLink>
-            <RouterLink class="lg:text-lg lg:hover:text-white" to="/artistes">À Propos</RouterLink>
+            <RouterLink class="lg:text-lg lg:" to="/">Projets</RouterLink>
+            <RouterLink class="lg:text-lg lg:" to="/">À Propos</RouterLink>
 
         </div>
     </div>
