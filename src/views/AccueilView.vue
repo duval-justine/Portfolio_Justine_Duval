@@ -7,7 +7,7 @@
         <p class="font-space-grotesk font-light text-2xl text-Extended/red/50 ml-20">Étudiante en BUT MMI à Montbéliard
           et spécialisée dans le design pour devenir Infographiste ou Web-Designeuse.</p>
       </div>
-      <MongolfiereNuages class="float-right mr-10 z-20 max-width: 100% h-auto" />
+      <MongolfiereNuages id="mongolfiere" class="float-right mr-10 z-20 max-width: 100% h-auto relative" />
     </div>
     <div class="flex flex-col items-center gap-4">
       <RouterLink class="font-space-grotesk font-bold text-sm text-Extended/red/50 lg:text-lg lg:" to="/">
@@ -19,6 +19,7 @@
   <div>
     <Bloc1 class="pt-48" />
   </div>
+  <div id="hot-air-balloon"></div>
 </template>
 
 <script>
@@ -29,3 +30,36 @@ export default {
   components: { Header, MongolfiereNuages, Bloc1 }
 }
 </script>
+
+<style>
+#mongolfiere {
+  animation: fly-balloon 10s linear infinite;
+}
+
+@keyframes fly-balloon {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    top: -25px;
+    left: 0px;
+  }
+
+  50% {
+    top: 0px;
+    left: -25px;
+  }
+
+  75% {
+    top: 25px;
+    left: -25px;
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+</style>
