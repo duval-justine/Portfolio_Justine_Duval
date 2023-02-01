@@ -7,7 +7,12 @@
         <p class="font-space-grotesk font-light text-2xl text-Extended/red/50 ml-20">Étudiante en BUT MMI à Montbéliard
           et spécialisée dans le design pour devenir Infographiste ou Web-Designeuse.</p>
       </div>
-      <MongolfiereNuages class="float-right mr-10 z-20" />
+      <MongolfiereNuages class="float-right mr-10 z-20 max-width: 100% h-auto" />
+    </div>
+    <div class="flex flex-col items-center gap-4">
+      <RouterLink class="font-space-grotesk font-bold text-sm text-Extended/red/50 lg:text-lg lg:" to="/">SCROLL
+      </RouterLink>
+      <div class="border-t-4 w-8 rotate-90 border-Extended/red/50"></div>
     </div>
 
   </div>
