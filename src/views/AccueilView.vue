@@ -14,7 +14,6 @@
       </RouterLink>
       <div class="border-t-4 w-8 rotate-90 border-Extended/red/50"></div>
     </div>
-
   </div>
 </template>
 
