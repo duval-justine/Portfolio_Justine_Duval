@@ -21,6 +21,7 @@
     <div>
       <Bloc1 class="pt-48" />
       <Bloc2 />
+      <Bloc3 />
     </div>
   </main>
 </template>
@@ -29,9 +30,10 @@
 import Header from "../components/Header.vue";
 import Bloc1 from "../components/Bloc1.vue";
 import Bloc2 from "../components/Bloc2.vue";
+import Bloc3 from "../components/Bloc3.vue";
 import MongolfiereNuages from "../components/MongolfiereNuages.vue";
 export default {
-  components: { Header, MongolfiereNuages, Bloc1, Bloc2 }
+  components: { Header, MongolfiereNuages, Bloc1, Bloc2, Bloc3 }
 }
 </script>
 
