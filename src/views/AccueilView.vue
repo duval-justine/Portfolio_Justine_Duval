@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container z-0 bg-gradient-to-b from-pastelbleu to-pastelrose">
+    <div class="container0 h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose">
       <Header class="relative z-10" />
       <div class="flex flex-row gap-36 items-center">
         <div class="w-[750px] flex flex-col gap-4 ">
@@ -67,8 +67,14 @@ export default {
   }
 }
 
-.container {
+.container0 {
   width: 100%;
-  max-width: none;
+
+}
+
+@media (min-width: 640px) {
+  .container0 {
+    max-width: 40000px;
+  }
 }
 </style>
