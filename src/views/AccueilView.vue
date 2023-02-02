@@ -11,11 +11,12 @@
         </div>
         <MongolfiereNuages id="mongolfiere" class="float-right mr-10 z-20 w-full h-full object-contain relative " />
       </div>
-      <div class="flex flex-col items-center gap-4">
-        <RouterLink class="font-space-grotesk font-bold text-sm text-Extended/red/50 lg:text-lg lg:" to="/">
+      <div class="flex flex-col items-center  gap-4">
+        <RouterLink class="font-space-grotesk font-bold text-sm absolute bottom-6 text-Extended/red/50 lg:text-lg lg:"
+          to="/">
           SCROLL
         </RouterLink>
-        <div class="border-t-4 w-8 rotate-90 border-Extended/red/50"></div>
+        <div class=" border-t-4 w-8 rotate-90 absolute bottom-0 border-Extended/red/50"></div>
       </div>
     </div>
     <div>
