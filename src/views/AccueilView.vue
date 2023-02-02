@@ -1,29 +1,42 @@
 <template>
   <main>
-    <div class="container0 h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose">
-      <Header class="relative z-10" />
-      <div class="flex flex-row gap-36 items-center">
-        <div class="w-[750px] flex flex-col gap-4 ">
-          <h1 class="font-space-grotesk font-medium text-6xl text-Extended/red/50 ml-20">Justine Duval</h1>
-          <p class="font-space-grotesk font-light text-2xl text-Extended/red/50 ml-20">Étudiante en BUT MMI à
-            Montbéliard
-            et spécialisée dans le design pour devenir Infographiste ou Web-Designeuse.</p>
+    <!-- Accueil -->
+    <section>
+      <div class="container0 h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose">
+        <!-- Header -->
+        <Header class="relative z-10" />
+        <!-- Textes et Illustration -->
+        <div class="flex flex-row gap-36 items-center">
+          <!-- Textes -->
+          <div class="w-[750px] flex flex-col gap-4 ">
+            <h1 class="font-space-grotesk font-medium text-6xl text-Extended/red/50 ml-20">Justine Duval</h1>
+            <p class="font-space-grotesk font-light text-2xl text-Extended/red/50 ml-20">Étudiante en BUT MMI à
+              Montbéliard
+              et spécialisée dans le design pour devenir Infographiste ou Web-Designeuse.</p>
+          </div>
+          <!-- Illustration -->
+          <MongolfiereNuages id="mongolfiere" class="float-right mr-10 z-20 w-full h-full object-contain relative " />
         </div>
-        <MongolfiereNuages id="mongolfiere" class="float-right mr-10 z-20 w-full h-full object-contain relative " />
+        <!-- Bouton scroll -->
+        <div class="flex flex-col items-center  gap-4">
+          <RouterLink class="font-space-grotesk font-bold text-sm absolute bottom-6 text-Extended/red/50 lg:text-lg lg:"
+            to="/">
+            SCROLL
+          </RouterLink>
+          <div class=" border-t-4 w-8 rotate-90 absolute bottom-0 border-Extended/red/50"></div>
+        </div>
       </div>
-      <div class="flex flex-col items-center  gap-4">
-        <RouterLink class="font-space-grotesk font-bold text-sm absolute bottom-6 text-Extended/red/50 lg:text-lg lg:"
-          to="/">
-          SCROLL
-        </RouterLink>
-        <div class=" border-t-4 w-8 rotate-90 absolute bottom-0 border-Extended/red/50"></div>
+    </section>
+    <!-- Fin de l'accueil -->
+
+    <!-- Les derniers projets -->
+    <section>
+      <div>
+        <Bloc1 class="pt-48" />
+        <Bloc2 />
+        <Bloc3 />
       </div>
-    </div>
-    <div>
-      <Bloc1 class="pt-48" />
-      <Bloc2 />
-      <Bloc3 />
-    </div>
+    </section>
   </main>
 </template>
 
