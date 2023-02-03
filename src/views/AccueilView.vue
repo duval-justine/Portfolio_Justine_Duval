@@ -42,9 +42,13 @@
             img_2="/images/Janvier2023/Janvier2023_Ski.svg" title="Janvier"
             subtitle="Illustrations & Motion Design | 2023" />
         </RouterLink>
-        <Bloc2 />
         <RouterLink to="/citadelle">
-          <Bloc3 />
+          <Bloc3 img_1="/images/ExpoUni/ExpoUni_Tsunami.svg" img_2="/images/ExpoUni/ExpoUni_Logo.svg"
+            title="Exposition universelle" subtitle="Carte postale | 2023" />
+        </RouterLink>
+        <RouterLink to="/janvier2023">
+          <Bloc1 img_1="/images/Bavans/Bavans_Couverture.svg" img_2="/images/Bavans/Bavans_Logo.svg" title="Bavans"
+            subtitle="Refonte de la charte graphique | 2023" />
         </RouterLink>
       </div>
     </section>
