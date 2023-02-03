@@ -2,7 +2,7 @@
     <div class="flex flex-row py-32 px-64">
         <div>
             <div class="relative z-30 container4 overflow-hidden mx-auto shadow-2xl">
-                <img src="../../public/images/Citadelle.jpg" class="max-width: 100% h-auto"
+                <img src="../../public/images/Citadelle.jpg" class="max-width: 100% h-auto object-cover"
                     alt="Illustration de la Citadelle de Besançon de nuit">
             </div>
             <div class="flex flex-col gap-1 mt-9 items-end mr-14">
@@ -15,7 +15,7 @@
         </div>
         <div>
             <div class="container2 overflow-hidden mx-auto shadow-2xl -ml-14 mt-40">
-                <img src="../../public/images/Citadelle_Moodboard.jpg" class="w-full"
+                <img src="../../public/images/Citadelle_Moodboard.jpg" class="w-full object-cover"
                     alt="MoodBoard pour mon illustration">
             </div>
         </div>

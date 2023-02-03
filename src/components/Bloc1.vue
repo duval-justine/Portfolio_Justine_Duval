@@ -2,7 +2,7 @@
     <div class="flex flex-row py-32 px-64">
         <div>
             <div class="container1 overflow-hidden mx-auto shadow-2xl">
-                <img src="../../public/images/Janvier2023_Fond.jpg" class="max-width: 100% h-auto"
+                <img src="../../public/images/Janvier2023_Fond.jpg" class="max-width: 100% h-auto object-cover"
                     alt="Mot Janvier sur un fond bleu">
             </div>
         </div>
@@ -17,7 +17,8 @@
                     2023</p>
             </div>
             <div class="container2 overflow-hidden mx-auto shadow-2xl -ml-28 mt-20">
-                <img src="../../public/images/Janvier2023_Ski.png" class="w-full" alt="Mot Janvier sur un fond bleu">
+                <img src="../../public/images/Janvier2023_Ski.png" class="w-full object-cover"
+                    alt="Mot Janvier sur un fond bleu">
             </div>
         </div>
     </div>
