@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row py-32 px-64">
+    <div class="flex flex-row py-16 px-64">
         <div>
             <div class="relative container2 overflow-hidden mx-auto shadow-2xl mt-20 z-30">
                 <img :src="img_1" class="w-full h-full object-cover" alt="">
