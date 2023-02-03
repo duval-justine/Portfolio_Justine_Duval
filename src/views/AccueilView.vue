@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- Accueil -->
-    <section class="scroll-wrap">
+    <section>
       <div class="container0 h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose">
         <!-- Header -->
         <Header class="relative z-10" />
@@ -39,7 +39,9 @@
       <div>
         <Bloc1 class="pt-48" />
         <Bloc2 />
-        <Bloc3 />
+        <RouterLink to="/citadelle">
+          <Bloc3 />
+        </RouterLink>
       </div>
     </section>
     <section class="justify-center flex pb-11">
@@ -49,6 +51,7 @@
         Plus de projets
       </RouterLink>
     </section>
+
   </main>
 </template>
 
