@@ -6,7 +6,8 @@
                     alt="Illustration de la Citadelle de Besançon de nuit">
             </div>
             <div class="flex flex-col gap-1 mt-9 items-end mr-14">
-                <h3 class="font-space-grotesk text-2xl text-Extended/true-gray/900 font-medium mr-3">LA CITADELLE DE
+                <h3 class="font-space-grotesk text-2xl text-Extended/true-gray/900 font-medium mr-3 uppercase">LA
+                    CITADELLE DE
                     BESANÇON</h3>
                 <div class="border-t-4 w-[330px]  border-Extended/true-gray/900"></div>
                 <p class="font-space-grotesk text-sm text-Extended/true-gray/900 font-light mr-3 ">Illustration animée |

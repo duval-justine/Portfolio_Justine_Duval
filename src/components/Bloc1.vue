@@ -7,7 +7,8 @@
         </div>
         <div>
             <div class="flex flex-col gap-1 mt-20">
-                <h3 class="font-space-grotesk text-2xl text-Extended/true-gray/900 font-medium ml-3">{{ title }}</h3>
+                <h3 class="font-space-grotesk text-2xl text-Extended/true-gray/900 font-medium ml-3 uppercase">
+                    {{ title }}</h3>
                 <div class="border-t-4 w-64  border-Extended/true-gray/900"></div>
                 <p class="font-space-grotesk text-sm text-Extended/true-gray/900 font-light ml-3 ">{{ subtitle }}</p>
             </div>
