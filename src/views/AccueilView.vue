@@ -1,16 +1,21 @@
 <template>
   <main>
     <!-- Accueil -->
-    <section>
+    <section class="scroll-wrap">
       <div class="container0 h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose">
         <!-- Header -->
         <Header class="relative z-10" />
         <!-- Textes et Illustration -->
-        <div class="flex flex-row gap-36 items-center">
+        <div class="flex lg:flex-row gap-36 items-center sm:flex-col md:flex-col">
           <!-- Textes -->
           <div class="w-[750px] flex flex-col gap-4 ">
-            <h1 class="font-space-grotesk font-medium text-6xl text-Extended/red/50 ml-20">Justine Duval</h1>
-            <p class="font-space-grotesk font-light text-2xl text-Extended/red/50 ml-20">Étudiante en BUT MMI à
+            <h1 class="font-space-grotesk font-medium lg:text-6xl md:text-4xl text-Extended/red/50 ml-20 sm:text-2xl">
+              Justine Duval
+            </h1>
+            <p class="font-space-grotesk font-light md:text-xl lg:text-2xl text-Extended/red/50 ml-20 sm:text-base">
+              Étudiante en
+              BUT
+              MMI à
               Montbéliard
               et spécialisée dans le design pour devenir Infographiste ou Web-Designeuse.</p>
           </div>
@@ -30,7 +35,7 @@
     <!-- Fin de l'accueil -->
 
     <!-- Les derniers projets -->
-    <section>
+    <section class="scroll-wrap">
       <div>
         <Bloc1 class="pt-48" />
         <Bloc2 />
