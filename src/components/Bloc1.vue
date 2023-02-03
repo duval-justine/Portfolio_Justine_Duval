@@ -2,7 +2,7 @@
     <div class="flex flex-row py-32 px-64">
         <div>
             <div class="container1 overflow-hidden mx-auto shadow-2xl">
-                <img src="../../public/images/Janvier2023_Fond.jpg" class="max-width: 100% h-auto object-cover"
+                <img src="../../public/images/Janvier2023/Janvier2023_Fond.svg" class="w-full h-full object-cover"
                     alt="Mot Janvier sur un fond bleu">
             </div>
         </div>
