@@ -57,14 +57,14 @@
           </RouterLink>
         </div>
       </section>
+      <section class="justify-center flex pb-11 scroll-snap2">
+        <RouterLink
+          class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 border-[6px] border-brun p-2 rounded-2xl hover:bg-brun hover:text-Extended/red/50"
+          to="/">
+          Plus de projets
+        </RouterLink>
+      </section>
     </div>
-    <section class="justify-center flex pb-11">
-      <RouterLink
-        class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 border-[6px] border-brun p-2 rounded-2xl hover:bg-brun hover:text-Extended/red/50"
-        to="/">
-        Plus de projets
-      </RouterLink>
-    </section>
 
   </main>
 </template>
@@ -132,5 +132,9 @@ export default {
 .scroll-snap {
   scroll-snap-align: start;
   height: 100vh;
+}
+
+.scroll-snap2 {
+  scroll-snap-align: start;
 }
 </style>
