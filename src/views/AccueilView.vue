@@ -37,7 +37,9 @@
     <!-- Les derniers projets -->
     <section class="scroll-wrap">
       <div>
-        <Bloc1 class="pt-48" />
+        <RouterLink to="/janvier2023">
+          <Bloc1 class="pt-48" />
+        </RouterLink>
         <Bloc2 />
         <RouterLink to="/citadelle">
           <Bloc3 />
