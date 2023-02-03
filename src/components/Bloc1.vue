@@ -28,7 +28,8 @@ export default {
         title: String,
         subtitle: String,
     },
-}</script>
+}
+</script>
 
 <style>
 .container1 {
