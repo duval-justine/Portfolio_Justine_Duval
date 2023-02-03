@@ -13,7 +13,7 @@
                 <p class="font-space-grotesk text-sm text-Extended/true-gray/900 font-light ml-3 ">{{ subtitle }}</p>
             </div>
             <div class="container2 overflow-hidden mx-auto shadow-2xl -ml-28 mt-20">
-                <img :src="img_2" class="w-full object-cover" alt="">
+                <img :src="img_2" class="w-full h-fullobject-cover" alt="">
             </div>
         </div>
     </div>

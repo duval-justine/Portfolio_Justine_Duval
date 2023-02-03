@@ -2,7 +2,7 @@
     <div class="flex flex-row py-32 px-64">
         <div>
             <div class="relative z-30 container4 overflow-hidden mx-auto shadow-2xl">
-                <img :src="img_1" class="max-width: 100% h-auto object-cover" alt="">
+                <img :src="img_1" class="w-full h-full object-cover" alt="">
             </div>
             <div class="flex flex-col gap-1 mt-9 items-end mr-14">
                 <h3 class="font-space-grotesk text-2xl text-Extended/true-gray/900 font-medium mr-3 uppercase">{{
@@ -14,7 +14,7 @@
         </div>
         <div>
             <div class="container2 overflow-hidden mx-auto shadow-2xl -ml-14 mt-40">
-                <img :src="img_2" class="w-full object-cover" alt="">
+                <img :src="img_2" class="w-full h-full object-cover" alt="">
             </div>
         </div>
     </div>
