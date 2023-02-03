@@ -38,7 +38,9 @@
     <section class="scroll-wrap">
       <div>
         <RouterLink to="/janvier2023">
-          <Bloc1 class="pt-48" />
+          <Bloc1 class="pt-48" img_1="/images/Janvier2023/Janvier2023_Fond.svg"
+            img_2="/images/Janvier2023/Janvier2023_Ski.svg" title="Janvier"
+            subtitle="Illustrations & Motion Design | 2023" />
         </RouterLink>
         <Bloc2 />
         <RouterLink to="/citadelle">
