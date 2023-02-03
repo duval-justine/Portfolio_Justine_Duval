@@ -17,10 +17,10 @@
         text-white pr-5
       ">
                     <li>
-                        <RouterLink class="anim lg:text-lg " to="/">Projets</RouterLink>
+                        <RouterLink class=" lg:text-lg " to="/">Projets</RouterLink>
                     </li>
                     <li>
-                        <RouterLink class=" anim lg:text-lg lg:" to="/">À Propos</RouterLink>
+                        <RouterLink class="lg:text-lg lg:" to="/">À Propos</RouterLink>
                     </li>
                 </ul>
             </nav>
