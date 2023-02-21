@@ -51,7 +51,7 @@
           </RouterLink>
         </div>
         <div class="scroll-snap ">
-          <RouterLink to="/janvier2023">
+          <RouterLink to="/chartebavans">
             <Bloc1 img_1="/images/Bavans/Bavans_Couverture.svg" img_2="/images/Bavans/Bavans_Logo.svg" title="Bavans"
               subtitle="Refonte de la charte graphique | 2023" />
           </RouterLink>
