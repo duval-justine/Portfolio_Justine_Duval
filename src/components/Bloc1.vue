@@ -17,7 +17,7 @@
                     class="font-space-grotesk text-Extended/true-gray/900 font-medium ml-3 uppercase    md:text-2xl    sm:text-xl    xs:text-lg">
                     {{ title }}</h3>
                 <div
-                    class="  border-Extended/true-gray/900    md:border-t-4 md:w-64    sm:border-2 sm:w-56    xs:border-2 xs:w-52">
+                    class="  border-Extended/true-gray/900    md:border-t-4 md:w-64    sm:border-t-2 sm:w-56    xs:border-2 xs:w-52">
                 </div>
                 <p
                     class="font-space-grotesk  text-Extended/true-gray/900 font-light ml-3    md:text-sm    sm:text-xs   xs:text-xs ">
