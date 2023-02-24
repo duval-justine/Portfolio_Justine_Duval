@@ -7,7 +7,7 @@
           <!-- Header -->
           <Header class="relative z-10" />
           <!-- Textes et Illustration -->
-          <div class="flex lg:flex-row gap-36 items-center sm:flex-col md:flex-col">
+          <div class="flex xs:flex-row  xs:gap-36 xs:items-center justify-center 3xs:flex-col">
             <!-- Textes -->
             <div class="w-[750px] flex flex-col gap-4 ">
               <h1 class="font-space-grotesk font-medium lg:text-6xl md:text-4xl text-Extended/red/50 ml-20 sm:text-2xl">
