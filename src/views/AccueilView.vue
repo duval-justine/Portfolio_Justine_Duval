@@ -25,8 +25,7 @@
           </div>
           <!-- Bouton scroll -->
           <div class="flex flex-col items-center  gap-4">
-            <RouterLink class="font-space-grotesk font-bold text-sm  bottom-6 text-Extended/red/50 lg:text-lg lg:"
-              to="/">
+            <RouterLink class="font-space-grotesk font-bold text-sm  bottom-6 text-Extended/red/50 lg:text-lg lg:" to="/">
               SCROLL
             </RouterLink>
             <div class=" border-t-4 w-8 rotate-90 bottom-0 border-Extended/red/50"></div>
@@ -39,7 +38,7 @@
       <section>
         <div class="scroll-snap ">
           <RouterLink to="/janvier2023">
-            <Bloc1 class="pt-16" img_1="/images/Janvier2023/Janvier2023_Fond.svg"
+            <Bloc1 class="pt-16" img_1="/images/Janvier2023/Janvier2023_CouverturePage.webp"
               img_2="/images/Janvier2023/Janvier2023_Ski.svg" title="Janvier"
               subtitle="Illustrations & Motion Design | 2023" />
           </RouterLink>
@@ -52,8 +51,8 @@
         </div>
         <div class="scroll-snap ">
           <RouterLink to="/chartebavans">
-            <Bloc1 img_1="/images/Bavans/Bavans_Couverture.svg" img_2="/images/Bavans/Bavans_Logo.svg" title="Bavans"
-              subtitle="Refonte de la charte graphique | 2023" />
+            <Bloc1 img_1="/images/Bavans/Bavans_CouverturePage.webp" img_2="/images/Bavans/Bavans_CharteBook.jpg"
+              title="Bavans" subtitle="Refonte de la charte graphique | 2023" />
           </RouterLink>
         </div>
       </section>
