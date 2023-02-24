@@ -19,14 +19,24 @@ module.exports = {
       },
     },
     screens: {
-      'sm': '1000px',
-      // => @media (min-width: 1000px) { ... }
 
-      'md': '1240px',
-      // => @media (min-width: 768px) { ... }
+      '3xs': '0px',
+      // => @media (min-width: 500px) { ... }
+
+      '2xs': '430px',
+      // => @media (min-width: 500px) { ... }
+
+      'xs': '630px',
+      // => @media (min-width: 500px) { ... }
+
+      'sm': '900px',
+      // => @media (min-width: 900px) { ... }
+
+      'md': '1200px',
+      // => @media (min-width: 1200px) { ... }
 
       'lg': '1495px',
-      // => @media (min-width: 1024px) { ... }
+      // => @media (min-width: 1495px) { ... }
 
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
