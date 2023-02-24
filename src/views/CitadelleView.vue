@@ -1,5 +1,5 @@
 <template>
-    <TopPage img_test="/images/Citadelle.jpg" />
+    <TopPage img_test="/images/BoulangerieCoinot_CarteFete2022.jpg" />
 </template>
 
 <script>
