@@ -1,5 +1,5 @@
 <template>
-    <TopPage img_test="/images/Janvier2023/Janvier2023_Fond.svg" />
+    <TopPage img_test="/images/Janvier2023/Janvier2023_CouverturePage.webp" />
 </template>
 
 <script>
