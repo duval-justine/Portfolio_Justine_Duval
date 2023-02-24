@@ -18,6 +18,22 @@ module.exports = {
         "karla": "Karla"
       },
     },
+    screens: {
+      'sm': '1000px',
+      // => @media (min-width: 1000px) { ... }
+
+      'md': '1240px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1495px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    }
 
   },
   plugins: [],
