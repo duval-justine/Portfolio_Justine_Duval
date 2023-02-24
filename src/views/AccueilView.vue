@@ -3,17 +3,19 @@
     <div class="snap">
       <!-- Accueil -->
       <section>
-        <div class="container0 h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose scroll-snap ">
+        <div class="container0 relative h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose scroll-snap">
           <!-- Header -->
           <Header class="relative z-10" />
           <!-- Textes et Illustration -->
-          <div class="flex xs:flex-row  xs:gap-36 xs:items-center justify-center 3xs:flex-col">
+          <div class="flex xs:flex-row  xs:gap-36 3xs:gap-16 xs:items-center justify-center 3xs:flex-col">
             <!-- Textes -->
-            <div class="w-[750px] flex flex-col gap-4 ">
-              <h1 class="font-space-grotesk font-medium lg:text-6xl md:text-4xl text-Extended/red/50 ml-20 sm:text-2xl">
+            <div class="sm:w-[750px] flex flex-col gap-4 3xs:w-[305px] ">
+              <h1
+                class="font-space-grotesk font-medium lg:text-6xl md:text-4xl 3xs:text-4xl text-Extended/red/50 3xs:ml-6 xs:ml-20 sm:text-2xl">
                 Justine Duval
               </h1>
-              <p class="font-space-grotesk font-light md:text-xl lg:text-2xl text-Extended/red/50 ml-20 sm:text-base">
+              <p
+                class="font-space-grotesk font-light md:text-xl lg:text-2xl 3xs:text-base text-Extended/red/50 3xs:ml-6 xs:ml-20 sm:text-base">
                 Étudiante en
                 BUT
                 MMI à
@@ -21,14 +23,16 @@
                 et spécialisée dans le design pour devenir Infographiste ou Web-Designeuse.</p>
             </div>
             <!-- Illustration -->
-            <MongolfiereNuages id="mongolfiere" class="float-right mr-10 z-20 w-full h-full object-contain relative " />
+            <MongolfiereNuages id="mongolfiere"
+              class="xs:float-right mr-10 z-20 w-full h-full 3xs:ml-24 2xs:ml-36 xs:ml-0 object-contain relative" />
           </div>
           <!-- Bouton scroll -->
           <div class="flex flex-col items-center  gap-4">
-            <RouterLink class="font-space-grotesk font-bold text-sm  bottom-6 text-Extended/red/50 lg:text-lg lg:" to="/">
+            <RouterLink class="font-space-grotesk font-bold text-sm absolute bottom-6 text-Extended/red/50 lg:text-lg"
+              to="/">
               SCROLL
             </RouterLink>
-            <div class=" border-t-4 w-8 rotate-90 bottom-0 border-Extended/red/50"></div>
+            <div class=" border-t-4 w-8 rotate-90 absolute bottom-0 border-Extended/red/50"></div>
           </div>
         </div>
       </section>
@@ -113,7 +117,7 @@ export default {
 
 .container0 {
   width: 100%;
-
+  overflow-x: hidden;
 }
 
 @media (min-width: 640px) {

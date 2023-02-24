@@ -1,6 +1,7 @@
 <template>
     <svg width="528" height="550" viewBox="0 0 528 550" fill="none" xmlns="http://www.w3.org/2000/svg"
-        class="md:w-[527.79px] md:h-[549.76px]" preserveAspectRatio="none">
+        class="md:w-[527.79px] md:h-[549.76px] 3xs:w-[357.94px] 3xs:h-[357.94px] 2xs:w-[482px] 2xs:h-[501.71px]"
+        preserveAspectRatio="none">
         <path d="M200.805 455.786L199.163 456.3L211.26 494.925L212.902 494.411L200.805 455.786Z" fill="#5B3B3B"></path>
         <path d="M274.016 494.473L275.658 494.988L287.755 456.363L286.112 455.849L274.016 494.473Z" fill="#5B3B3B">
         </path>
