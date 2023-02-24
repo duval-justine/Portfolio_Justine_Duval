@@ -30,6 +30,24 @@
                 <img :src="img_2" class="w-full h-full object-cover" alt="">
             </div>
         </div>
+
+        <!-- Responsive -->
+        <div class="3xs:flex xs:hidden">
+            <div class="flex flex-col gap-1 mt-20  justify-center">
+                <!-- Image Carrée -->
+                <div
+                    class="container2 overflow-hidden mx-auto shadow-2xl   2xs:w-[400px] 2xs:h-[400px]   3xs:w-[280px] 3xs:h-[280px]">
+                    <img :src="img_2" class="w-full h-full object-cover " alt="">
+                </div>
+                <!-- Textes -->
+                <h3 class="font-space-grotesk text-Extended/true-gray/900 font-medium uppercase 2xs:text-xl 3xs:text-base">
+                    {{ title }}</h3>
+                <div class="  border-Extended/true-gray/900 2xs:border-t-[3px] 2xs:w-72 3xs:border-t-[3px] 3xs:w-52"></div>
+                <p class="font-space-grotesk  text-Extended/true-gray/900 font-light 2xs:text-base 3xs:text-xs">{{ subtitle
+                }}</p>
+            </div>
+
+        </div>
     </div>
 </template>
 
