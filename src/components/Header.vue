@@ -6,18 +6,18 @@
         <div>
             <nav>
                 <ul class=" mx-7
-        relative
-        flex flex-shrink-0 flex-grow-0
-        items-center
-        justify-start
-        gap-20
-        font-space-grotesk
-        text-[24px]
-        font-bold
-        text-white pr-5
-      ">
+            relative
+            flex flex-shrink-0 flex-grow-0
+            items-center
+            justify-start
+            gap-20
+            font-space-grotesk
+            text-[24px]
+            font-bold
+            text-white pr-5
+          ">
                     <li>
-                        <RouterLink class=" lg:text-lg " to="/">Projets</RouterLink>
+                        <RouterLink class=" lg:text-lg " to="/projetsco">Projets</RouterLink>
                     </li>
                     <li>
                         <RouterLink class="lg:text-lg lg:" to="/">À Propos</RouterLink>
