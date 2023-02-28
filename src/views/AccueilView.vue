@@ -61,11 +61,23 @@
         </div>
       </section>
       <section class="justify-center flex pb-11 scroll-snap2">
-        <RouterLink
+        <!-- <RouterLink
           class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 border-[6px] border-brun p-2 rounded-2xl hover:bg-brun hover:text-Extended/red/50"
           to="/">
           Plus de projets
-        </RouterLink>
+        </RouterLink> -->
+
+        <nav class="navv">
+          <ul class="ull">
+            <RouterLink class="" to="/projetsco">
+              <li class="lii font-space-grotesk">
+                Plus de projets
+                <span></span><span></span><span></span><span></span>
+              </li>
+            </RouterLink>
+          </ul>
+        </nav>
+
       </section>
     </div>
 
@@ -84,6 +96,11 @@ export default {
 </script>
 
 <style>
+:root {
+  --color: #111;
+  --primary: #F87171;
+}
+
 #mongolfiere {
   animation: fly-balloon 10s linear infinite;
 }
@@ -139,5 +156,69 @@ export default {
 
 .scroll-snap2 {
   scroll-snap-align: start;
+}
+
+
+.navv .ull {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navv .ull .lii {
+  --c: #F87171;
+  color: var(--c);
+  font-size: 18px;
+  border: 0.3em solid var(--c);
+  border-radius: 1.2em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 2.7em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+}
+
+.navv .ull .lii span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.navv .ull .lii:hover {
+  color: #FAFAFA;
+}
+
+.navv .ull .lii:hover span {
+  transform: translateY(0) scale(2);
+}
+
+.navv .ull .lii span:nth-child(1) {
+  --n: 1;
+}
+
+.navv .ull .lii span:nth-child(2) {
+  --n: 2;
+}
+
+.navv .ull .lii span:nth-child(3) {
+  --n: 3;
+}
+
+.navv .ull .lii span:nth-child(4) {
+  --n: 4;
 }
 </style>
