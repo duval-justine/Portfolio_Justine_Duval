@@ -10,7 +10,7 @@
             <div>
                 <nav>
                     <ul
-                        class=" mt-10 mb-96 relative flex flex-shrink-0 items-center justify-center flex-grow-0 gap-14 font-space-grotesk text-[px] font-bold uppercase text-Extended/true-gray/900 ">
+                        class=" mt-10 relative flex flex-shrink-0 items-center justify-center flex-grow-0 gap-14 font-space-grotesk text-[px] font-bold uppercase text-Extended/true-gray/900 ">
                         <li>
                             <RouterLink to="/projetsco">Scolaire</RouterLink>
                         </li>
@@ -26,13 +26,25 @@
                 </nav>
             </div>
         </section>
+        <div class="flex flex-col items-center ">
+            <div
+                class=" mx-12 my-8 grid w-11/12 grid-cols-[repeat(auto-fit,minmax(380px,1fr))] items-center justify-between gap-7">
+                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
+                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
+                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
+                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
+                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
+                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
+            </div>
+        </div>
     </main>
 </template>
 
 <script>
 import TopPage from "../components/TopPage.vue";
+import Vignette from "../components/Vignette.vue";
 export default {
-    components: { TopPage }
+    components: { TopPage, Vignette }
 }
 </script>
 
