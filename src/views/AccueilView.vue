@@ -79,6 +79,7 @@
         </nav>
 
       </section>
+      <Footerc />
     </div>
 
   </main>
@@ -86,12 +87,13 @@
 
 <script>
 import Header from "../components/Header.vue";
+import Footerc from "../components/Footer.vue";
 import Bloc1 from "../components/Bloc1.vue";
 import Bloc2 from "../components/Bloc2.vue";
 import Bloc3 from "../components/Bloc3.vue";
 import MongolfiereNuages from "../components/MongolfiereNuages.vue";
 export default {
-  components: { Header, MongolfiereNuages, Bloc1, Bloc2, Bloc3 }
+  components: { Header, MongolfiereNuages, Bloc1, Bloc2, Bloc3, Footerc }
 }
 </script>
 

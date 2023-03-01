@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-Extended/red/50">
+  <main class="bg-Extended/red/50 ">
   </main>
   <RouterView />
 </template>
