@@ -135,6 +135,7 @@ export default {
 .container0 {
   width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 @media (min-width: 640px) {
