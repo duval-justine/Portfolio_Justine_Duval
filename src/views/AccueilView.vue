@@ -30,8 +30,10 @@
             </div>
 
             <!-- Illustration -->
-            <MongolfiereNuages id="mongolfiere"
-              class="xs:float-right mr-10 z-20 w-full h-full 3xs:ml-24 2xs:ml-36 xs:ml-0 2xs:-mt-3 xs:mt-0 object-contain relative" />
+            <div class="xs:w-[495.76px] sm:w-[505px] md:w-[527.79px]">
+              <MongolfiereNuages id="mongolfiere"
+                class="relative xs:float-right mr-10 z-20 w-full h-full 3xs:ml-24 2xs:ml-36 xs:ml-0 2xs:-mt-3 xs:mt-0 object-contain " />
+            </div>
           </div>
 
           <!-- Bouton scroll -->

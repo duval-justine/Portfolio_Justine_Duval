@@ -1,5 +1,5 @@
 <template>
-    <!-- Menu Format 3XS -->
+    <!-- Header Format 3XS -->
     <div class="xs:hidden flex flex-row justify-between items-center z-50">
         <div>
             <RouterLink to="/">
@@ -22,29 +22,29 @@
             </div>
         </div>
     </div>
-    <!-- Fin du Menu Format 3XS -->
+    <!-- Fin du Header Format 3XS -->
 
 
-    <!-- Menu Format MD -->
-    <div class="relative z-30 mx-10 hidden justify-between pt-7 md:flex">
+    <!-- Header Format SM to MD -->
+    <div class="relative z-30 mx-10 hidden items-center justify-between pt-7 sm:flex">
         <RouterLink to="/">
-            <Logo class="relative z-30 ml-8" />
+            <Logo class="relative z-30 ml-8 sm:w-20 md:w-24" />
         </RouterLink>
         <div>
             <nav>
                 <ul
-                    class=" mx-7 relative flex flex-shrink-0 flex-grow-0 items-center  justify-start gap-20 font-space-grotesk text-[24px] font-bold text-center   text-white pr-5 ">
+                    class=" mx-7 relative flex flex-shrink-0 flex-grow-0 items-center  justify-start sm:gap-16 md:gap-20 font-space-grotesk sm:text-xl md:text-2xl font-bold text-center   text-white :pr-5 ">
                     <li>
-                        <RouterLink class=" lg:text-lg " to="/projetsco">Projets</RouterLink>
+                        <RouterLink to="/projetsco">Projets</RouterLink>
                     </li>
                     <li>
-                        <RouterLink class="lg:text-lg lg:" to="/">À Propos</RouterLink>
+                        <RouterLink to="/">À Propos</RouterLink>
                     </li>
                 </ul>
             </nav>
         </div>
     </div>
-    <!-- Fin du Menu Format MD -->
+    <!-- Fin du Header Format MD -->
 </template>
 
 
