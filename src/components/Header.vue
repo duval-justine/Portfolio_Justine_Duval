@@ -40,7 +40,7 @@
                 <ul
                     class="flex flex-col gap-10 font-space-grotesk text-[20px] text-center ml-24 mt-36 font-bold   text-white">
                     <li>
-                        <RouterLink to="/projetsco">Projets</RouterLink>
+                        <RouterLink to="/projets">Projets</RouterLink>
                     </li>
                     <li>
                         <RouterLink to="/">À Propos</RouterLink>
@@ -62,7 +62,7 @@
                 <ul
                     class=" mx-7 relative flex flex-shrink-0 flex-grow-0 items-center  justify-start sm:gap-16 md:gap-20 font-space-grotesk sm:text-xl md:text-2xl font-bold text-center   text-white :pr-5 ">
                     <li>
-                        <RouterLink to="/projetsco">Projets</RouterLink>
+                        <RouterLink to="/projets">Projets</RouterLink>
                     </li>
                     <li>
                         <RouterLink to="/">À Propos</RouterLink>
@@ -79,6 +79,7 @@
 import Logo from "./icons/IconLogo.vue";
 export default {
     components: { Logo }
+
 }
 </script>
 
