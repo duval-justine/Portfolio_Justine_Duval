@@ -12,16 +12,16 @@
 
           <!-- Textes et Illustration -->
           <div
-            class="flex xs:flex-row  xs:gap-36 3xs:gap-1 3xs:mt-14 2xs:gap-[-5px] xs:items-center justify-center 3xs:flex-col">
+            class="flex xs:flex-row xs:gap-10 sm:gap-20 md:gap-36 3xs:gap-1 3xs:mt-14 2xs:gap-[-5px] xs:items-center justify-center 3xs:flex-col">
 
             <!-- Textes -->
-            <div class="sm:w-[750px] flex flex-col gap-4 3xs:w-[305px] ">
+            <div class="xs:w-[750px] flex flex-col gap-4 3xs:w-[305px] ">
               <h1
-                class="font-space-grotesk font-medium lg:text-6xl md:text-4xl 3xs:text-4xl 2xs:text-3xl text-Extended/red/50 3xs:ml-6 xs:ml-20 sm:text-2xl">
+                class="font-space-grotesk font-medium lg:text-6xl md:text-4xl sm:text-3xl xs:text-2xl 3xs:text-4xl 2xs:text-3xl text-Extended/red/50 3xs:ml-6 sm:ml-20 xs:ml-6">
                 Justine Duval
               </h1>
               <p
-                class="font-space-grotesk font-light md:text-xl lg:text-2xl 3xs:text-base  text-Extended/red/50 3xs:ml-6 xs:ml-20 sm:text-base">
+                class="font-space-grotesk font-light xs:text-base sm:text-lg md:text-xl lg:text-2xl 3xs:text-base  text-Extended/red/50 3xs:ml-6 xs:ml-6 sm:ml-20 ">
                 Étudiante en
                 BUT
                 MMI à
@@ -30,9 +30,9 @@
             </div>
 
             <!-- Illustration -->
-            <div class="xs:w-[495.76px] sm:w-[505px] md:w-[527.79px]">
+            <div class=" sm:w-[505px] md:w-[527.79px]">
               <MongolfiereNuages id="mongolfiere"
-                class="relative xs:float-right mr-10 z-20 w-full h-full 3xs:ml-24 2xs:ml-36 xs:ml-0 2xs:-mt-3 xs:mt-0 object-contain " />
+                class="relative xs:float-right sm:mr-5 md:mr-10 z-20 w-full h-full 3xs:ml-24 2xs:ml-36 xs:ml-0 2xs:-mt-3 xs:mt-0 object-contain " />
             </div>
           </div>
 
