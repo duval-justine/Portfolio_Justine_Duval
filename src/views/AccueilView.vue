@@ -73,7 +73,7 @@
 
 
       <!-- Bouton Plus de Projet -->
-      <section class="justify-center flex pb-11 scroll-snap2">
+      <section class="justify-center flex py-11 scroll-snap2">
         <nav class="navv 3xs:hidden sm:flex">
           <ul class="ull">
             <RouterLink class="" to="/projetsco">
