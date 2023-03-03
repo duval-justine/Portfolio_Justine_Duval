@@ -62,6 +62,7 @@
                             Alternance
                         </button>
                     </li>
+                    <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
                     <li>
                         <button :id="bouton4" :class="{ '': selectedCategory === 'category3' }"
                             @click="filterCategory('category3')">
