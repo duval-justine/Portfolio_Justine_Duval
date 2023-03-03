@@ -14,7 +14,7 @@
         <!-- Section / Menu Footer -->
         <div
             class="font-space-grotesk font-medium xs:text-sm sm:text-base md:text-lg justify-center text-Extended/red/50 flex flex-row xs:gap-6 sm:gap-12 md:gap-16">
-            <RouterLink to="/projetsco">
+            <RouterLink to="/projets">
                 Projets
             </RouterLink>
             <RouterLink to="/">

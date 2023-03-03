@@ -13,7 +13,7 @@
             <div class="wrapper">
                 <ul class="font-space-grotesk text-[60px] font-bold   text-white">
                     <li>
-                        <RouterLink to="/projetsco">Projets</RouterLink>
+                        <RouterLink to="/projets">Projets</RouterLink>
                     </li>
                     <li>
                         <RouterLink to="/">À Propos</RouterLink>

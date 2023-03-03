@@ -78,7 +78,7 @@
       <section class="justify-center flex py-11 scroll-snap2">
         <nav class="navv 3xs:hidden sm:flex">
           <ul class="ull">
-            <RouterLink class="" to="/projetsco">
+            <RouterLink class="" to="/projets">
               <li class="lii font-space-grotesk">
                 Plus de projets
                 <span></span><span></span><span></span><span></span>
@@ -88,7 +88,7 @@
         </nav>
         <div class="sm:hidden bg-Extended/red/900 uppercase rounded-2xl p-3">
           <RouterLink class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
-            to="/projetsco">
+            to="/projets">
             Plus de projets
           </RouterLink>
         </div>
