@@ -28,10 +28,10 @@
           </div>
           <!-- Bouton scroll -->
           <div class="flex flex-col items-center  gap-4">
-            <RouterLink class="font-space-grotesk font-bold text-sm absolute bottom-6 text-Extended/red/50 lg:text-lg"
-              to="/">
+            <a class="font-space-grotesk font-bold text-sm absolute bottom-6 text-Extended/red/50 lg:text-lg"
+              href="#scroll">
               SCROLL
-            </RouterLink>
+            </a>
             <div class=" border-t-4 w-8 rotate-90 absolute bottom-0 border-Extended/red/50"></div>
           </div>
         </div>
@@ -40,9 +40,9 @@
 
       <!-- Les derniers projets -->
       <section>
-        <div class="scroll-snap ">
+        <div class="scroll-snap">
           <RouterLink to="/janvier2023">
-            <Bloc1 class="pt-16" img_1="/images/Janvier2023/Janvier2023_CouverturePage.webp"
+            <Bloc1 id="scroll" class="pt-16" img_1="/images/Janvier2023/Janvier2023_CouverturePage.webp"
               img_2="/images/Janvier2023/Janvier2023_Ski.svg" title="Janvier"
               subtitle="Illustrations & Motion Design | 2023" />
           </RouterLink>
