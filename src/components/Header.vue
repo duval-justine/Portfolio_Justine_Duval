@@ -1,6 +1,7 @@
 <template>
     <!-- Menu Format 3XS -->
     <div class="xs:hidden z-50">
+        <!-- <label class="menu-icon">&#9776;</label> -->
         <input type="checkbox" id="active">
         <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
         <div class="wrapper">
@@ -93,25 +94,28 @@ nav ul li a:hover::after {
 }
 
 .menu-btn {
-    position: absolute;
+    position: fixed;
     z-index: 70;
-    right: 3px;
+    right: 20px;
     top: 20px;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     line-height: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #F87171;
+    color: #fafafa;
+    font-size: 25px;
     transition: all 0.3s ease-in-out;
 }
 
 #active:checked~.menu-btn {
-    color: #fff;
+    color: #fafafa;
 }
 
 #active:checked~.menu-btn i:before {
-    content: "\f00d";
+    content: "\00d7";
+    /* Utilisation de l'entité HTML pour la croix */
+    font-size: 2em;
 }
 
 .wrapper ul {
@@ -146,16 +150,12 @@ nav ul li a:hover::after {
     z-index: 90;
     content: "";
     background: #fff;
-    background: linear-gradient(#F87, #ffffff, #F87171);
-    background: linear-gradient(375deg, #1cc7d0, #2ede98);
     width: 104%;
     height: 110%;
-    left: -2%;
-    top: -5%;
-    
+    right: 50px;
+    top: 20px;
     border-radius: 50px;
     transform: scaleY(0);
-    z-index: -1;
     animation: rotate 1.5s linear infinite;
     transition: transform 0.3s ease;
 } */
