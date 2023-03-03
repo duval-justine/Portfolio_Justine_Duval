@@ -1,6 +1,6 @@
 <template>
     <!-- Component Bloc 1 Page d'acceuil -->
-    <div class="flex flex-row justify-center py-16  ">
+    <div class="flex flex-row justify-center 3xs:py-5 2xs:py-10 xs:py-16 ">
         <div>
             <!-- Image Rectangulaire -->
             <div
@@ -33,7 +33,7 @@
 
         <!-- Responsive -->
         <div class="3xs:flex xs:hidden">
-            <div class="flex flex-col gap-1 mt-20  justify-center">
+            <div class="flex flex-col gap-1 3xs:mt-5  justify-center">
                 <!-- Image Carrée -->
                 <div
                     class="container2 overflow-hidden mx-auto shadow-2xl   2xs:w-[400px] 2xs:h-[400px]   3xs:w-[280px] 3xs:h-[280px]">
@@ -46,7 +46,6 @@
                 <p class="font-space-grotesk  text-Extended/true-gray/900 font-light 2xs:text-base 3xs:text-xs">{{ subtitle
                 }}</p>
             </div>
-
         </div>
 
     </div>

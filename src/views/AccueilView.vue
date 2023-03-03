@@ -1,14 +1,19 @@
 <template>
   <main>
     <div class="md:snap">
+
+
       <!-- Accueil -->
       <section>
         <div class="container0 relative h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose md:scroll-snap">
+
           <!-- Header -->
           <Header class="relative z-10" />
+
           <!-- Textes et Illustration -->
           <div
             class="flex xs:flex-row  xs:gap-36 3xs:gap-1 3xs:mt-14 2xs:gap-[-5px] xs:items-center justify-center 3xs:flex-col">
+
             <!-- Textes -->
             <div class="sm:w-[750px] flex flex-col gap-4 3xs:w-[305px] ">
               <h1
@@ -23,10 +28,12 @@
                 Montbéliard
                 et spécialisée dans le design pour devenir Infographiste ou Web-Designeuse.</p>
             </div>
+
             <!-- Illustration -->
             <MongolfiereNuages id="mongolfiere"
               class="xs:float-right mr-10 z-20 w-full h-full 3xs:ml-24 2xs:ml-36 xs:ml-0 2xs:-mt-3 xs:mt-0 object-contain relative" />
           </div>
+
           <!-- Bouton scroll -->
           <div class="flex flex-col items-center  gap-4">
             <a class="font-space-grotesk font-bold text-sm absolute bottom-6 text-Extended/red/50 lg:text-lg"
@@ -38,6 +45,7 @@
         </div>
       </section>
       <!-- Fin de l'accueil -->
+
 
       <!-- Les derniers projets -->
       <section>
@@ -61,13 +69,11 @@
           </RouterLink>
         </div>
       </section>
-      <section class="justify-center flex pb-11 md:scroll-snap2">
-        <!-- <RouterLink
-          class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 border-[6px] border-brun p-2 rounded-2xl hover:bg-brun hover:text-Extended/red/50"
-          to="/">
-          Plus de projets
-        </RouterLink> -->
+      <!-- Fin des dernier projets -->
 
+
+      <!-- Bouton Plus de Projet -->
+      <section class="justify-center flex pb-11 md:scroll-snap2">
         <nav class="navv">
           <ul class="ull">
             <RouterLink class="" to="/projetsco">
@@ -78,11 +84,12 @@
             </RouterLink>
           </ul>
         </nav>
-
       </section>
+      <!-- Fin du Bouton Plus de Projet  -->
+
+      <!-- Footer -->
       <Footerc />
     </div>
-
   </main>
 </template>
 

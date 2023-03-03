@@ -1,6 +1,6 @@
 <template>
     <!-- Component Bloc 1 Page d'acceuil -->
-    <div class="flex flex-row py-16 justify-center">
+    <div class="flex flex-row 3x:py-5 xs:py-16 2xs:py10 justify-center">
         <!-- Descktop -->
         <div>
             <!-- Image Rectangulaire -->
@@ -33,7 +33,7 @@
 
         <!-- Responsive -->
         <div class="3xs:flex xs:hidden">
-            <div class="flex flex-col gap-1 mt-20  justify-center">
+            <div class="flex flex-col gap-1 3xs:mt-5  justify-center">
                 <!-- Image Carrée -->
                 <div
                     class="container2 overflow-hidden mx-auto shadow-2xl   2xs:w-[400px] 2xs:h-[400px]   3xs:w-[280px] 3xs:h-[280px]">
