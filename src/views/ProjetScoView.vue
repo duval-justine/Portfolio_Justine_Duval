@@ -26,6 +26,8 @@
                 </nav>
             </div>
         </section>
+
+        <!-- Toutes les vignettes -->
         <div class="flex flex-col items-center ">
             <div
                 class=" mx-12 my-8 grid w-11/12 grid-cols-[repeat(auto-fit,minmax(380px,1fr))] items-center justify-between gap-7">
@@ -37,14 +39,18 @@
                 <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
             </div>
         </div>
+
+        <!-- Footer -->
+        <Footerc />
     </main>
 </template>
 
 <script>
 import TopPage from "../components/TopPage.vue";
 import Vignette from "../components/Vignette.vue";
+import Footerc from "../components/Footer.vue";
 export default {
-    components: { TopPage, Vignette }
+    components: { TopPage, Vignette, Footerc }
 }
 </script>
 
