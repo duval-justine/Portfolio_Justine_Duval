@@ -1,11 +1,11 @@
 <template>
   <main>
-    <div class="md:snap">
+    <div class="snap">
 
 
       <!-- Accueil -->
       <section>
-        <div class="container0 relative h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose md:scroll-snap">
+        <div class="container0 relative h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose scroll-snap">
 
           <!-- Header -->
           <Header class="relative z-10" />
@@ -49,20 +49,20 @@
 
       <!-- Les derniers projets -->
       <section>
-        <div class="md:scroll-snap">
+        <div class="scroll-snap">
           <RouterLink to="/janvier2023">
             <Bloc1 id="scroll" class="pt-16" img_1="/images/Janvier2023/Janvier2023_CouverturePage.webp"
               img_2="/images/Janvier2023/Janvier2023_Ski.svg" title="Janvier"
               subtitle="Illustrations & Motion Design | 2023" />
           </RouterLink>
         </div>
-        <div class="md:scroll-snap ">
+        <div class="scroll-snap ">
           <RouterLink to="/citadelle">
             <Bloc3 img_1="/images/ExpoUni/ExpoUni_Tsunami.svg" img_2="/images/ExpoUni/ExpoUni_Logo.svg"
               title="Exposition universelle" subtitle="Carte postale | 2023" />
           </RouterLink>
         </div>
-        <div class="md:scroll-snap ">
+        <div class="scroll-snap ">
           <RouterLink to="/chartebavans">
             <Bloc1 img_1="/images/Bavans/Bavans_CouverturePage.webp" img_2="/images/Bavans/Bavans_CharteBook.jpg"
               title="Bavans" subtitle="Refonte de la charte graphique | 2023" />
@@ -73,7 +73,7 @@
 
 
       <!-- Bouton Plus de Projet -->
-      <section class="justify-center flex pb-11 md:scroll-snap2">
+      <section class="justify-center flex pb-11 scroll-snap2">
         <nav class="navv">
           <ul class="ull">
             <RouterLink class="" to="/projetsco">
@@ -154,21 +154,23 @@ export default {
   }
 }
 
-.snap {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
+@media (min-width: 630px) {
+  .snap {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
 
-.scroll-snap {
-  scroll-snap-align: start;
-  height: 100vh;
-}
+  .scroll-snap {
+    scroll-snap-align: start;
+    height: 100vh;
+  }
 
-.scroll-snap2 {
-  scroll-snap-align: start;
-}
+  .scroll-snap2 {
+    scroll-snap-align: start;
+  }
 
+}
 
 .navv .ull {
   list-style-type: none;
