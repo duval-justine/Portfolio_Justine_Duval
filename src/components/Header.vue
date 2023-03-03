@@ -16,13 +16,40 @@
                         <RouterLink to="/projetsco">Projets</RouterLink>
                     </li>
                     <li>
-                        <RouterLink class="lg:text-lg lg:" to="/">À Propos</RouterLink>
+                        <RouterLink to="/">À Propos</RouterLink>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- Fin du Header Format 3XS -->
+
+
+    <!-- Header Format XS -->
+    <div class="xs:flex flex-row hidden sm:hidden justify-between items-center z-50 px-6">
+        <div>
+            <RouterLink to="/">
+                <Logo class="relative z-[90] h-14 mt-5 ml-5 " />
+            </RouterLink>
+        </div>
+        <div>
+            <!-- <label class="menu-icon">&#9776;</label> -->
+            <input type="checkbox" id="activexs">
+            <label for="activexs" class="menu-btnxs"><i class="fas fa-bars"></i></label>
+            <div class="wrapperxs">
+                <ul
+                    class="flex flex-col gap-10 font-space-grotesk text-[20px] text-center ml-24 mt-36 font-bold   text-white">
+                    <li>
+                        <RouterLink to="/projetsco">Projets</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink to="/">À Propos</RouterLink>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Fin du Header Format XS -->
 
 
     <!-- Header Format SM to MD -->
@@ -44,7 +71,7 @@
             </nav>
         </div>
     </div>
-    <!-- Fin du Header Format MD -->
+    <!-- Fin du Header Format SM to MD -->
 </template>
 
 
@@ -58,7 +85,7 @@ export default {
 
 
 <style>
-/* Menu md:flex */
+/* Menu SM to MD*/
 nav ul li {
     position: relative;
 }
@@ -79,11 +106,82 @@ nav ul li a:hover::after {
     width: 50%;
 }
 
-/* Fin Menu md:flex */
+/* Fin Menu SM to MD*/
+
+
+/* Menu XS */
+.wrapperxs {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 35%;
+    width: 30%;
+    z-index: 60;
+    background: #F87171;
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+    transition: all 0.3s ease-in-out;
+}
+
+#activexs:checked~.wrapperxs {
+    clip-path: circle(75%);
+}
+
+.menu-btnxs {
+    position: fixed;
+    z-index: 70;
+    right: 20px;
+    top: 20px;
+    height: 35px;
+    width: 35px;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fafafa;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#activexs:checked~.menu-btnxs {
+    color: #fafafa;
+}
+
+#activexs:checked~.menu-btnxs i:before {
+    content: "\00d7";
+    /* Utilisation de l'entité HTML pour la croix */
+    font-size: 2em;
+}
+
+.wrapperxs ul {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.wrapperxs ul li a {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+input[type="checkbox"] {
+    display: none;
+
+    @keyframes rotate {
+        0% {
+            filter: hue-rotate(0deg);
+        }
+
+        100% {
+            filter: hue-rotate(360deg);
+        }
+    }
+}
+
+/* Fin Menu XS */
 
 
 
-/* Menu 3xs:flex */
+/* Menu 3XS to 2XS */
 .wrapper {
     position: fixed;
     top: 0;
@@ -144,36 +242,13 @@ nav ul li a:hover::after {
     text-decoration: none;
     font-size: 30px;
     font-weight: 500;
-    padding: 5px 30px;
+    padding: 5px 5px;
     border-radius: 50px;
     background: #F87171;
     position: relative;
     line-height: 50px;
     transition: all 0.3s ease;
 }
-
-/* .wrapper ul li a:after {
-    position: absolute;
-    z-index: 90;
-    content: "";
-    background: #fff;
-    width: 104%;
-    height: 110%;
-    right: 50px;
-    top: 20px;
-    border-radius: 50px;
-    transform: scaleY(0);
-    animation: rotate 1.5s linear infinite;
-    transition: transform 0.3s ease;
-} */
-
-/* .wrapper ul li a:hover:after {
-    transform: scaleY(1);
-}
-
-.wrapper ul li a:hover {
-    color: #fff;
-} */
 
 input[type="checkbox"] {
     display: none;
@@ -189,5 +264,5 @@ input[type="checkbox"] {
     }
 }
 
-/* Fin menu 3xs:flex */
+/* Fin menu 3XS to 2XS */
 </style>
