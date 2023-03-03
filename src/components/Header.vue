@@ -1,18 +1,25 @@
 <template>
     <!-- Menu Format 3XS -->
-    <div class="xs:hidden z-50">
-        <!-- <label class="menu-icon">&#9776;</label> -->
-        <input type="checkbox" id="active">
-        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-        <div class="wrapper">
-            <ul class="font-space-grotesk text-[60px] font-bold   text-white">
-                <li>
-                    <RouterLink to="/projetsco">Projets</RouterLink>
-                </li>
-                <li>
-                    <RouterLink class="lg:text-lg lg:" to="/">À Propos</RouterLink>
-                </li>
-            </ul>
+    <div class="xs:hidden flex flex-row justify-between items-center z-50">
+        <div>
+            <RouterLink to="/">
+                <Logo class="relative z-[90] h-10 mt-5 ml-5 " />
+            </RouterLink>
+        </div>
+        <div>
+            <!-- <label class="menu-icon">&#9776;</label> -->
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+            <div class="wrapper">
+                <ul class="font-space-grotesk text-[60px] font-bold   text-white">
+                    <li>
+                        <RouterLink to="/projetsco">Projets</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink class="lg:text-lg lg:" to="/">À Propos</RouterLink>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <!-- Fin du Menu Format 3XS -->

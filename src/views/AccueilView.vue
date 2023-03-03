@@ -7,7 +7,8 @@
           <!-- Header -->
           <Header class="relative z-10" />
           <!-- Textes et Illustration -->
-          <div class="flex xs:flex-row  xs:gap-36 3xs:gap-16 2xs:gap-6 xs:items-center justify-center 3xs:flex-col">
+          <div
+            class="flex xs:flex-row  xs:gap-36 3xs:gap-1 3xs:mt-14 2xs:gap-6 xs:items-center justify-center 3xs:flex-col">
             <!-- Textes -->
             <div class="sm:w-[750px] flex flex-col gap-4 3xs:w-[305px] ">
               <h1
