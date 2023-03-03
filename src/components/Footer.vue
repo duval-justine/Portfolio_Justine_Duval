@@ -49,13 +49,13 @@
         <!-- Social Media -->
         <div class="flex flex-row 3xs:gap-6 2xs:gap-8 items-center">
             <a href="https://www.instagram.com/jdxl.pro/">
-                <img class="3xs:w-8 2xs:w-10" src="../../public/logos/Instagram_Glyph_White-1.webp" alt="Logo Instagram">
+                <img class="3xs:w-10 2xs:w-10" src="../../public/logos/Instagram_Glyph_White-1.webp" alt="Logo Instagram">
             </a>
             <a href="https://www.tiktok.com/@justine.pro">
-                <img class="3xs:w-12 2xs:w-16" src="../../public/logos/tiktok_logo.webp" alt="Logo TikTok">
+                <img class="3xs:w-14 2xs:w-16" src="../../public/logos/tiktok_logo.webp" alt="Logo TikTok">
             </a>
             <a href="https://www.behance.net/justineduvalpro">
-                <img class="3xs:w-8 2xs:w-10" src="../../public/logos/behance_logo.webp" alt="Logo Behance">
+                <img class="3xs:w-10 2xs:w-10" src="../../public/logos/behance_logo.webp" alt="Logo Behance">
             </a>
         </div>
         <!-- Section / Menu Footer -->
