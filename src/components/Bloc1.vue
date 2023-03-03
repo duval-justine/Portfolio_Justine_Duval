@@ -1,6 +1,6 @@
 <template>
     <!-- Component Bloc 1 Page d'acceuil -->
-    <div class="flex flex-row justify-center 3xs:py-5 2xs:py-10 xs:py-16 ">
+    <div class="flex flex-row justify-center 3xs:py-5 2xs:py-10 xs:py-10 sm:py-16 ">
         <div>
             <!-- Image Rectangulaire -->
             <div
