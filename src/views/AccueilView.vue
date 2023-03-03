@@ -1,9 +1,9 @@
 <template>
   <main>
-    <div class="snap">
+    <div class="md:snap">
       <!-- Accueil -->
       <section>
-        <div class="container0 relative h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose scroll-snap">
+        <div class="container0 relative h-screen z-0 bg-gradient-to-b from-pastelbleu to-pastelrose md:scroll-snap">
           <!-- Header -->
           <Header class="relative z-10" />
           <!-- Textes et Illustration -->
@@ -40,27 +40,27 @@
 
       <!-- Les derniers projets -->
       <section>
-        <div class="scroll-snap">
+        <div class="md:scroll-snap">
           <RouterLink to="/janvier2023">
             <Bloc1 id="scroll" class="pt-16" img_1="/images/Janvier2023/Janvier2023_CouverturePage.webp"
               img_2="/images/Janvier2023/Janvier2023_Ski.svg" title="Janvier"
               subtitle="Illustrations & Motion Design | 2023" />
           </RouterLink>
         </div>
-        <div class="scroll-snap ">
+        <div class="md:scroll-snap ">
           <RouterLink to="/citadelle">
             <Bloc3 img_1="/images/ExpoUni/ExpoUni_Tsunami.svg" img_2="/images/ExpoUni/ExpoUni_Logo.svg"
               title="Exposition universelle" subtitle="Carte postale | 2023" />
           </RouterLink>
         </div>
-        <div class="scroll-snap ">
+        <div class="md:scroll-snap ">
           <RouterLink to="/chartebavans">
             <Bloc1 img_1="/images/Bavans/Bavans_CouverturePage.webp" img_2="/images/Bavans/Bavans_CharteBook.jpg"
               title="Bavans" subtitle="Refonte de la charte graphique | 2023" />
           </RouterLink>
         </div>
       </section>
-      <section class="justify-center flex pb-11 scroll-snap2">
+      <section class="justify-center flex pb-11 md:scroll-snap2">
         <!-- <RouterLink
           class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 border-[6px] border-brun p-2 rounded-2xl hover:bg-brun hover:text-Extended/red/50"
           to="/">
