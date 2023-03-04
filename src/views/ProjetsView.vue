@@ -58,7 +58,7 @@
                 <Vignette v-for="card in filteredCards" :key="card.id" :lien="card.lien" :image="card.image"
                     :titre="card.titre" :description="card.description" />
             </div> -->
-            <div class="mx-12 my-8 grid 3xs:grid-cols-1 xs:grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
+            <div class="mx-12 my-8 grid 3xs:grid-cols-1 xs:grid-cols-2  sm:grid-cols-2 md:grid-cols-3  gap-7">
                 <Vignette v-for="card in filteredCards" :key="card.id" :lien="card.lien" :image="card.image"
                     :titre="card.titre" :description="card.description" />
             </div>
