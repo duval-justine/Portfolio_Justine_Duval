@@ -6,64 +6,44 @@
         </section>
 
         <!-- Bouton différentes section  -->
-        <!-- <section>
-            <div>
-                <nav>
-                    <ul
-                        class=" mt-10 relative flex flex-shrink-0 items-center justify-center flex-grow-0 gap-14 font-space-grotesk text-[px] font-bold uppercase text-Extended/true-gray/900 ">
-                        <li>
-                            <RouterLink to="/projetsco">Scolaire</RouterLink>
-                        </li>
-                        <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
-                        <li>
-                            <RouterLink to="/">Alternance</RouterLink>
-                        </li>
-                        <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
-                        <li>
-                            <RouterLink to="/">Personnel</RouterLink>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </section> -->
-
-        <!-- Toutes les vignettes -->
-        <!-- <div class="flex flex-col items-center ">
-            <div
-                class=" mx-12 my-8 grid w-11/12 grid-cols-[repeat(auto-fit,minmax(380px,1fr))] items-center justify-between gap-7">
-                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
-                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
-                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
-                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
-                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
-                <Vignette image="/public/images/Bavans/Bavans_Couverture.svg" />
-            </div>
-        </div> -->
         <div class="flex justify-center mb-8">
             <nav>
                 <ul
-                    class=" mt-10 relative flex flex-shrink-0 items-center justify-center flex-grow-0 gap-14 font-space-grotesk text-[px] font-bold uppercase text-Extended/true-gray/900 ">
+                    class=" mt-10 relative flex flex-shrink-0 items-center justify-center flex-grow-0 3xs:gap-2 2xs:gap-4 xs:gap-8 sm:gap-14 ">
                     <li>
-                        <button :id="bouton1" :class="{ '': selectedCategory === 'all' }" @click="filterCategory('all')">
+                        <button
+                            class="font-space-grotesk font-semibold 3xs:text-xs 2xs:text-sm sm:text-base text-Extended/true-gray/900 uppercase"
+                            :id="bouton1" :class="{ '': selectedCategory === 'all' }" @click="filterCategory('all')">
                             Tous
                         </button>
                     </li>
-                    <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
+                    <div
+                        class=" 3xs:border-t-2 2x:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[23px] border-Extended/true-gray/900">
+                    </div>
                     <li>
-                        <button :id="bouton2" :class="{ '': selectedCategory === 'sco' }" @click="filterCategory('sco')">
+                        <button
+                            class="font-space-grotesk font-semibold 3xs:text-xs 2xs:text-sm sm:text-base text-Extended/true-gray/900 uppercase"
+                            :id="bouton2" :class="{ '': selectedCategory === 'sco' }" @click="filterCategory('sco')">
                             Scolaire
                         </button>
                     </li>
-                    <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
+                    <div
+                        class=" 3xs:border-t-2 2x:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[23px] border-Extended/true-gray/900">
+                    </div>
                     <li>
-                        <button :id="bouton3" :class="{ '': selectedCategory === 'alt' }" @click="filterCategory('alt')">
+                        <button
+                            class="font-space-grotesk font-semibold 3xs:text-xs 2xs:text-sm sm:text-base text-Extended/true-gray/900 uppercase"
+                            :id="bouton3" :class="{ '': selectedCategory === 'alt' }" @click="filterCategory('alt')">
                             Alternance
                         </button>
                     </li>
-                    <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
+                    <div
+                        class=" 3xs:border-t-2 2x:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[23px] border-Extended/true-gray/900">
+                    </div>
                     <li>
-                        <button :id="bouton4" :class="{ '': selectedCategory === 'perso' }"
-                            @click="filterCategory('perso')">
+                        <button
+                            class="font-space-grotesk font-semibold 3xs:text-xs 2xs:text-sm sm:text-base text-Extended/true-gray/900 uppercase"
+                            :id="bouton4" :class="{ '': selectedCategory === 'perso' }" @click="filterCategory('perso')">
                             Personnel
                         </button>
                     </li>
@@ -71,6 +51,7 @@
             </nav>
         </div>
 
+        <!-- Toutes les vignettes -->
         <div class="flex flex-col items-center ">
             <div
                 class=" mx-12 my-8 grid w-11/12 grid-cols-[repeat(auto-fit,minmax(380px,1fr))] items-center justify-between gap-7">
@@ -166,5 +147,4 @@ nav ul li button:hover::after {
 
 nav ul li button.active::after {
     width: 50%;
-}
-</style>
+}</style>
