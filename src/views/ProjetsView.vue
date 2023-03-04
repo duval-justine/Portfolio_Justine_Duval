@@ -80,10 +80,10 @@ export default {
         return {
             selectedCategory: 'all',
             cards: [
-                { id: 1, lien: '/', image: '/public/images/Bavans/Bavans_Vignette.webp', category: 'sco', titre: 'Charte Graphique de Bavans', description: 'Refonte de la charte graphique de la commune de Bavans' },
-                { id: 2, lien: '', image: '/public/images/BoulangerieCoinot/BoulangerieCoinot_Vignette.webp', category: 'alt', titre: 'Carte des fêtes', description: 'Réalisation de la carte des fêtes 2022 pour la Boulangerie du Coinot' },
-                { id: 3, lien: '', image: '/public/images/CitadelleBesancon/CitadelleBesancon_Vignette.webp', category: 'sco', titre: 'Illustration de la Citadelle de Besancon', description: 'Réalisation d\'une illustration de la Citadelle de Besançon de nuit' },
-                { id: 4, lien: '', image: '/public/images/Janvier2023/Janvier2023_Vignette.webp', category: 'perso', titre: 'Illustration sur le thème de Janvier', description: 'Séries d\'illustration sur le thème du mois de Janvier avec la création d\'une carte postale' },
+                { id: 1, lien: '/', image: 'images/Bavans/Bavans_Vignette.webp', category: 'sco', titre: 'Charte Graphique de Bavans', description: 'Refonte de la charte graphique de la commune de Bavans' },
+                { id: 2, lien: '', image: 'images/BoulangerieCoinot/BoulangerieCoinot_Vignette.webp', category: 'alt', titre: 'Carte des fêtes', description: 'Réalisation de la carte des fêtes 2022 pour la Boulangerie du Coinot' },
+                { id: 3, lien: '', image: 'images/CitadelleBesancon/CitadelleBesancon_Vignette.webp', category: 'sco', titre: 'Illustration de la Citadelle de Besancon', description: 'Réalisation d\'une illustration de la Citadelle de Besançon de nuit' },
+                { id: 4, lien: '', image: 'images/Janvier2023/Janvier2023_Vignette.webp', category: 'perso', titre: 'Illustration sur le thème de Janvier', description: 'Séries d\'illustration sur le thème du mois de Janvier avec la création d\'une carte postale' },
             ],
         };
     },
