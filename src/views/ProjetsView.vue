@@ -53,8 +53,12 @@
 
         <!-- Toutes les vignettes -->
         <div class="flex flex-col items-center ">
-            <div
-                class=" mx-12 my-8 grid w-11/12 grid-cols-[repeat(auto-fit,minmax(380px,1fr))] items-center justify-between gap-7">
+            <!-- <div
+                class=" mx-12 my-8 grid 3xs:w-2/4 sm:max-w-screen-md grid-cols-[repeat(auto-fit,minmax(380px,1fr))] items-center justify-between gap-7">
+                <Vignette v-for="card in filteredCards" :key="card.id" :lien="card.lien" :image="card.image"
+                    :titre="card.titre" :description="card.description" />
+            </div> -->
+            <div class="mx-12 my-8 grid 3xs:grid-cols-1 xs:grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
                 <Vignette v-for="card in filteredCards" :key="card.id" :lien="card.lien" :image="card.image"
                     :titre="card.titre" :description="card.description" />
             </div>
@@ -147,4 +151,5 @@ nav ul li button:hover::after {
 
 nav ul li button.active::after {
     width: 50%;
-}</style>
+}
+</style>
