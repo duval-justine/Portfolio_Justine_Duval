@@ -50,22 +50,20 @@
                     </li>
                     <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
                     <li>
-                        <button :id="bouton2" :class="{ '': selectedCategory === 'category1' }"
-                            @click="filterCategory('category1')">
+                        <button :id="bouton2" :class="{ '': selectedCategory === 'sco' }" @click="filterCategory('sco')">
                             Scolaire
                         </button>
                     </li>
                     <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
                     <li>
-                        <button :id="bouton3" :class="{ '': selectedCategory === 'category2' }"
-                            @click="filterCategory('category2')">
+                        <button :id="bouton3" :class="{ '': selectedCategory === 'alt' }" @click="filterCategory('alt')">
                             Alternance
                         </button>
                     </li>
                     <div class=" border-t-[3px] w-[23px] border-Extended/true-gray/900"></div>
                     <li>
-                        <button :id="bouton4" :class="{ '': selectedCategory === 'category3' }"
-                            @click="filterCategory('category3')">
+                        <button :id="bouton4" :class="{ '': selectedCategory === 'perso' }"
+                            @click="filterCategory('perso')">
                             Personnel
                         </button>
                     </li>
@@ -76,7 +74,8 @@
         <div class="flex flex-col items-center ">
             <div
                 class=" mx-12 my-8 grid w-11/12 grid-cols-[repeat(auto-fit,minmax(380px,1fr))] items-center justify-between gap-7">
-                <Vignette v-for="card in filteredCards" :key="card.id" :lien="card.lien" :image="card.image" />
+                <Vignette v-for="card in filteredCards" :key="card.id" :lien="card.lien" :image="card.image"
+                    :titre="card.titre" :description="card.description" />
             </div>
         </div>
 
@@ -96,12 +95,10 @@ export default {
         return {
             selectedCategory: 'all',
             cards: [
-                { id: 1, lien: '', image: '/public/images/Bavans/Bavans_Couverture.svg', category: 'category1' },
-                { id: 2, lien: '', image: '/public/images/Bavans/Bavans_Couverture.svg', category: 'category2' },
-                { id: 3, lien: '', image: '/public/images/Bavans/Bavans_Couverture.svg', category: 'category1' },
-                { id: 4, lien: '', image: '/public/images/Bavans/Bavans_Couverture.svg', category: 'category2' },
-                { id: 5, lien: '', image: '/public/images/Bavans/Bavans_Couverture.svg', category: 'category3' },
-                { id: 6, lien: '', image: '/public/images/Bavans/Bavans_Couverture.svg', category: 'category1' },
+                { id: 1, lien: '/', image: '/public/images/Bavans/Bavans_Vignette.webp', category: 'sco', titre: 'Charte Graphique de Bavans', description: 'Refonte de la charte graphique de la commune de Bavans' },
+                { id: 2, lien: '', image: '/public/images/BoulangerieCoinot/BoulangerieCoinot_Vignette.webp', category: 'alt', titre: 'Carte des fêtes', description: 'Réalisation de la carte des fêtes 2022 pour la Boulangerie du Coinot' },
+                { id: 3, lien: '', image: '/public/images/CitadelleBesancon/CitadelleBesancon_Vignette.webp', category: 'sco', titre: 'Illustration de la Citadelle de Besancon', description: 'Réalisation d une illustration de la Citadelle de Besançon de nuit' },
+                { id: 4, lien: '', image: '/public/images/Janvier2023/Janvier2023_Vignette.webp', category: 'perso', titre: 'Illustration sur le thème de Janvier', description: 'Séries d illustration sur le thème du mois de Janvier avec la création d une carte postale' },
             ],
         };
     },
