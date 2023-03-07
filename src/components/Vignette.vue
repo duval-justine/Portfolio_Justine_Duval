@@ -9,7 +9,7 @@
                     <div class="text-left opacity-100">
                         <h3 class="text-xs font-space-grotesk font-bold text-Extended/red/900 mb-2">{{ titre }}
                         </h3>
-                        <p class="text-[10px] font-space-grotesk font-normal text-Extended/red/50 -mt-2">{{ description }}
+                        <p class="text-[10px] font-space-grotesk font-normal text-Extended/red/50 ">{{ date }}
                         </p>
                     </div>
                     <div class="flex items-center justify-center ">
@@ -36,6 +36,8 @@
                     </h3>
                     <p class="text-sm font-space-grotesk font-normal text-Extended/red/50">{{ description }}
                     </p>
+                    <p class="text-xs font-space-grotesk font-normal text-Extended/red/50 mt-4">{{ date }}
+                    </p>
                 </div>
                 <div class="flex opacity-100 items-center justify-center ">
                     <RouterLink
@@ -60,6 +62,7 @@ export default {
         },
         titre: String,
         description: String,
+        date: String,
     },
 };
 </script>
