@@ -16,7 +16,7 @@
                         <RouterLink to="/projets">Projets</RouterLink>
                     </li>
                     <li>
-                        <RouterLink to="/">À Propos</RouterLink>
+                        <RouterLink to="/apropos">À Propos</RouterLink>
                     </li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@
                         <RouterLink to="/projets">Projets</RouterLink>
                     </li>
                     <li>
-                        <RouterLink to="/">À Propos</RouterLink>
+                        <RouterLink to="/apropos">À Propos</RouterLink>
                     </li>
                 </ul>
             </div>
@@ -65,7 +65,7 @@
                         <RouterLink to="/projets">Projets</RouterLink>
                     </li>
                     <li>
-                        <RouterLink to="/">À Propos</RouterLink>
+                        <RouterLink to="/apropos">À Propos</RouterLink>
                     </li>
                 </ul>
             </nav>
