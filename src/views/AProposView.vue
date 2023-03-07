@@ -8,7 +8,37 @@
 
                     <!-- Header -->
                     <Header class="relative z-10" />
+                    <div class="flex flex-row justify-center items-center">
+                        <div class="w-2/3">
 
+                            <p class="font-karla text-center font-bold text-Extended/red/50 text-4xl">Je suis Justine Duval
+                            </p>
+                            <!-- Bouton CV -->
+                            <section class="justify-center flex py-11 scroll-snap2">
+                                <nav class="navvv 3xs:hidden sm:flex">
+                                    <ul class="ulll">
+                                        <RouterLink class="" to="/">
+                                            <li class="liii font-space-grotesk">
+                                                Télécharger mon CV
+                                                <span></span><span></span><span></span><span></span>
+                                            </li>
+                                        </RouterLink>
+                                    </ul>
+                                </nav>
+                                <div class="sm:hidden bg-Extended/red/50 uppercase rounded-2xl p-3">
+                                    <RouterLink
+                                        class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
+                                        to="/projets">
+                                        Plus de projets
+                                    </RouterLink>
+                                </div>
+                            </section>
+                            <!-- Fin du Bouton CV -->
+                        </div>
+                        <div>
+                            <img src="../../public/images/Apropos_Justine.webp" alt="">
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- Fin de l'accueil -->
@@ -16,14 +46,63 @@
             <VagueTop class="w-full h-auto" />
 
             <!-- Qui suis je ? -->
-            <div class="container0 relative h-screen z-0 bg-Extended/red/50">
-            </div>
+            <section>
+                <div class="container0 relative z-0 bg-Extended/red/50">
+                    <!-- Titre -->
+                    <div class="mt-16 flex flex-row gap-16 items-center">
+                        <div class="flex flex-row gap-4 items-center">
+                            <div
+                                class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                            </div>
+                            <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">01</p>
+                        </div>
+                        <h2 class="font-karla font-bold text-2xl text-Extended/true-gray/900 uppercase ">Qui
+                            suis-je ?
+                        </h2>
+                    </div>
+                    <!-- Contenu -->
+                    <div class="px-[70px] mt-16 flex flex-row gap-24 items-center mb-16">
+                        <!-- Textes -->
+                        <div
+                            class="flex flex-col gap-3 font-karla font-light text-xl text-Extended/true-gray/900 w-[680px]">
+                            <p>Je m’appelle Justine et j’ai 19 ans. Je suis étudiante en bachelor métiers du multimédia et
+                                de l’internet à Montbéliard, où j’ai choisi de me spécialiser dans le parcours création. 
+                            </p>
+                            <p>Je suis passionnée par le monde de la création depuis mon plus jeune âge en commençant à
+                                réaliser des dessins et des activités manuelles. Avec le temps, j’ai su développer de
+                                nombreuses compétences que ce soit dans la créativité ou encore personnelle. </p>
+                            <p>Aujourd’hui je suis principalement passionnée par le design que ce soit du print ou du
+                                web-design ainsi que la photographie.
+                            </p>
+                            <p> Grâce à mes études, j’ai approfondi et acquis des compétences techniques solides dans le
+                                domaine de la création numérique notamment en design graphique ainsi que dans la créations
+                                de sites web. J’ai également appris à travailler en autonomie en réalisant des projets sur
+                                un temps donné mais aussi à travailler en équipe en se répartissant différentes tâches pour
+                                mener à bien plusieurs projets.  </p>
+                            <p>Pour ma deuxième année, j’ai la chance de pouvoir être en alternance dans l’entreprise Encre
+                                Service située à Montbéliard en tant que graphiste où j’ai l’opportunité de réaliser de
+                                nombreux projets avec les clients. 
+                            </p>
+                        </div>
+                        <!-- Image -->
+                        <div>
+                            <img class="w-full h-auto" src="../../public/images/Justine/Justine_Image2.webp"
+                                alt="Image de Justine">
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Fin qui suis je ? -->
 
             <VagueBott class="w-full h-auto" />
 
             <!-- Passion -->
             <div class="-mt-1 container0 relative h-screen z-0 bg-Extended/red/900">
+                <div>
+                    <div>
+                        <h2 class="font-space-grotesk font-medium text-2xl text-Extended/red/50 px-14">Mes passions</h2>
+                    </div>
+                </div>
             </div>
             <!-- Fin Passion -->
 
@@ -31,6 +110,12 @@
 
             <!-- App -->
             <div class="container0 relative h-screen z-0 bg-Extended/red/50">
+                <div>
+                    <div>
+                        <h2 class="font-space-grotesk font-medium text-2xl text-Extended/true-gray/900 px-14">Mes logiciels
+                        </h2>
+                    </div>
+                </div>
             </div>
             <!-- Fin App -->
 
@@ -38,13 +123,21 @@
 
             <!-- Parcours -->
             <div class="-mt-1 container0 relative h-screen z-0 bg-Extended/red/900">
+                <div>
+                    <div>
+                        <h2 class="font-space-grotesk font-medium text-2xl text-Extended/red/50 px-14">Mon parcours</h2>
+                    </div>
+                </div>
             </div>
             <!-- Fin Parcours -->
 
-            <VagueTop class="w-full h-auto" />
+            <VagueTop class=" w-full h-auto" />
 
             <!-- App -->
             <div class="container0 relative h-screen z-0 bg-Extended/red/50">
+                <div>
+
+                </div>
             </div>
             <!-- Fin App -->
 
@@ -81,6 +174,73 @@ export default {
 @media (min-width: 640px) {
     .container0 {
         max-width: 40000px;
+    }
+}
+
+/* Bouton Plus de Projet */
+/* Descktop */
+@media (min-width: 900px) {
+    .navvv .ulll {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navvv .ulll .liii {
+        --c: #FAFAFA;
+        color: var(--c);
+        font-size: 18px;
+        border: 0.3em solid var(--c);
+        border-radius: 1.2em;
+        width: 15em;
+        height: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 2.7em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        margin: 1em;
+    }
+
+    .navvv .ulll .liii span {
+        position: absolute;
+        width: 25%;
+        height: 100%;
+        background-color: var(--c);
+        transform: translateY(150%);
+        border-radius: 50%;
+        left: calc((var(--n) - 1) * 25%);
+        transition: 0.5s;
+        transition-delay: calc((var(--n) - 1) * 0.1s);
+        z-index: -1;
+    }
+
+    .navvv .ulll .liii:hover {
+        color: #F87171;
+    }
+
+    .navvv .ulll .liii:hover span {
+        transform: translateY(0) scale(2);
+    }
+
+    .navvv .ulll .liii span:nth-child(1) {
+        --n: 1;
+    }
+
+    .navvv .ulll .liii span:nth-child(2) {
+        --n: 2;
+    }
+
+    .navvv .ulll .liii span:nth-child(3) {
+        --n: 3;
+    }
+
+    .navvv .ulll .liii span:nth-child(4) {
+        --n: 4;
     }
 }
 </style>
