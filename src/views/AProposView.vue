@@ -228,10 +228,16 @@
 
             <!-- Parcours -->
             <div class="-mt-1 container0 relative h-screen z-0 bg-Extended/red/900">
-                <div>
-                    <div>
-                        <h2 class="font-space-grotesk font-medium text-2xl text-Extended/red/50 px-14">Mon parcours</h2>
+                <!-- Titre -->
+                <div class="mt-16 flex flex-row gap-16 items-center">
+                    <div class="flex flex-row gap-4 items-center">
+                        <div
+                            class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/red/50">
+                        </div>
+                        <p class="font-space-grotesk font-bold text-3xl text-Extended/red/200">04</p>
                     </div>
+                    <h2 class="font-karla font-bold text-2xl text-Extended/red/50 uppercase ">Mon parcours
+                    </h2>
                 </div>
             </div>
             <!-- Fin Parcours -->
