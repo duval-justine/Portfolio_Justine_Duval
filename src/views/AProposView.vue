@@ -13,27 +13,6 @@
 
                             <p class="font-karla text-center font-bold text-Extended/red/50 text-4xl">Je suis Justine Duval
                             </p>
-                            <!-- Bouton CV -->
-                            <section class="justify-center flex py-11 scroll-snap2">
-                                <nav class="navvv 3xs:hidden sm:flex">
-                                    <ul class="ulll">
-                                        <RouterLink class="" to="/">
-                                            <li class="liii font-space-grotesk">
-                                                Télécharger mon CV
-                                                <span></span><span></span><span></span><span></span>
-                                            </li>
-                                        </RouterLink>
-                                    </ul>
-                                </nav>
-                                <div class="sm:hidden bg-Extended/red/50 uppercase rounded-2xl p-3">
-                                    <RouterLink
-                                        class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
-                                        to="/projets">
-                                        Plus de projets
-                                    </RouterLink>
-                                </div>
-                            </section>
-                            <!-- Fin du Bouton CV -->
                         </div>
                         <div>
                             <img src="../../public/images/Apropos_Justine.webp" alt="">
@@ -111,14 +90,15 @@
                 </div>
                 <!-- Contenu -->
                 <div class="flex flex-row gap-44 mt-16 px-32 mb-16">
-                    <div class="flex flex-col font-karla text-Extended/red/50 gap-5">
+                    <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
+                        <Graphisme />
                         <h4 class="font-bold text-base text-center ">Graphisme / Web-Design</h4>
                         <p class=" font-light text-sm  text-justify">Lorem ipsum dolor sit
                             amet
                             consectetur. Ac porttitor fringilla quis tristique mauris proin. Arcu nibh varius quis ut
                             pellentesque Lorem ipsum dolor sit amet consectetur. Ac porttitor fringilla quis tristique
                             mauris proin. Arcu nibh varius quis ut pellentesque </p>
-                        <section class="justify-center flex py-11 scroll-snap2">
+                        <section class="justify-center flex  scroll-snap2">
                             <nav class="navp 3xs:hidden sm:flex">
                                 <ul class="ulp">
                                     <RouterLink class="" to="/projets">
@@ -139,14 +119,15 @@
                         </section>
                     </div>
 
-                    <div class="flex flex-col font-karla text-Extended/red/50 gap-5">
+                    <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
+                        <Photographie />
                         <h4 class="font-bold text-base text-center ">Photographie</h4>
                         <p class=" font-light text-sm  text-justify">Lorem ipsum dolor sit
                             amet
                             consectetur. Ac porttitor fringilla quis tristique mauris proin. Arcu nibh varius quis ut
                             pellentesque Lorem ipsum dolor sit amet consectetur. Ac porttitor fringilla quis tristique
                             mauris proin. Arcu nibh varius quis ut pellentesque </p>
-                        <section class="justify-center flex py-11 scroll-snap2">
+                        <section class="justify-center flex scroll-snap2">
                             <nav class="navp 3xs:hidden sm:flex">
                                 <ul class="ulp">
                                     <RouterLink class="" to="/galeriephotos">
@@ -167,7 +148,7 @@
                         </section>
                     </div>
                     <div class="flex flex-col font-karla text-Extended/red/50 gap-5">
-                        <h4 class="font-bold text-base text-center ">Bénévolat</h4>
+                        <h4 class="font-bold text-base text-center ">Design d'intérieur</h4>
                         <p class=" font-light text-sm  text-justify">Lorem ipsum dolor sit
                             amet
                             consectetur. Ac porttitor fringilla quis tristique mauris proin. Arcu nibh varius quis ut
@@ -226,7 +207,7 @@
 
             <VagueBott class="w-full h-auto" />
 
-            <!-- Parcours -->
+            <!-- CV -->
             <div class="-mt-1 container0 relative h-screen z-0 bg-Extended/red/900">
                 <!-- Titre -->
                 <div class="mt-16 flex flex-row gap-16 items-center">
@@ -236,11 +217,32 @@
                         </div>
                         <p class="font-space-grotesk font-bold text-3xl text-Extended/red/200">04</p>
                     </div>
-                    <h2 class="font-karla font-bold text-2xl text-Extended/red/50 uppercase ">Mon parcours
+                    <h2 class="font-karla font-bold text-2xl text-Extended/red/50 uppercase ">Mon CV
                     </h2>
                 </div>
+                <!-- Bouton CV -->
+                <section class="justify-center flex py-11 scroll-snap2">
+                    <nav class="navvv 3xs:hidden sm:flex">
+                        <ul class="ulll">
+                            <RouterLink class="" to="/">
+                                <li class="liii font-space-grotesk">
+                                    Télécharger mon CV
+                                    <span></span><span></span><span></span><span></span>
+                                </li>
+                            </RouterLink>
+                        </ul>
+                    </nav>
+                    <div class="sm:hidden bg-Extended/red/50 uppercase rounded-2xl p-3">
+                        <RouterLink
+                            class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
+                            to="/projets">
+                            Télécharger mon CV
+                        </RouterLink>
+                    </div>
+                </section>
+                <!-- Fin du Bouton CV -->
             </div>
-            <!-- Fin Parcours -->
+            <!-- Fin CV -->
 
             <VagueTop class=" w-full h-auto" />
 
@@ -261,11 +263,13 @@
   
 <script>
 import Header from "../components/Header.vue";
+import Graphisme from "../components/icons/GraphismeIcon.vue";
+import Photographie from "../components/icons/PhotographieIcon.vue";
 import VagueTop from "../components/VagueTop.vue";
 import VagueBott from "../components/VagueBott.vue";
 import Footerc from "../components/Footer.vue";
 export default {
-    components: { Header, VagueTop, VagueBott, Footerc }
+    components: { Header, VagueTop, VagueBott, Footerc, Graphisme, Photographie }
 }
 </script>
   
