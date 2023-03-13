@@ -134,7 +134,7 @@
             <div class="bg-[#17181F]">
                 <div class="cases-carousel my-4">
                     <div class="case-item">
-                        <img src="../../public/images/CRBX/CRBX_Scroll1.jpg" class="imgscroll1" alt="">
+                        <img src="../../public/images/CRBX/Sherazade_Scroll1.png" class="imgscroll1" alt="">
                     </div>
                     <div class="case-item">
                         <img src="../../public/images/CRBX/CRBX_Scroll2.jpg" class="imgscroll1" alt="">
