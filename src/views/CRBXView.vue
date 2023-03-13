@@ -130,20 +130,19 @@
             </h2>
         </div>
         <div>
-
-            <div class="containerscrollpro">
-                <div class="blocHorizontal">
-                    <div class="slide">
-                        <img src="../../public/images/CRBX/CRBX_Scroll1.webp" alt="">
+            <div>
+                <div class="cases-carousel my-4">
+                    <div class="case-item">
+                        <img src="../../public/images/CRBX/CRBX_Scroll1.webp" class="imgscroll1" alt="">
                     </div>
-                    <div class="slide">
-                        <img src="../../public/images/CRBX/CRBX_Scroll2.webp" alt="">
+                    <div class="case-item">
+                        <img src="../../public/images/CRBX/CRBX_Scroll2.webp" class="imgscroll1" alt="">
                     </div>
-                    <div class="slide">
-                        <img src="../../public/images/CRBX/CRBX_Scoll3.webp" alt="">
+                    <div class="case-item">
+                        <img src="../../public/images/CRBX/CRBX_Scoll3.webp" class="imgscroll1" alt="">
                     </div>
-                    <div class="slide">
-                        <img src="../../public/images/CRBX/CRBX_Scoll4.webp" alt="">
+                    <div class="case-item">
+                        <img src="../../public/images/CRBX/CRBX_Scoll4.webp" class="imgscroll1" alt="">
                     </div>
                 </div>
             </div>
@@ -175,10 +174,38 @@
 </template>
 
 <script>
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import TopPage from "../components/TopPage.vue";
+
+gsap.registerPlugin(ScrollTrigger);
 export default {
     components: { TopPage },
+    mounted() {
+        // function directionalSnap(increment) {
+        //     return function (end) {
+        //         var pow = Math.pow(10, (end + "").length - 2);
+        //         return Math.round(end / increment) * increment * pow / pow;
+        //     }
+        // }
+        let sections = gsap.utils.toArray(".case-item");
+
+        let scrollTween = gsap.to(sections, {
+            xPercent: -100 * (sections.length - 1),
+            ease: "none",
+            scrollTrigger: {
+                trigger: ".cases-carousel",
+                pin: true,
+                scrub: 0.1,
+                // snap: directionalSnap(1 / (sections.length - 1)),
+                end: "+=3000"
+            }
+        });
+    }
+
+
 }
+
 
 </script>
 
@@ -193,6 +220,17 @@ body,
     margin: 0;
     padding: 0;
 }
+
+
+.cases-carousel {
+    overflow-x: hidden;
+    width: 300%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
 
 .slide {
     display: flex;
@@ -213,12 +251,11 @@ body,
 }
 
 .containerscrollpro {
-    width: 100vh;
-    height: 100vw;
+    width: 100vw;
+    height: 200vh;
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
     overflow-x: hidden;
-
     /* pour ie et mozilla */
     -ms-overlow-style: none;
     scrollbar-width: none;
