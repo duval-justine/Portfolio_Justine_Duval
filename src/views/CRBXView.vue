@@ -130,7 +130,7 @@
             </h2>
         </div>
         <div>
-            <div>
+            <div class="bg-[#17181F]">
                 <div class="cases-carousel my-4">
                     <div class="case-item">
                         <img src="../../public/images/CRBX/CRBX_Scroll1.jpg" class="imgscroll1" alt="">
