@@ -41,7 +41,7 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-base font-light text-Extended/true-gray/900 mt-4 mr-72">
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
             <p>• M. Ayuso est le directeur et le fondateur du Festival OFFF de Barcelona qui est un festival annuel de
                 design, d’art numérique et de créativité qui se déroule à Barcelone en Espagne.</p>
             <p>• M. Chatonnay est un professeur du département MMI de Montbéliard spécialisé dans le Web.</p>
@@ -63,7 +63,7 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-base font-light text-Extended/true-gray/900 mt-4 mr-72">
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
             <p>Pour ce projet, nous avions comme mission de créer un générateur de NFT pour le Festival du OFFF de Barcelone
                 qui a lieu en mars 2023. Nous devions réaliser le projet le plus révolutionnaire de tous les temps en
                 mettant en avant que les NFT ne sont pas une question d’argent mais plutôt une question d’héritage.</p>
@@ -85,7 +85,7 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-base font-light text-Extended/true-gray/900 mt-4 mr-72">
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
             <p>• Luca Thomesse : Chef de projet et chargé de communication</p>
             <p>• Eden Bourezg : Chargé de Design</p>
             <p>• Justine Duval : Chargé de Design</p>
@@ -107,7 +107,7 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-base font-light text-Extended/true-gray/900 mt-4 mr-72">
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
             <p>Create Box est un générateur de NFT où les utilisateurs peuvent créer des NFT grâce à un simple trait et un
                 mot clé. Cette NFT sera la représentation d’un objet 3D ainsi qu’un bruit. Cela permet de toucher un maximum
                 de personnes et d’apporter la notion d’accessibilité en permettant aux personnes malvoyantes de pouvoir
@@ -141,9 +141,9 @@
                     <div class="case-item">
                         <img src="../../public/images/CRBX/CRBX_Scoll3.webp" class="imgscroll1" alt="">
                     </div>
-                    <div class="case-item">
+                    <!-- <div class="case-item">
                         <img src="../../public/images/CRBX/CRBX_Scoll4.webp" class="imgscroll1" alt="">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -163,12 +163,93 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-base font-light text-Extended/true-gray/900 mt-4 mr-72">
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
             <p>Create Box est un générateur de NFT où les utilisateurs peuvent créer des NFT grâce à un simple trait et un
                 mot clé. En effet, l'utilisateur devra simplement dessiner un trait sur l’espace dédié et inscrit un mot
                 dans le champ de texte. À la suite de cela, un objet 3D est généré à partir du dessin et du mot clé, ensuite
                 celui-ci passe dans une API qui va ajouter un son en fonction de différents paramètres. L’ensemble du NFT
                 est l’objet produit ainsi que le son.</p>
+        </div>
+    </section>
+
+
+    <!-- Mon travail -->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row gap-10 items-center">
+            <div class="flex flex-row gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">07</p>
+            </div>
+            <h2 class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 ">Mon travail :
+            </h2>
+        </div>
+        <!-- Texte -->
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
+            <p></p>
+        </div>
+    </section>
+
+    <!-- La maquette -->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row gap-10 items-center">
+            <div class="flex flex-row gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">08</p>
+            </div>
+            <h2 class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 ">Quelques aperçus de la maquette :
+            </h2>
+        </div>
+        <!-- Texte -->
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
+        </div>
+    </section>
+
+    <!-- L'organisation -->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row gap-10 items-center">
+            <div class="flex flex-row gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">09</p>
+            </div>
+            <h2 class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 ">Notre organisation :
+            </h2>
+        </div>
+        <!-- Texte -->
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
+            <p>Pour pouvoir avoir une bonne organisation, nous avons utilisé Trello qui est une application de gestion de
+                projet en ligne qui permet de collaborer et de travailler en équipe de manière organisée et efficace. Nous
+                avons aussi réalisé un Google Drive, ce qui nous a permis de mettre tous les documents que nous créons et
+                que nous avons besoin pour la suite de la création de notre NFT que ce soit des dossiers à remettre aux
+                commanditaires ou encore des posts à publier sur nos réseaux sociaux. Pour terminer, nous avons aussi
+                utilisé Figma en créant une Team ce qui nous a permis de créer à plusieurs la maquette ainsi que d’autres
+                documents.</p>
+        </div>
+    </section>
+
+    <!-- Le site final-->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row gap-10 items-center">
+            <div class="flex flex-row gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">10</p>
+            </div>
+            <h2 class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 ">Le site final :
+            </h2>
+        </div>
+        <!-- Texte -->
+        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
         </div>
     </section>
 </template>
