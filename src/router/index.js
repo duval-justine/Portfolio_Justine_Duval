@@ -17,7 +17,7 @@ const router = createRouter({
     { path: '/citadelle', name: 'Citadelle', component: CitadelleView },
     { path: '/janvier2023', name: 'Illustration de Janvier 2023', component: Janvier2023View },
     { path: '/chartebavans', name: 'Charte Graphique de Bavans', component: CharteBavansView },
-    { path: '/sherazadebnails', name: 'Affiche pour le HomeSalon ShérazadeBNails', component: SherazadeBNailsView },
+    { path: '/sherazadebnails', name: 'Affiche pour le HomeSalon Shérazade', component: SherazadeBNailsView },
     { path: '/crbx', name: 'Create Box', component: CRBXView },
 
   ]

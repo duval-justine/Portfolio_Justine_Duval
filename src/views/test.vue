@@ -129,71 +129,69 @@
             <h2 class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 ">Notre MoodBoard :
             </h2>
         </div>
-        <div>
-
-            <div class="w-screen h-screen"
-                style="transform: rotate(-90deg) translateX(-100vh); transform-origin: top left; overflow-x: hidden; -ms-overflow-style: none; scrollbar-width: none;">
-                <div class="flex flex-row"
-                    style="width: 300vw; height: 100vh; transform: rotate(90deg) translateY(-100vh); transform-origin: top left; overflow: hidden;">
-                    <div class="flex justify-center items-center">
-                        <img src="../../public/images/CRBX/CRBX_Scroll1.webp" alt="">
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <img src="../../public/images/CRBX/CRBX_Scroll2.webp" alt="">
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <img src="../../public/images/CRBX/CRBX_Scoll3.webp" alt="">
-                    </div>
-                    <div class="flex justify-center items-center">
-                        <img src="../../public/images/CRBX/CRBX_Scoll4.webp" alt="">
-                    </div>
+        <div ref="scrollContainer" class="scroll-container">
+            <div class="horizontal-block">
+                <div class="slide one">
+                    <img src="../../public/images/CRBX/CRBX_Scroll1.webp" alt="" />
+                </div>
+                <div class="slide two">
+                    <img src="../../public/images/CRBX/CRBX_Scroll2.webp" alt="" />
+                </div>
+                <div class="slide three">
+                    <img src="../../public/images/CRBX/CRBX_Scoll3.webp" alt="" />
+                </div>
+                <div class="slide four">
+                    <img src="../../public/images/CRBX/CRBX_Scoll4.webp" alt="" />
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Le fonctionnnement -->
-    <section>
-        <!-- Titre -->
-        <div class="mt-16 flex flex-row gap-10 items-center">
-            <div class="flex flex-row gap-4 items-center">
-                <div
-                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
-                </div>
-                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">06</p>
-            </div>
-            <h2 class="font-space-grotesk font-bold text-2xl text-Extended/true-gray/900 ">Le fonctionnement :
-            </h2>
-        </div>
-        <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-base font-light text-Extended/true-gray/900 mt-4 mr-72">
-            <p>Create Box est un générateur de NFT où les utilisateurs peuvent créer des NFT grâce à un simple trait et un
-                mot clé. En effet, l'utilisateur devra simplement dessiner un trait sur l’espace dédié et inscrit un mot
-                dans le champ de texte. À la suite de cela, un objet 3D est généré à partir du dessin et du mot clé, ensuite
-                celui-ci passe dans une API qui va ajouter un son en fonction de différents paramètres. L’ensemble du NFT
-                est l’objet produit ainsi que le son.</p>
         </div>
     </section>
 </template>
-
+  
 <script>
-import TopPage from "../components/TopPage.vue";
 export default {
-    components: { TopPage },
-}
+    mounted() {
+        const container = this.$refs.scrollContainer;
+        const slides = container.querySelectorAll(".slide");
 
+        let currentSlide = 0;
+        let isAnimating = false;
+
+        container.addEventListener("wheel", (event) => {
+            event.preventDefault();
+            const delta = Math.sign(event.deltaY);
+
+            if (delta === 1 && currentSlide < slides.length - 1 && !isAnimating) {
+                isAnimating = true;
+                currentSlide++;
+
+                const currentPosition = -currentSlide * 100;
+                const style = Object.assign({}, container.style);
+                style.transform = `translate3d(0, ${currentPosition}vh, 0)`;
+
+                setTimeout(() => {
+                    isAnimating = false;
+                }, 1000);
+            } else if (delta === -1 && currentSlide > 0 && !isAnimating) {
+                isAnimating = true;
+                currentSlide--;
+
+                const currentPosition = -currentSlide * 100;
+                const style = Object.assign({}, container.style);
+                style.transform = `translate3d(0, ${currentPosition}vh, 0)`;
+
+                setTimeout(() => {
+                    isAnimating = false;
+                }, 1000);
+            }
+        });
+    },
+};
 </script>
-
+  
 <style>
-html {
-    width: 100%;
+body {
     height: 100%;
-}
-
-body,
-.parent-element {
-    margin: 0;
-    padding: 0;
 }
 
 .slide {
@@ -202,9 +200,7 @@ body,
     align-items: center;
 }
 
-
-
-.blocHorizontal {
+.horizontal-block {
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -214,7 +210,7 @@ body,
     overflow: hidden;
 }
 
-.containerscroll {
+.scroll-container {
     width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
@@ -230,3 +226,4 @@ body,
     display: none;
 }
 </style>
+  
