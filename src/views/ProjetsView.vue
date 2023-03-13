@@ -80,7 +80,7 @@ export default {
         return {
             selectedCategory: 'all',
             cards: [
-                { id: 12, lien: '', image: 'images/Sherazade/Sherazade_Vignette.webp', category: 'perso', titre: 'Affiche tarifaire', description: 'Création d\'une affiche tarifaire pour Shérazade HomeSalon', date: 'Mars 2023' },
+                { id: 12, lien: '/sherazadebnails', image: 'images/Sherazade/Sherazade_Vignette.webp', category: 'perso', titre: 'Affiche tarifaire', description: 'Création d\'une affiche tarifaire pour Shérazade HomeSalon', date: 'Mars 2023' },
                 { id: 11, lien: '', image: 'images/Fevrier2023/Fevrier2023_Vignette.webp', category: 'perso', titre: 'Illustration sur le thème de Février', description: 'Séries d\'illustration sur le thème du mois de Février avec la création d\'une carte postale', date: 'Février 2023' },
                 { id: 10, lien: '', image: 'images/CRBX/CRBX_Vignette.webp', category: 'sco', titre: 'Create Box', description: 'Création d\'un générateur de NFT\'', date: 'Janvier 2023' },
                 { id: 9, lien: '', image: 'images/EncreService/EncreService_CDV_Vignette.webp', category: 'alt', titre: 'Cartes de visite Encre Service', description: 'Création de carte de visite pour l\'entreprise Encre Service à Montbéliard', date: 'Janvier 2023' },
