@@ -28,6 +28,7 @@
         </div>
     </section>
 
+    <!-- Présentation -->
     <section>
         <!-- Titre -->
         <div class="mt-16 flex flex-row gap-16 items-center">
@@ -38,6 +39,24 @@
                 <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">01</p>
             </div>
             <h2 class="font-karla font-bold text-2xl text-Extended/true-gray/900 ">HomeSalon ShérazadeBNails :
+            </h2>
+            <!-- Texte -->
+            <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
+            </div>
+        </div>
+    </section>
+
+    <!-- Demande de la Cliente -->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row gap-16 items-center">
+            <div class="flex flex-row gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">02</p>
+            </div>
+            <h2 class="font-karla font-bold text-2xl text-Extended/true-gray/900 ">Demande de la cliente :
             </h2>
             <!-- Texte -->
             <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
