@@ -118,6 +118,7 @@
 
     <!-- Le MoodBoard -->
     <section>
+
         <!-- Titre -->
         <div class="mt-16 flex flex-row gap-10 items-center">
             <div class="flex flex-row gap-4 items-center">
