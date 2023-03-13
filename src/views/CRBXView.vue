@@ -131,20 +131,18 @@
         </div>
         <div>
 
-            <div class="w-screen h-screen"
-                style="transform: rotate(-90deg) translateX(-100vh); transform-origin: top left; overflow-x: hidden; -ms-overflow-style: none; scrollbar-width: none;">
-                <div class="flex flex-row"
-                    style="width: 300vw; height: 100vh; transform: rotate(90deg) translateY(-100vh); transform-origin: top left; overflow: hidden;">
-                    <div class="flex justify-center items-center">
+            <div class="containerscrollpro">
+                <div class="blocHorizontal">
+                    <div class="slide">
                         <img src="../../public/images/CRBX/CRBX_Scroll1.webp" alt="">
                     </div>
-                    <div class="flex justify-center items-center">
+                    <div class="slide">
                         <img src="../../public/images/CRBX/CRBX_Scroll2.webp" alt="">
                     </div>
-                    <div class="flex justify-center items-center">
+                    <div class="slide">
                         <img src="../../public/images/CRBX/CRBX_Scoll3.webp" alt="">
                     </div>
-                    <div class="flex justify-center items-center">
+                    <div class="slide">
                         <img src="../../public/images/CRBX/CRBX_Scoll4.webp" alt="">
                     </div>
                 </div>
@@ -214,7 +212,7 @@ body,
     overflow: hidden;
 }
 
-.containerscroll {
+.containerscrollpro {
     width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
