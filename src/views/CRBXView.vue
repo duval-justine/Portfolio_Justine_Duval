@@ -133,17 +133,14 @@
             <div>
                 <div class="cases-carousel my-4">
                     <div class="case-item">
-                        <img src="../../public/images/CRBX/CRBX_Scroll1.webp" class="imgscroll1" alt="">
+                        <img src="../../public/images/CRBX/CRBX_Scroll1.jpg" class="imgscroll1" alt="">
                     </div>
                     <div class="case-item">
-                        <img src="../../public/images/CRBX/CRBX_Scroll2.webp" class="imgscroll1" alt="">
+                        <img src="../../public/images/CRBX/CRBX_Scroll2.jpg" class="imgscroll1" alt="">
                     </div>
                     <div class="case-item">
-                        <img src="../../public/images/CRBX/CRBX_Scoll3.webp" class="imgscroll1" alt="">
+                        <img src="../../public/images/CRBX/CRBX_Scroll3.jpg" class="imgscroll1" alt="">
                     </div>
-                    <!-- <div class="case-item">
-                        <img src="../../public/images/CRBX/CRBX_Scoll4.webp" class="imgscroll1" alt="">
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -305,7 +302,7 @@ body,
 
 .cases-carousel {
     overflow-x: hidden;
-    width: 300%;
+    width: 350%;
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
