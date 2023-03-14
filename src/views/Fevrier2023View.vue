@@ -204,7 +204,7 @@
                 cadeau s’ouvre et permet au ballon de s’envoler. Pour cela j'ai utilisé le logiciel After Effect.
             </p>
             <div
-                class="flex 3xs:flex-col xs:flex-row 3xs:gap-6 xs:gap-12 sm:gap-20 md:gap-24 justify-center items-center mt-12">
+                class="flex 3xs:flex-col xs:flex-row 3xs:gap-6 xs:gap-12 sm:gap-20 md:gap-24 justify-center items-center mt-12 mb-44">
                 <div class="xs:hidden">
                     <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration1.webp" class="w-[390px] shadow-lg"
                         alt="">
@@ -226,6 +226,9 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <Footerc />
 </template>
 
 <script>
