@@ -26,14 +26,14 @@
         </div>
         <!-- Social Media -->
         <div class="flex flex-row xs:gap-4 sm:gap-8 md:gap-10 items-center">
-            <a href="https://www.instagram.com/jdxl.pro/">
+            <a href="https://www.instagram.com/jdxl.pro/" target="_blank">
                 <img class="xs:w-8 sm:w-10 md:w-12" src="../../public/logos/Instagram_Glyph_White-1.webp"
                     alt="Logo Instagram">
             </a>
-            <a href="https://www.tiktok.com/@justine.pro">
+            <a href="https://www.tiktok.com/@justine.pro" target="_blank">
                 <img class="xs:w-12 sm:w-14 md:w-16" src="../../public/logos/tiktok_logo.webp" alt="Logo TikTok">
             </a>
-            <a href="https://www.behance.net/justineduvalpro">
+            <a href="https://www.behance.net/justineduvalpro" target="_blank">
                 <img class="xs:w-8 sm:w-10 md:w-12" src="../../public/logos/behance_logo.webp" alt="Logo Behance">
             </a>
         </div>
