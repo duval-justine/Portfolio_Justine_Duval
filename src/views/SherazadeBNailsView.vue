@@ -71,7 +71,8 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
+        <div
+            class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72 text-justify">
             <p>En 2022, la cliente m’a contacté pour refaire son affiche tarifaire dans l’esprit du logo. Elle m’a fait part
                 de ses suggestions notamment d’apporter un style orientale à l’affiche ainsi que de mettre en avant 3
                 sections différentes. Au cours de l’année j’ai réalisé des modifications en changeant les tarifs ou encore
@@ -105,6 +106,35 @@
                         <img src="../../public/images/Sherazade/Sherazade_Scroll3.webp" class="imgscroll1" alt="">
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Résultat Final -->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row gap-10 items-center">
+            <div class="flex flex-row gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">04</p>
+            </div>
+            <h2 class="font-karla font-bold text-2xl text-Extended/true-gray/900 ">Résultat Final:
+            </h2>
+        </div>
+        <!-- Texte -->
+        <div
+            class="flex flex-col gap-12 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72 text-justify">
+            <p>Voici la dernière affiche que j’ai réalisée qui date de Mars 2023.
+                J’ai donc respecté au maximum les attentes de la cliente en réalisant cette affiche dans un esprit orientale
+                notamment en ajoutant des ornements dorés dans les coins. J’ai également choisi une police de caractère …
+                qui est dans le style… . Cette police est utilisée pour les titres où j’ai ajouté un effet de 3D pour
+                accentuer l’esprit orientale. Pour accompagner cette police, j’ai choisi une typographie plus simple.. qui
+                permet d’adoucir et d’apporter une bonne lisibilité aux lecteurs.
+            </p>
+            <div class="flex justify-center">
+                <img src="../../public/images/Sherazade/Sherazade_AfficheTarifs.webp" class="h-auto w-[45%]" alt="">
             </div>
         </div>
     </section>
