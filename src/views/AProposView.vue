@@ -11,7 +11,7 @@
                     <div class="flex flex-row justify-center items-center">
                         <div class="w-2/3">
 
-                            <p class="font-karla text-center font-bold text-Extended/red/50 text-4xl">Je suis Justine Duval
+                            <p class="font-karla text-center font-bold text-Extended/red/50 text-4xl">Justine Duval
                             </p>
                         </div>
                         <div>
@@ -89,7 +89,7 @@
                     </h2>
                 </div>
                 <!-- Contenu -->
-                <div class="flex flex-row gap-44 mt-16 px-32 mb-16">
+                <div class="flex flex-row gap-44 mt-16 px-32 mb-16 ">
                     <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
                         <Graphisme />
                         <h4 class="font-bold text-base text-center ">Graphisme / Web-Design</h4>
@@ -103,7 +103,7 @@
                                 <ul class="ulp">
                                     <RouterLink class="" to="/projets">
                                         <li class="lip font-karla font-medium">
-                                            Voir mes créations
+                                            Voir mes projets
                                             <span></span><span></span><span></span><span></span>
                                         </li>
                                     </RouterLink>
@@ -113,7 +113,7 @@
                                 <RouterLink
                                     class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/900"
                                     to="/projets">
-                                    Voir mes créations
+                                    Voir mes projets
                                 </RouterLink>
                             </div>
                         </section>
@@ -147,19 +147,20 @@
                             </div>
                         </section>
                     </div>
-                    <div class="flex flex-col font-karla text-Extended/red/50 gap-5">
-                        <h4 class="font-bold text-base text-center ">Design d'intérieur</h4>
+                    <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
+                        <Activites />
+                        <h4 class="font-bold text-base text-center ">Activités Manuelles</h4>
                         <p class=" font-light text-sm  text-justify">Lorem ipsum dolor sit
                             amet
                             consectetur. Ac porttitor fringilla quis tristique mauris proin. Arcu nibh varius quis ut
                             pellentesque Lorem ipsum dolor sit amet consectetur. Ac porttitor fringilla quis tristique
                             mauris proin. Arcu nibh varius quis ut pellentesque </p>
-                        <section class="justify-center flex py-11 scroll-snap2">
+                        <section class="justify-center flex py-0 scroll-snap2">
                             <nav class="navp 3xs:hidden sm:flex">
                                 <ul class="ulp">
                                     <RouterLink class="" to="/">
                                         <li class="lip font-karla font-medium">
-                                            Page Facebook
+                                            Voir mes créations
                                             <span></span><span></span><span></span><span></span>
                                         </li>
                                     </RouterLink>
@@ -169,7 +170,7 @@
                                 <RouterLink
                                     class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/900"
                                     to="/">
-                                    Page Facebook
+                                    Voir mes créations
                                 </RouterLink>
                             </div>
                         </section>
@@ -195,12 +196,33 @@
                 </div>
                 <!-- Contenu -->
                 <div class="flex flex-row gap-14 justify-center items-center my-36 ">
-                    <img src="../../public/logos/figma.webp" alt="">
-                    <img src="../../public/logos/illustrator.webp" alt="">
-                    <img src="../../public/logos/photoshop.webp" alt="">
-                    <img src="../../public/logos/indesign.webp" alt="">
-                    <img src="../../public/logos/premierepro.webp" alt="">
-                    <img src="../../public/logos/aftereffect.webp" alt="">
+                    <a class="hover:scale-125 ease-in-out duration-500" href="https://www.figma.com/fr/" target="_blank">
+                        <img src="../../public/logos/figma.webp" alt="">
+                    </a>
+                    <a class="hover:scale-125 ease-in-out duration-500"
+                        href="https://www.adobe.com/fr/products/illustrator.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3Loq_eYhjOx1WyQYTTEww_2qjaMX5y02e4Adza6zTmteAZNaZGHxUaAkioEALw_wcB&mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3Loq_eYhjOx1WyQYTTEww_2qjaMX5y02e4Adza6zTmteAZNaZGHxUaAkioEALw_wcB:G:s&s_kwcid=AL!3085!3!600183673895!e!!g!!illustrator!1478148655!58836721124"
+                        target="_blank">
+                        <img src="../../public/logos/illustrator.webp" alt="">
+                    </a>
+                    <a class="hover:scale-125 ease-in-out duration-500"
+                        href="https://www.adobe.com/fr/products/photoshop.html" target="_blank">
+                        <img src="../../public/logos/photoshop.webp" alt="">
+                    </a>
+                    <a class="hover:scale-125 ease-in-out duration-500"
+                        href="https://www.adobe.com/fr/products/indesign/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3a-aQ1jaguEVHurDdqesrPIiWdOPoppQ0LKxJfeunOjaXFpu-NFAwaAgNQEALw_wcB&mv=search&mv=search&sdid=LCDWTLJX&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3a-aQ1jaguEVHurDdqesrPIiWdOPoppQ0LKxJfeunOjaXFpu-NFAwaAgNQEALw_wcB:G:s&s_kwcid=AL!3085!3!600117236569!e!!g!!indesign!1435912704!58952470471"
+                        target="_blank">
+                        <img src="../../public/logos/indesign.webp" alt="">
+                    </a>
+                    <a class="hover:scale-125 ease-in-out duration-500"
+                        href="https://www.adobe.com/fr/products/premiere/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3CKkh3-6hgdKz_uJStPiWOxP-F-TxV1QkirfFTEzOJcyh9_eceKicaAkmHEALw_wcB&mv=search&mv=search&sdid=LQLZT7BT&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3CKkh3-6hgdKz_uJStPiWOxP-F-TxV1QkirfFTEzOJcyh9_eceKicaAkmHEALw_wcB:G:s&s_kwcid=AL!3085!3!341217015802!e!!g!!premiere%20pro!1435912734!56537474099"
+                        target="_blank">
+                        <img src="../../public/logos/premierepro.webp" alt="">
+                    </a>
+                    <a class="hover:scale-125 ease-in-out duration-500"
+                        href="https://www.adobe.com/fr/products/aftereffects/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3MTP77o78MDmwSe1SEG6bbxdCDBqABlWHEsk709iZuJKI2ZeUZwtsaAmxAEALw_wcB&mv=search&mv=search&sdid=MYYBRYZH&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3MTP77o78MDmwSe1SEG6bbxdCDBqABlWHEsk709iZuJKI2ZeUZwtsaAmxAEALw_wcB:G:s&s_kwcid=AL!3085!3!600183576446!e!!g!!after%20effect!1435912503!56537400619"
+                        target="_blank">
+                        <img src="../../public/logos/aftereffect.webp" alt="">
+                    </a>
                 </div>
             </div>
             <!-- Fin Logiciels -->
@@ -265,11 +287,12 @@
 import Header from "../components/Header.vue";
 import Graphisme from "../components/icons/GraphismeIcon.vue";
 import Photographie from "../components/icons/PhotographieIcon.vue";
+import Activites from "../components/icons/ActivitesIcon.vue";
 import VagueTop from "../components/VagueTop.vue";
 import VagueBott from "../components/VagueBott.vue";
 import Footerc from "../components/Footer.vue";
 export default {
-    components: { Header, VagueTop, VagueBott, Footerc, Graphisme, Photographie }
+    components: { Header, VagueTop, VagueBott, Footerc, Graphisme, Photographie, Activites }
 }
 </script>
   
