@@ -62,7 +62,7 @@
     <!-- Février -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -146,7 +146,7 @@
     <!-- Carte Postale -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -165,12 +165,13 @@
                 tons de rose pour rester dans les couleurs que j’avais sélectionné. Pour terminer, j’ai ajouté Happy
                 Valentine’s Day pour faire un rappel de mon thème et du mois de l’illustration.
             </p>
-            <div class="flex flex-row gap-11 justify-center items-center mt-12">
+            <div
+                class="flex flex-row 3xs:gap-2 xs:gap-8 sm:gap-11 justify-center items-center 3xs:mt-6 xs:mt-8 sm:mt-10 md:mt-12 ">
                 <div>
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_CartePostaleMockup.webp" alt="">
+                    <img src="../../public/images/Fevrier2023/Fevrier2023_CartePostaleMockup.webp" class="shadow-lg" alt="">
                 </div>
                 <div>
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_CartePostale.webp" alt="">
+                    <img src="../../public/images/Fevrier2023/Fevrier2023_CartePostale.webp" class="shadow-lg" alt="">
                 </div>
             </div>
         </div>
@@ -179,7 +180,7 @@
     <!-- Illustrations & Motion Design -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -202,15 +203,24 @@
             <p>Parmi les illustrations que j’ai faites, j’ai choisi d’animer ma carte postale avec un Motion design où le
                 cadeau s’ouvre et permet au ballon de s’envoler. Pour cela j'ai utilisé le logiciel After Effect.
             </p>
-            <div class="flex flex-row gap-24 justify-center items-center mt-12">
+            <div
+                class="flex 3xs:flex-col xs:flex-row 3xs:gap-6 xs:gap-12 sm:gap-20 md:gap-24 justify-center items-center mt-12">
+                <div class="xs:hidden">
+                    <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration1.webp" class="w-[390px] shadow-lg"
+                        alt="">
+                </div>
                 <div>
                     <img src="../../public/images/Fevrier2023/Fevrier2023_MotionDesign.gif"
                         class="h-auto w-[390px] shadow-lg" alt="">
                 </div>
-                <div class="flex flex-col gap-24">
+                <div class="xs:flex flex-col xs:gap-12 sm:gap-20 md:gap-24 2xs:hidden">
                     <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration1.webp" class="w-[300px] shadow-lg"
                         alt="">
                     <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration2.webp" class="w-[300px] shadow-lg"
+                        alt="">
+                </div>
+                <div class="xs:hidden">
+                    <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration2.webp" class="w-[390px] shadow-lg"
                         alt="">
                 </div>
             </div>
