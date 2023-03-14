@@ -5,9 +5,36 @@
     </section>
 
 
-    <section>
+    <section class="mt-20 mb-48">
         <ul class="galery">
-            <li><img src="../../public/images/Apropos_Justine.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/1.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/2.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/3.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/4.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/5.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/6.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/7.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/8.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/9.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/10.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/11.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/12.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/13.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/14.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/15.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/16.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/17.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/18.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/19.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/20.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/21.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/22.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/23.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/24.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/25.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/26.webp" alt=""></li>
+            <li><img src="../../public/images/GaleriePhotos/27.webp" alt=""></li>
+
         </ul>
     </section>
 
