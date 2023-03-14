@@ -245,6 +245,7 @@ body,
 }
 
 .flex1 {
+    display: flex;
     scroll-snap-type: x mandatory;
 }
 </style>
