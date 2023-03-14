@@ -7,7 +7,7 @@ import Janvier2023View from '../views/Janvier2023View.vue'
 import CharteBavansView from '../views/CharteBavansView.vue'
 import CRBXView from '../views/CRBXView.vue'
 import SherazadeBNailsView from '../views/SherazadeBNailsView.vue'
-import Fevrier2023 from '../views/Fevrier2023.vue'
+import Fevrier2023View from '../views/Fevrier2023View.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,7 +20,7 @@ const router = createRouter({
     { path: '/chartebavans', name: 'Charte Graphique de Bavans', component: CharteBavansView },
     { path: '/crbx', name: 'Create Box', component: CRBXView },
     { path: '/sherazadebnails', name: 'Affiche pour le HomeSalon Shérazade', component: SherazadeBNailsView },
-    { path: '/fevrier2023', name: 'Illustration de Février 2023', component: Fevrier2023 },
+    { path: '/fevrier2023', name: 'Illustration de Février 2023', component: Fevrier2023View },
 
   ]
 })
