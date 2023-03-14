@@ -27,6 +27,32 @@
             </div>
         </div>
     </section>
+
+    <!-- Mes illustrations du mois -->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row gap-10 items-center">
+            <div class="flex flex-row gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">01</p>
+            </div>
+            <h2 class="font-karla font-bold text-2xl text-Extended/true-gray/900 ">Mes illustration du mois :
+            </h2>
+        </div>
+        <!-- Texte -->
+        <div
+            class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72 text-justify">
+            <p>Pour cette année 2023, je me suis lancé le défi de réaliser une illustration chaque mois sur le thème de
+                celui-ci au format carte postale. Pour accompagner cette illustration, j’en réalise deux autres au format
+                carré pour pouvoir poster 3 posts sur les réseaux sociaux ce qui permet de réaliser une frise chaque mois.
+                Et pour m’améliorer dans un autre domaine j’ai décidé de réaliser un motion design d'une des 3 illustrations
+                que je poste par la suite en réel sur instagram voir sur TikTok. Ceci me permet de m’améliorer et de voir
+                mon évolution à travers les mois.
+            </p>
+        </div>
+    </section>
 </template>
 
 <script>
