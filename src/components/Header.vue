@@ -78,9 +78,10 @@
 <script>
 import Logo from "./icons/IconLogo.vue";
 export default {
-    components: { Logo }
-
+    components: { Logo },
 }
+
+
 </script>
 
 
