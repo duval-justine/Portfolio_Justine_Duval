@@ -1,7 +1,7 @@
 <template>
     <!-- Top Page -->
     <section>
-        <TopPage img_test="/images/" class="h-[100vh]" />
+        <TopPage img_test="/images/GaleriePhotos/Couverture.webp" class="h-[100vh]" />
     </section>
 
     <!-- Footer -->
