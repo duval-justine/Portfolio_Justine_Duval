@@ -106,6 +106,22 @@
                 :
             </h2>
         </div>
+
+        <!-- Format Mobile -->
+        <div class="md:hidden">
+            <div class="flex w-full snap-x gap-0 overflow-x-auto ">
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                    <img src="../../public/images/Sherazade/Sherazade_Scroll1.webp" class="shrink-0" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                    <img src="../../public/images/Sherazade/Sherazade_Scroll2.webp" class="shrink-0" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                    <img src="../../public/images/Sherazade/Sherazade_Scroll3.webp" class="shrink-0" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Desktop -->
         <div class="3xs:hidden sm:flex">
             <div class="bg-[#FFFDF5]">
                 <div class="cases-carousel my-4">
