@@ -59,15 +59,16 @@
           </RouterLink>
         </div>
         <div class="scroll-snap ">
-          <RouterLink to="/citadelle">
-            <Bloc3 img_1="/images/ExpoUni/ExpoUni_Tsunami.svg" img_2="/images/ExpoUni/ExpoUni_Logo.svg"
-              title="Exposition universelle" subtitle="Carte postale | 2023" />
+          <RouterLink to="/fevrier2023">
+            <Bloc3 img_1="/images/Fevrier2023/Fevrier2023_Couverture.webp"
+              img_2="/images/Fevrier2023/Fevrier2023_Illustration1.webp" title="Février 2023"
+              subtitle="Carte postale | Février 2023" />
           </RouterLink>
         </div>
         <div class="scroll-snap ">
-          <RouterLink to="/chartebavans">
-            <Bloc1 img_1="/images/Bavans/Bavans_CouverturePage.webp" img_2="/images/Bavans/Bavans_CharteBook.jpg"
-              title="Bavans" subtitle="Refonte de la charte graphique | 2023" />
+          <RouterLink to="/crbx">
+            <Bloc1 img_1="/images/CRBX/CRBX_Couverture.webp" img_2="/images/Bavans/Bavans_CharteBook.jpg" title="CRBX"
+              subtitle="Générateur de NFT | Janvier 2023" />
           </RouterLink>
         </div>
       </section>
