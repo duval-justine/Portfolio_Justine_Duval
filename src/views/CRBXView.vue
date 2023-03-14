@@ -259,25 +259,22 @@ import TopPage from "../components/TopPage.vue";
 gsap.registerPlugin(ScrollTrigger);
 export default {
     components: { TopPage },
-    mounted() {
-        // function directionalSnap(increment) {
-        //     return function (end) {
-        //         var pow = Math.pow(10, (end + "").length - 2);
-        //         return Math.round(end / increment) * increment * pow / pow;
-        //     }
-        // }
-        let sections = gsap.utils.toArray(".case-item");
 
-        let scrollTween = gsap.to(sections, {
-            xPercent: -100 * (sections.length - 1),
-            ease: "none",
-            scrollTrigger: {
-                trigger: ".cases-carousel",
-                pin: true,
-                scrub: 0.1,
-                // snap: directionalSnap(1 / (sections.length - 1)),
-                end: "+=3000"
-            }
+    mounted() {
+        window.addEventListener('load', function () {
+
+            let sections = gsap.utils.toArray(".case-item");
+
+            let scrollTween = gsap.to(sections, {
+                xPercent: -100 * (sections.length - 1),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".cases-carousel",
+                    pin: true,
+                    scrub: 0.1,
+                    end: "+=3000"
+                }
+            });
         });
     }
 

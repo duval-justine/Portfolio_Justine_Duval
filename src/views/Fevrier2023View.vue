@@ -240,18 +240,22 @@ import Footerc from "../components/Footer.vue";
 gsap.registerPlugin(ScrollTrigger);
 export default {
     components: { TopPage, Footerc },
-    mounted() {
-        let sections = gsap.utils.toArray(".case-item");
 
-        let scrollTween = gsap.to(sections, {
-            xPercent: -100 * (sections.length - 1),
-            ease: "none",
-            scrollTrigger: {
-                trigger: ".cases-carousel",
-                pin: true,
-                scrub: 0.1,
-                end: "+=3000"
-            }
+    mounted() {
+        window.addEventListener('load', function () {
+
+            let sections = gsap.utils.toArray(".case-item");
+
+            let scrollTween = gsap.to(sections, {
+                xPercent: -100 * (sections.length - 1),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".cases-carousel",
+                    pin: true,
+                    scrub: 0.1,
+                    end: "+=3000"
+                }
+            });
         });
     }
 
