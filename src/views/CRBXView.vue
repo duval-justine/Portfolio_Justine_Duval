@@ -261,6 +261,7 @@ export default {
     components: { TopPage },
 
     mounted() {
+        window.scrollTo(0, 0);
         window.addEventListener('load', function () {
 
             let sections = gsap.utils.toArray(".case-item");
@@ -276,6 +277,14 @@ export default {
                 }
             });
         });
+
+    },
+
+    methods: {
+        goToPage() {
+            // ... votre code pour accéder à la nouvelle page
+            window.scrollTo(0, 0);
+        }
     }
 
 
