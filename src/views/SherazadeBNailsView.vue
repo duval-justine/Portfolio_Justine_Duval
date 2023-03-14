@@ -108,7 +108,7 @@
         </div>
 
         <!-- Format Mobile -->
-        <div class="md:hidden">
+        <!-- <div class="md:hidden">
             <div class="flex w-full snap-x gap-5 overflow-x-auto ">
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0 ">
                     <img src="../../public/images/Sherazade/Sherazade_Scroll1.webp" class="shrink-0 3xs:hidden xs:flex"
@@ -132,7 +132,26 @@
                     <img src="../../public/images/Sherazade/Sherazade_Scroll4Phone.webp" class="shrink-0 h-[800px] " alt="">
                 </div>
             </div>
+        </div> -->
+
+
+        <div class="pt-[223px] md:hidden">
+            <div class="flex w-full snap-x gap-5 overflow-x-auto">
+                <div class="shrink-0 snap-center first:pl-5 last:pr-5">
+                    <img src="../../public/images/Sherazade/Sherazade_Scroll1Phone.webp" class="ml-4 shrink-0" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-5 last:pr-5">
+                    <img src="../../public/images/Sherazade/Sherazade_Scroll2Phone.webp" class="ml-4 shrink-0" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-5 last:pr-5">
+                    <img src="../../public/images/Sherazade/Sherazade_Scroll3Phone.webp" class="ml-4 shrink-0" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-5 last:pr-5">
+                    <img src="../../public/images/Sherazade/Sherazade_Scroll4Phone.webp" class="ml-4 shrink-0" alt="">
+                </div>
+            </div>
         </div>
+
 
         <!-- Desktop -->
         <div class="3xs:hidden sm:flex">
