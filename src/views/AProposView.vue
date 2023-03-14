@@ -93,11 +93,11 @@
                     <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
                         <Graphisme />
                         <h4 class="font-bold text-base text-center ">Graphisme / Web-Design</h4>
-                        <p class=" font-light text-sm  text-justify">Lorem ipsum dolor sit
-                            amet
-                            consectetur. Ac porttitor fringilla quis tristique mauris proin. Arcu nibh varius quis ut
-                            pellentesque Lorem ipsum dolor sit amet consectetur. Ac porttitor fringilla quis tristique
-                            mauris proin. Arcu nibh varius quis ut pellentesque </p>
+                        <p class=" font-light text-sm  text-justify">J’aime beaucoup le design graphique et le web design.
+                            J’aime travailler avec différentes couleurs, formes et typographies pour créer des designs qui
+                            attirent le regard et transmettent un message. J'apprecis également l’aspect technique du web,
+                            en réalisant plusieurs maquettes et en utilisant des langages de programmation pour donner vie à
+                            mes créations en créant des sites webs interactifs et intuitifs. </p>
                         <section class="justify-center flex  scroll-snap2">
                             <nav class="navp 3xs:hidden sm:flex">
                                 <ul class="ulp">
@@ -122,11 +122,11 @@
                     <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
                         <Photographie />
                         <h4 class="font-bold text-base text-center ">Photographie</h4>
-                        <p class=" font-light text-sm  text-justify">Lorem ipsum dolor sit
-                            amet
-                            consectetur. Ac porttitor fringilla quis tristique mauris proin. Arcu nibh varius quis ut
-                            pellentesque Lorem ipsum dolor sit amet consectetur. Ac porttitor fringilla quis tristique
-                            mauris proin. Arcu nibh varius quis ut pellentesque </p>
+                        <p class=" font-light text-sm  text-justify">Lors de mon temps libre, j’aime me plonger dans
+                            l’univers de la photographie en capturant des moments de la vie quotidienne ainsi que de
+                            magnifiques paysages qui m’entourent. Ceci me permet de me déconnecter du monde, de me
+                            ressourcer et de pouvoir me concentrer sur le prise de vue de mes différentes photos. J’aime
+                            particulièrement prendre en photos des animaux ainsi que des paysages. </p>
                         <section class="justify-center flex scroll-snap2">
                             <nav class="navp 3xs:hidden sm:flex">
                                 <ul class="ulp">
@@ -150,11 +150,12 @@
                     <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
                         <Activites />
                         <h4 class="font-bold text-base text-center ">Activités Manuelles</h4>
-                        <p class=" font-light text-sm  text-justify">Lorem ipsum dolor sit
-                            amet
-                            consectetur. Ac porttitor fringilla quis tristique mauris proin. Arcu nibh varius quis ut
-                            pellentesque Lorem ipsum dolor sit amet consectetur. Ac porttitor fringilla quis tristique
-                            mauris proin. Arcu nibh varius quis ut pellentesque </p>
+                        <p class=" font-light text-sm  text-justify">Depuis toute petite, j’aime réaliser des activités
+                            manuelles notamment du Scrapbooking, du dessin ainsi que plein d’autres activités. J’aime
+                            beaucoup la liberté créative que ses activités peuvent procurer. Aujourd’hui, je continue de
+                            réaliser du scrapbooking notamment en réalisant des invitations où des albums photos pour mes
+                            proches. J’aime pouvoir mélanger les couleurs et les différentes textures pour créer des design
+                            originaux. </p>
                         <section class="justify-center flex py-0 scroll-snap2">
                             <nav class="navp 3xs:hidden sm:flex">
                                 <ul class="ulp">
