@@ -53,6 +53,30 @@
             </p>
         </div>
     </section>
+
+    <!-- Février -->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row gap-10 items-center">
+            <div class="flex flex-row gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">02</p>
+            </div>
+            <h2 class="font-karla font-bold text-2xl text-Extended/true-gray/900 ">Février :
+            </h2>
+        </div>
+        <!-- Texte -->
+        <div
+            class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72 text-justify">
+            <p>Pour le mois de Février, j’ai choisi de réaliser des illustrations sur le thème de la Saint-Valentin. Pour ce
+                faire j’ai sélectionné une harmonie colorée dans les tons rose, blanc et rouge ainsi qu’une typographie sans
+                empattement élégante et moderne qui est QTKooper.
+
+            </p>
+        </div>
+    </section>
 </template>
 
 <script>
