@@ -125,29 +125,36 @@
         </div>
         <!-- Texte -->
         <div
-            class="flex flex-col gap-12 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72 text-justify">
+            class="flex flex-col gap-12 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72 text-justify mb-44">
             <p>Voici la dernière affiche que j’ai réalisée qui date de Mars 2023.
                 J’ai donc respecté au maximum les attentes de la cliente en réalisant cette affiche dans un esprit orientale
-                notamment en ajoutant des ornements dorés dans les coins. J’ai également choisi une police de caractère …
-                qui est dans le style… . Cette police est utilisée pour les titres où j’ai ajouté un effet de 3D pour
-                accentuer l’esprit orientale. Pour accompagner cette police, j’ai choisi une typographie plus simple.. qui
-                permet d’adoucir et d’apporter une bonne lisibilité aux lecteurs.
+                notamment en ajoutant des ornements dorés dans les coins. J’ai également choisi une police de caractère
+                Hidayatullah Demo d'origine indo-pakistanaise qui est dans le style oriental et dispose une variété de
+                caractères . Cette police est utilisée pour les titres où j’ai ajouté un effet de 3D pour accentuer l’esprit
+                orientale. Pour accompagner cette police, j’ai choisi une typographie plus simple Present Script qui est une
+                police de caractère script ce qui permet d’adoucir et d’apporter une bonne lisibilité aux lecteurs.
+
             </p>
             <div class="flex justify-center">
-                <img src="../../public/images/Sherazade/Sherazade_AfficheTarifs.webp" class="h-auto w-[45%]" alt="">
+                <img src="../../public/images/Sherazade/Sherazade_AfficheTarifs.webp" class="h-auto w-[45%] shadow-2xl"
+                    alt="">
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <Footerc />
 </template>
 
 <script>
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import TopPage from "../components/TopPage.vue";
+import Footerc from "../components/Footer.vue";
 
 gsap.registerPlugin(ScrollTrigger);
 export default {
-    components: { TopPage },
+    components: { TopPage, Footerc },
     mounted() {
         let sections = gsap.utils.toArray(".case-item");
 
@@ -187,5 +194,4 @@ body,
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
-}
-</style>
+}</style>
