@@ -204,7 +204,7 @@
                 cadeau s’ouvre et permet au ballon de s’envoler. Pour cela j'ai utilisé le logiciel After Effect.
             </p>
             <div
-                class="flex 3xs:flex-col xs:flex-row 3xs:gap-6 xs:gap-12 sm:gap-20 md:gap-24 justify-center items-center mt-12 mb-44">
+                class="flex 3xs:flex-col xs:flex-row 3xs:gap-6 xs:gap-12 sm:gap-20 md:gap-24 justify-center items-center mt-12 mb-20">
                 <div class="xs:hidden">
                     <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration1.webp" class="w-[390px] shadow-lg"
                         alt="">
@@ -224,6 +224,24 @@
                         alt="">
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Bouton Voir sur insta -->
+    <section class="justify-center flex py-11 scroll-snap2 mb-8">
+        <nav class="navv 3xs:hidden sm:flex">
+            <ul class="ull">
+                <a href="https://www.instagram.com/jdxl.pro/" target="_blank">
+                    <li class="lii font-space-grotesk">
+                        Voir sur Insta
+                        <span></span><span></span><span></span><span></span>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div class="sm:hidden bg-Extended/red/900 uppercase rounded-2xl p-3">
+            <a href="" class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">Voir sur
+                Insta</a>
         </div>
     </section>
 

@@ -248,4 +248,8 @@ body,
     display: flex;
     scroll-snap-type: x mandatory;
 }
+
+.shrink-0 {
+    scroll-snap-align: center;
+}
 </style>
