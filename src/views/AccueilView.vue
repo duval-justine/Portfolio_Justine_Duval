@@ -52,10 +52,10 @@
       <!-- Les derniers projets -->
       <section>
         <div class="scroll-snap">
-          <RouterLink to="/janvier2023">
-            <Bloc1 id="scroll" class="pt-16" img_1="/images/Janvier2023/Janvier2023_CouverturePage.webp"
-              img_2="/images/Janvier2023/Janvier2023_Ski.svg" title="Janvier"
-              subtitle="Illustrations & Motion Design | 2023" />
+          <RouterLink to="/sherazadebnails">
+            <Bloc1 id="scroll" class="pt-16" img_1="/images/Sherazade/Sherazade_Couverture.webp"
+              img_2="/images/Sherazade/Sherazade_LogoFond.webp" title="ShérazadeBNails"
+              subtitle="Affiche des tarifs | Mars 2023" />
           </RouterLink>
         </div>
         <div class="scroll-snap ">
