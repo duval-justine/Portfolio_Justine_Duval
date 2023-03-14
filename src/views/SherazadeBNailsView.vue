@@ -108,7 +108,7 @@
         </div>
 
         <!-- Format Mobile -->
-        <!-- <div class="md:hidden">
+        <div class="md:hidden">
             <div class="flex w-full snap-x gap-5 overflow-x-auto ">
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0 ">
                     <img src="../../public/images/Sherazade/Sherazade_Scroll1.webp" class="shrink-0 3xs:hidden xs:flex"
@@ -132,9 +132,9 @@
                     <img src="../../public/images/Sherazade/Sherazade_Scroll4Phone.webp" class="shrink-0 h-[800px] " alt="">
                 </div>
             </div>
-        </div> -->
+        </div>
 
-        <div
+        <!-- <div
             class="w-full flex 3xs:gap-5  snap-x overflow-x-auto 3xs:justify-start 2xs:justify-between 2xs:max-w-[650px] mt-10 2xs:mx-auto mb-10">
             <div class="snap-center shrink-0 first:pl-5 last:pr-5">
                 <img class="h-[300px] shrink-0 object-contain"
@@ -152,7 +152,7 @@
                 <img class="h-[300px] object-contain" src="../../public/images/Sherazade/Sherazade_Scroll4Phone.webp"
                     alt="">
             </div>
-        </div>
+        </div> -->
         <!-- 
         <div class="pt-[223px] md:hidden">
             <div class="flex w-full snap-x gap-5 overflow-x-auto">
@@ -173,7 +173,7 @@
 
 
         <!-- Desktop -->
-        <!-- <div class="3xs:hidden sm:flex">
+        <div class="3xs:hidden sm:flex">
             <div class="bg-[#FFFDF5]">
                 <div class="cases-carousel my-4">
                     <div class="case-item">
@@ -187,7 +187,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </section>
 
     <!-- Résultat Final -->
@@ -228,28 +228,28 @@
 </template>
 
 <script>
-// import gsap from 'gsap'
-// import ScrollTrigger from 'gsap/ScrollTrigger'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import TopPage from "../components/TopPage.vue";
 import Footerc from "../components/Footer.vue";
 
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 export default {
     components: { TopPage, Footerc },
-    // mounted() {
-    //     let sections = gsap.utils.toArray(".case-item");
+    mounted() {
+        let sections = gsap.utils.toArray(".case-item");
 
-    //     let scrollTween = gsap.to(sections, {
-    //         xPercent: -100 * (sections.length - 1),
-    //         ease: "none",
-    //         scrollTrigger: {
-    //             trigger: ".cases-carousel",
-    //             pin: true,
-    //             scrub: 0.1,
-    //             end: "+=3000"
-    //         }
-    //     });
-    // }
+        let scrollTween = gsap.to(sections, {
+            xPercent: -100 * (sections.length - 1),
+            ease: "none",
+            scrollTrigger: {
+                trigger: ".cases-carousel",
+                pin: true,
+                scrub: 0.1,
+                end: "+=3000"
+            }
+        });
+    }
 
 
 }
