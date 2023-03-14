@@ -46,14 +46,9 @@
         <div class="flex flex-row gap-24 items-center">
             <div
                 class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 w-[900px] text-justify">
-                <p>Lorem ipsum dolor sit amet consectetur. Pellentesque convallis quam ornare non nisi eu auctor massa.
-                    Lacus massa nam aliquet aenean varius eu morbi urna. Urna donec amet morbi cursus vitae interdum
-                    vitae.
-                    Sit rutrum euismod condimentum tristique. Sodales vel est ligula odio vitae vel quis a varius. Duis
-                    duis
-                    sapien blandit erat non euismod et. Sagittis tempor in ut in arcu ut. Amet curabitur odio neque ac
-                    proin
-                    euismod lorem nunc vestibulum. Tempus lorem enim dolor eget.</p>
+                <p>Le Home Salon ShérazadeBNails est un salon de beauté avec une prothésiste ongulaire diplômée et certifiée
+                    dans la commune de Bavans qui propose de nombreuses prestations.
+                </p>
             </div>
             <div>
                 <img src="../../public/images/Sherazade/logosherazadebnails.svg" class="w-auto h-44 object-cover mr-9"
@@ -77,14 +72,10 @@
         </div>
         <!-- Texte -->
         <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
-            <p>Lorem ipsum dolor sit amet consectetur. Pellentesque convallis quam ornare non nisi eu auctor massa.
-                Lacus massa nam aliquet aenean varius eu morbi urna. Urna donec amet morbi cursus vitae interdum
-                vitae.
-                Sit rutrum euismod condimentum tristique. Sodales vel est ligula odio vitae vel quis a varius. Duis
-                duis
-                sapien blandit erat non euismod et. Sagittis tempor in ut in arcu ut. Amet curabitur odio neque ac
-                proin
-                euismod lorem nunc vestibulum. Tempus lorem enim dolor eget.</p>
+            <p>En 2022, la cliente m’a contacté pour refaire son affiche tarifaire dans l’esprit du logo. Elle m’a fait part
+                de ses suggestions notamment d’apporter un style orientale à l’affiche ainsi que de mettre en avant 3
+                sections différentes. Au cours de l’année j’ai réalisé des modifications en changeant les tarifs ou encore
+                en enlevant certaines prestations. La dernière modification date de Mars 2023.</p>
         </div>
     </section>
 
@@ -102,16 +93,16 @@
             </h2>
         </div>
         <div>
-            <div class="bg-[#17181F]">
+            <div class="bg-[#FFFDF5]">
                 <div class="cases-carousel my-4">
                     <div class="case-item">
-                        <img src="../../public/images/CRBX/CRBX_Scroll1.jpg" class="imgscroll1" alt="">
+                        <img src="../../public/images/Sherazade/Sherazade_Scroll1.webp" class="imgscroll1" alt="">
                     </div>
                     <div class="case-item">
-                        <img src="../../public/images/CRBX/CRBX_Scroll2.jpg" class="imgscroll1" alt="">
+                        <img src="../../public/images/Sherazade/Sherazade_Scroll2.webp" class="imgscroll1" alt="">
                     </div>
                     <div class="case-item">
-                        <img src="../../public/images/CRBX/CRBX_Scroll3.jpg" class="imgscroll1" alt="">
+                        <img src="../../public/images/Sherazade/Sherazade_Scroll3.webp" class="imgscroll1" alt="">
                     </div>
                 </div>
             </div>
@@ -128,12 +119,6 @@ gsap.registerPlugin(ScrollTrigger);
 export default {
     components: { TopPage },
     mounted() {
-        // function directionalSnap(increment) {
-        //     return function (end) {
-        //         var pow = Math.pow(10, (end + "").length - 2);
-        //         return Math.round(end / increment) * increment * pow / pow;
-        //     }
-        // }
         let sections = gsap.utils.toArray(".case-item");
 
         let scrollTween = gsap.to(sections, {
@@ -143,7 +128,6 @@ export default {
                 trigger: ".cases-carousel",
                 pin: true,
                 scrub: 0.1,
-                // snap: directionalSnap(1 / (sections.length - 1)),
                 end: "+=3000"
             }
         });
@@ -173,40 +157,5 @@ body,
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
-}
-
-
-
-.slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.blocHorizontal {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    width: 300vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-    overflow: hidden;
-}
-
-.containerscrollpro {
-    width: 100vw;
-    height: 200vh;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-x: hidden;
-    /* pour ie et mozilla */
-    -ms-overlow-style: none;
-    scrollbar-width: none;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
 </style>
