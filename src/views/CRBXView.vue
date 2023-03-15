@@ -247,7 +247,10 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
+        <div class="flex flex-row gap-3 items-center justify-center mt-6">
+            <img src="../../public/images/CRBX/CRBX_Maquette1.webp" class="shadow-lg" alt="">
+            <img src="../../public/images/CRBX/CRBX_Maquette2.webp" class="shadow-lg" alt="">
+            <img src="../../public/images/CRBX/CRBX_Maquette3.webp" class="shadow-lg" alt="">
         </div>
     </section>
 
@@ -267,15 +270,29 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div
-            class="flex flex-col gap-3 3xs:mx-[50px] 2xs:mx-[70px] xs:mx-[70px] sm:mr-32  sm:ml-[123px] md:ml-36 font-karla 3xs:text-sm xs:text-base md:text-lg font-light text-Extended/true-gray/900 mt-4  text-justify">
-            <p>Pour pouvoir avoir une bonne organisation, nous avons utilisé Trello qui est une application de gestion de
-                projet en ligne qui permet de collaborer et de travailler en équipe de manière organisée et efficace. Nous
-                avons aussi réalisé un Google Drive, ce qui nous a permis de mettre tous les documents que nous créons et
-                que nous avons besoin pour la suite de la création de notre NFT que ce soit des dossiers à remettre aux
-                commanditaires ou encore des posts à publier sur nos réseaux sociaux. Pour terminer, nous avons aussi
-                utilisé Figma en créant une Team ce qui nous a permis de créer à plusieurs la maquette ainsi que d’autres
-                documents.</p>
+        <div class="flex 3xs:flex-col sm:flex-row 3xs:gap-5 xs:gap-8 sm:gap-12 md:gap-24 items-center sm:mr-6 md:mr-9">
+            <div
+                class="flex 3xs:mx-[50px] 2xs:mx-[70px] xs:mx-[70px] sm:mr-0  sm:ml-[123px] md:ml-36 font-karla 3xs:text-sm xs:text-base md:text-lg font-light text-Extended/true-gray/900 mt-4 sm:w-[700px] md:w-[900px] text-justify">
+                <p>Pour pouvoir avoir une bonne organisation, nous avons utilisé Trello qui est une application de gestion
+                    de
+                    projet en ligne qui permet de collaborer et de travailler en équipe de manière organisée et efficace.
+                    Nous
+                    avons aussi réalisé un Google Drive, ce qui nous a permis de mettre tous les documents que nous créons
+                    et
+                    que nous avons besoin pour la suite de la création de notre NFT que ce soit des dossiers à remettre aux
+                    commanditaires ou encore des posts à publier sur nos réseaux sociaux. Pour terminer, nous avons aussi
+                    utilisé Figma en créant une Team ce qui nous a permis de créer à plusieurs la maquette ainsi que
+                    d’autres
+                    documents.
+                </p>
+            </div>
+            <div>
+                <a href="https://trello.com/home" target="_blank">
+                    <img src="../../public/logos/trello-logo-gradient-blue.svg"
+                        class="sm:w-[150px] md:w-[200px] h-auto object-cover hover:scale-125 ease-in-out duration-500 "
+                        alt="">
+                </a>
+            </div>
         </div>
     </section>
 
