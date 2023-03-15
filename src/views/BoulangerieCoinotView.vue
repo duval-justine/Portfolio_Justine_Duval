@@ -33,6 +33,40 @@
         </div>
     </section>
 
+    <!-- La Boulangerie -->
+    <section>
+        <!-- Titre -->
+        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+            <div class="flex flex-row 3xs:gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold 3xs:text-lg 2xs:text-2xl md:text-3xl text-Extended/red/900">01</p>
+            </div>
+            <h2 class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/true-gray/900 ">La Boulangerie
+                Pâtisserie du Coinot
+                :
+            </h2>
+        </div>
+
+        <!-- Texte -->
+        <div class="flex 3xs:flex-col sm:flex-row 3xs:gap-5 xs:gap-8 sm:gap-12 md:gap-24 items-center sm:mr-6 md:mr-9">
+            <div
+                class="flex 3xs:mx-[50px] 2xs:mx-[70px] xs:mx-[70px] sm:mr-0  sm:ml-[123px] md:ml-36 font-karla 3xs:text-sm xs:text-base md:text-lg font-light text-Extended/true-gray/900 mt-4 sm:w-[700px] md:w-[900px] text-justify">
+                <p>La Boulangerie du Coinot est une boulangerie familiale qui propose une sélection de pains et
+                    viennoiseries faites maison, ainsi que des pâtisseries uniques. Les produits sont frais et préparés avec
+                    soin. Les clients peuvent profiter d'un accueil chaleureux de la part de l'équipe de boulangers. Elle
+                    est située dans le centre ville de Montbéliard.
+                </p>
+            </div>
+            <div>
+                <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Logo.svg"
+                    class="3xs:w-64 sm:w-[150px] md:w-[200px] h-auto object-cover " alt="">
+            </div>
+        </div>
+    </section>
+
+
     <!-- Footer -->
     <Footerc />
 </template>
