@@ -343,7 +343,7 @@
         <section class="justify-center flex py-11 scroll-snap2 mb-8">
             <nav class="navv 3xs:hidden sm:flex">
                 <ul class="ull">
-                    <a href="https://www.instagram.com/jdxl.pro/" target="_blank">
+                    <a href="https://crbx.heinis.dev/" target="_blank">
                         <li class="lii font-space-grotesk">
                             Voir le site
                             <span></span><span></span><span></span><span></span>
@@ -352,7 +352,8 @@
                 </ul>
             </nav>
             <div class="sm:hidden bg-Extended/red/900 uppercase rounded-2xl p-3">
-                <a href="" class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">Voir
+                <a href="https://crbx.heinis.dev/"
+                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">Voir
                     le site</a>
             </div>
         </section>
