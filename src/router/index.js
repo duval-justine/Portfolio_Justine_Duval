@@ -10,6 +10,7 @@ import Fevrier2023View from '../views/Fevrier2023View.vue'
 import CRBXView from '../views/CRBXView.vue'
 import Janvier2023View from '../views/Janvier2023View.vue'
 import CharteBavansView from '../views/CharteBavansView.vue'
+import BoulangerieCoinotView from '../views/BoulangerieCoinotView.vue'
 import CitadelleView from '../views/CitadelleView.vue'
 
 import GaleriePhotosView from '../views/GaleriePhotosView.vue'
@@ -28,6 +29,7 @@ const router = createRouter({
     { path: '/crbx', name: 'Create Box', component: CRBXView },
     { path: '/janvier2023', name: 'Illustration de Janvier 2023', component: Janvier2023View },
     { path: '/chartebavans', name: 'Charte Graphique de Bavans', component: CharteBavansView },
+    { path: '/boulangeriecoinot', name: 'La Boualngerie Pâtisserie du Coinot', component: BoulangerieCoinotView },
     { path: '/citadelle', name: 'Citadelle', component: CitadelleView },
 
     { path: '/galeriephotos', name: 'Galerie Photos', component: GaleriePhotosView },
