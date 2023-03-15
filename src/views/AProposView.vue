@@ -350,8 +350,29 @@
 
             <!-- App -->
             <div class="container0 relative h-screen z-0 bg-Extended/red/50">
-                <div>
-
+                <div class="md:hidden">
+                    <div class="flex1 w-full snap-x gap-5 overflow-x-auto ">
+                        <div class="shrink-0 snap-center first:pl-0 last:pr-0 ">
+                            <img src="../../public/images/Sherazade/Sherazade_Scroll1.webp"
+                                class="shrink-0 3xs:hidden xs:flex" alt="">
+                            <img src="../../public/images/GaleriePhotos/1.webp" class="shrink-0 xs:hidden h-[300px]" alt="">
+                        </div>
+                        <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                            <img src="../../public/images/Sherazade/Sherazade_Scroll2.webp"
+                                class="shrink-0 3xs:hidden xs:flex" alt="">
+                            <img src="../../public/images/GaleriePhotos/10.webp" class="shrink-0 xs:hidden h-[300px]"
+                                alt="">
+                        </div>
+                        <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                            <img src="../../public/images/Sherazade/Sherazade_Scroll3.webp"
+                                class="shrink-0 3xs:hidden xs:flex" alt="">
+                            <img src="../../public/images/GaleriePhotos/13.webp" class="shrink-0 xs:hidden h-[300px]"
+                                alt="">
+                        </div>
+                        <div class="shrink-0 snap-center first:pl-0 last:pr-0 xs:hidden">
+                            <img src="../../public/images/GaleriePhotos/18.webp" class="shrink-0 h-[300px] " alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Fin App -->
