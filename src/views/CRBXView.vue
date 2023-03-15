@@ -248,18 +248,27 @@
         </div>
         <!-- Texte -->
         <div class="flex flex-row gap-3 items-center justify-center mt-6">
-            <img src="../../public/images/CRBX/CRBX_Maquette1.webp" class="shadow-lg" alt="">
-            <img src="../../public/images/CRBX/CRBX_Maquette2.webp" class="shadow-lg" alt="">
-            <img src="../../public/images/CRBX/CRBX_Maquette3.webp" class="shadow-lg" alt="">
+            <img src="../../public/images/CRBX/CRBX_Maquette1.webp"
+                class="shadow-lg 3xs:h-32 2xs:h-40  xs:h-48 sm:h-72 md:h-full" alt="">
+            <img src="../../public/images/CRBX/CRBX_Maquette2.webp"
+                class="shadow-lg 3xs:h-32 2xs:h-40  xs:h-48 sm:h-72 md:h-full" alt="">
+            <img src="../../public/images/CRBX/CRBX_Maquette3.webp"
+                class="shadow-lg 3xs:hidden xs:flex           xs:h-48 sm:h-72 md:h-full" alt="">
         </div>
-        <div class="flex flex-row gap-3 items-center justify-center mt-6">
-            <img src="../../public/images/CRBX/CRBX_Maquette4.webp" class="shadow-lg" alt="">
-            <img src="../../public/images/CRBX/CRBX_Maquette5.webp" class="shadow-lg" alt="">
-            <img src="../../public/images/CRBX/CRBX_Maquette6.webp" class="shadow-lg" alt="">
+        <div class="flex flex-row gap-3 items-center justify-center mt-3 xs:hidden">
+            <img src="../../public/images/CRBX/CRBX_Maquette3.webp" class="shadow-lg 3xs:h-[260px] 2xs:h-[325px]" alt="">
+            <img src="../../public/images/CRBX/CRBX_Maquette4.webp" class="shadow-lg 3xs:h-[260px] 2xs:h-[325px]" alt="">
+
         </div>
-        <!-- <div class="flex justify-center mt-3">
-            <img src="../../public/images/CRBX/CRBX_Demo.gif" class="shadow-lg" alt="">
-        </div> -->
+        <div class="flex flex-row gap-3 items-center justify-center mt-3">
+            <img src="../../public/images/CRBX/CRBX_Maquette4.webp"
+                class="shadow-lg 3xs:hidden xs:flex           xs:h-48 sm:h-72 md:h-full" alt="">
+            <img src="../../public/images/CRBX/CRBX_Maquette5.webp"
+                class="shadow-lg 3xs:h-32 2xs:h-40  xs:h-48 sm:h-72 md:h-full" alt="">
+            <img src="../../public/images/CRBX/CRBX_Maquette6.webp"
+                class="shadow-lg 3xs:h-32 2xs:h-40  xs:h-48 sm:h-72 md:h-full" alt="">
+        </div>
+
     </section>
 
     <!-- L'organisation -->
@@ -297,11 +306,12 @@
             <div>
                 <a href="https://trello.com/home" target="_blank">
                     <img src="../../public/logos/trello-logo-gradient-blue.svg"
-                        class="sm:w-[150px] md:w-[200px] h-auto object-cover hover:scale-125 ease-in-out duration-500 "
+                        class="3xs:w-36 xs:w-52 sm:w-[150px] md:w-[200px] h-auto object-cover hover:scale-125 ease-in-out duration-500 "
                         alt="">
                 </a>
             </div>
         </div>
+
     </section>
 
     <!-- Le site final-->
@@ -319,8 +329,34 @@
             </h2>
         </div>
         <!-- Texte -->
-        <div class="flex flex-col gap-3 ml-36 font-karla text-lg font-light text-Extended/true-gray/900 mt-4 mr-72">
+        <div
+            class="flex flex-col gap-3 3xs:mx-[50px] 2xs:mx-[70px] xs:mx-[70px] sm:mr-32  sm:ml-[123px] md:ml-36 font-karla 3xs:text-sm xs:text-base md:text-lg font-light text-Extended/true-gray/900 mt-4  text-justify">
+            <p>Maintenant, c’est à vous de venir tester notre site en créant votre propre NFT !
+            </p>
         </div>
+        <div class="flex justify-center 3xs:mt-5 xs:mt-8 sm:mt-16">
+            <img src="../../public/images/CRBX/CRBX_Demo.gif"
+                class="3xs:w-[300px] 2xs:w-[400px] xs:w-[600px] sm:w-[700px] md:w-[900px]" alt="">
+        </div>
+
+        <!-- Bouton Voir le site -->
+        <section class="justify-center flex py-11 scroll-snap2 mb-8">
+            <nav class="navv 3xs:hidden sm:flex">
+                <ul class="ull">
+                    <a href="https://www.instagram.com/jdxl.pro/" target="_blank">
+                        <li class="lii font-space-grotesk">
+                            Voir le site
+                            <span></span><span></span><span></span><span></span>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="sm:hidden bg-Extended/red/900 uppercase rounded-2xl p-3">
+                <a href="" class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">Voir
+                    le site</a>
+            </div>
+        </section>
+
     </section>
 </template>
 
