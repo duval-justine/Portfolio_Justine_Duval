@@ -118,7 +118,7 @@
                                     </RouterLink>
                                 </ul>
                             </nav>
-                            <div class="sm:hidden border-4 border-Extended/red/50  uppercase rounded-2xl p-3">
+                            <div class="sm:hidden border-4 border-Extended/red/50   rounded-2xl p-3">
                                 <RouterLink
                                     class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
                                     to="/projets">
@@ -148,7 +148,7 @@
                                     </RouterLink>
                                 </ul>
                             </nav>
-                            <div class="sm:hidden border-4 border-Extended/red/50   uppercase rounded-2xl p-3">
+                            <div class="sm:hidden border-4 border-Extended/red/50  rounded-2xl p-3">
                                 <RouterLink
                                     class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
                                     to="/galeriephotos">
@@ -180,7 +180,7 @@
                             </nav>
                             <div class="sm:hidden border-4 border-Extended/red/50   rounded-2xl p-3">
                                 <RouterLink
-                                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50 uppercase"
+                                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50 "
                                     to="/">
                                     Voir mes créations
                                 </RouterLink>
