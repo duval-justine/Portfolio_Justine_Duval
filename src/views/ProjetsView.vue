@@ -60,7 +60,8 @@
             </div> -->
             <div class="mx-auto my-8 grid 3xs:grid-cols-1 xs:grid-cols-2  sm:grid-cols-2 md:grid-cols-3  gap-7">
                 <Vignette v-for="card in filteredCards" :key="card.id" :lien="card.lien" :image="card.image"
-                    :titre="card.titre" :description="card.description" :date="card.date" />
+                    :titre="card.titre" :titrexs="card.titrexs" :description="card.description" :date="card.date"
+                    :texte="card.texte" />
             </div>
         </div>
 
@@ -80,18 +81,18 @@ export default {
         return {
             selectedCategory: 'all',
             cards: [
-                { id: 12, lien: '/sherazadebnails', image: 'images/Sherazade/Sherazade_Vignette.webp', category: 'perso', titre: 'Affiche tarifaire', description: 'Création d\'une affiche tarifaire pour Shérazade HomeSalon', date: 'Mars 2023' },
-                { id: 11, lien: '/fevrier2023', image: 'images/Fevrier2023/Fevrier2023_Vignette.webp', category: 'perso', titre: 'Illustration sur le thème de Février', description: 'Séries d\'illustration sur le thème du mois de Février avec la création d\'une carte postale', date: 'Février 2023' },
-                { id: 10, lien: '/crbx', image: 'images/CRBX/CRBX_Vignette.webp', category: 'sco', titre: 'Create Box', description: 'Création d\'un générateur de NFT\'', date: 'Janvier 2023' },
-                { id: 9, lien: '', image: 'images/EncreService/EncreService_CDV_Vignette.webp', category: 'alt', titre: 'Cartes de visite Encre Service', description: 'Création de carte de visite pour l\'entreprise Encre Service à Montbéliard', date: 'Janvier 2023' },
-                { id: 6, lien: '/janvier2023', image: 'images/Janvier2023/Janvier2023_Vignette.webp', category: 'perso', titre: 'Illustration sur le thème de Janvier', description: 'Séries d\'illustration sur le thème du mois de Janvier avec la création d\'une carte postale', date: 'Janvier 2023' },
-                { id: 8, lien: '/', image: 'images/Bavans/Bavans_Vignette.webp', category: 'sco', titre: 'Charte Graphique de Bavans', description: 'Refonte de la charte graphique de la commune de Bavans', date: 'Décembre 2023' },
-                { id: 7, lien: '/', image: 'images/ExpoUni/ExpoUni_Vignette.webp', category: 'sco', titre: 'Carte Postale', description: 'Création d\'une carte postale pour l\'exposition universelle 2024', date: 'Décembre 2023' },
-                { id: 5, lien: '', image: 'images/BoulangerieCoinot/BoulangerieCoinot_Vignette.webp', category: 'alt', titre: 'Carte des fêtes', description: 'Réalisation de la carte des fêtes 2022 pour la Boulangerie du Coinot', date: 'Novembre 2022' },
-                { id: 4, lien: '', image: 'images/Togethearth/Togethearth_Vignette.webp', category: 'sco', titre: 'Application Web Toget\'Heart', description: 'Création de l\'application Web du site Toget\'Hearth centrée sur l\'écologie et l\'environnement. ', date: 'Juin 2022' },
-                { id: 3, lien: '', image: 'images/Acapulco/Acapulco_Vignette.webp', category: 'sco', titre: 'Site Internet Acapul\'co', description: 'Création du site internet pour un Festival de Musique du genre Électronique nommé “Acapul\'co” organisé sur une plage.', date: 'Mai 2022' },
-                { id: 2, lien: '', image: 'images/CitadelleBesancon/CitadelleBesancon_Vignette.webp', category: 'sco', titre: 'Illustration de la Citadelle de Besancon', description: 'Réalisation d\'une illustration de la Citadelle de Besançon de nuit', date: 'Mars 2022' },
-                { id: 1, lien: '', image: 'images/Raphael/Raphael_Flyers_Vignette.webp', category: 'perso', titre: 'Flyers pour Tous Ensemble Pour Raphaël', description: 'Création de flyers pour l\'association Tous Ensemble Pour Raphaël', date: 'Mai 2022' },
+                { id: 12, lien: '/sherazadebnails', image: 'images/Sherazade/Sherazade_Vignette.webp', category: 'perso', titre: 'Affiche tarifaire', description: 'Création d\'une affiche tarifaire pour Shérazade HomeSalon', date: 'Mars 2023', titrexs: 'ShérazadeBNails', texte: 'Affiche Tarifs | 2023' },
+                { id: 11, lien: '/fevrier2023', image: 'images/Fevrier2023/Fevrier2023_Vignette.webp', category: 'perso', titre: 'Illustration sur le thème de Février', description: 'Séries d\'illustration sur le thème du mois de Février avec la création d\'une carte postale', date: 'Février 2023', titrexs: 'Février 2023', texte: 'Illustrations & Motion Design | Février 2023' },
+                { id: 10, lien: '/crbx', image: 'images/CRBX/CRBX_Vignette.webp', category: 'sco', titre: 'Create Box', description: 'Création d\'un générateur de NFT\'', date: 'Janvier 2023', titrexs: 'CRBX', texte: 'Générateur de NFT | Janvier 2023' },
+                { id: 9, lien: '', image: 'images/EncreService/EncreService_CDV_Vignette.webp', category: 'alt', titre: 'Cartes de visite Encre Service', description: 'Création de carte de visite pour l\'entreprise Encre Service à Montbéliard', date: 'Janvier 2023', titrexs: 'Encre Service Montbéliard', texte: 'Cartes de visite | Janvier 2023', },
+                { id: 6, lien: '/janvier2023', image: 'images/Janvier2023/Janvier2023_Vignette.webp', category: 'perso', titre: 'Illustration sur le thème de Janvier', description: 'Séries d\'illustration sur le thème du mois de Janvier avec la création d\'une carte postale', date: 'Janvier 2023', titrexs: 'Janvier 2023', texte: 'Illustrations & Motion Design | Janvier 2023' },
+                { id: 8, lien: '/', image: 'images/Bavans/Bavans_Vignette.webp', category: 'sco', titre: 'Charte Graphique de Bavans', description: 'Refonte de la charte graphique de la commune de Bavans', date: 'Décembre 2022', titrexs: 'Bavans', texte: 'Charte Graphique | Décembre 2022' },
+                { id: 7, lien: '/', image: 'images/ExpoUni/ExpoUni_Vignette.webp', category: 'sco', titre: 'Carte Postale', description: 'Création d\'une carte postale pour l\'exposition universelle 2024', date: 'Décembre 2022', titrexs: 'Exposition Universelle', texte: 'Carte Postale | Décembre 2022' },
+                { id: 5, lien: '', image: 'images/BoulangerieCoinot/BoulangerieCoinot_Vignette.webp', category: 'alt', titre: 'Carte des fêtes', description: 'Réalisation de la carte des fêtes 2022 pour la Boulangerie du Coinot', date: 'Novembre 2022', titrexs: 'oulangerie du Coinot', texte: 'Carte des fêtes | Novembre 2022' },
+                { id: 4, lien: '', image: 'images/Togethearth/Togethearth_Vignette.webp', category: 'sco', titre: 'Application Web Toget\'Heart', description: 'Création de l\'application Web du site Toget\'Hearth centrée sur l\'écologie et l\'environnement. ', date: 'Juin 2022', titrexs: 'Toget\'Hearth', texte: 'Site sur l\'écologie | Juin 2022' },
+                { id: 3, lien: '', image: 'images/Acapulco/Acapulco_Vignette.webp', category: 'sco', titre: 'Site Internet Acapul\'co', description: 'Création du site internet pour un Festival de Musique du genre Électronique nommé “Acapul\'co” organisé sur une plage.', date: 'Mai 2022', titrexs: 'Acapul\co', texte: 'Site d\'un festival | Mai 2022' },
+                { id: 2, lien: '', image: 'images/CitadelleBesancon/CitadelleBesancon_Vignette.webp', category: 'sco', titre: 'Illustration de la Citadelle de Besancon', description: 'Réalisation d\'une illustration de la Citadelle de Besançon de nuit', date: 'Mars 2022', titrexs: 'Citadelle de Besançon', texte: 'illustration & Animation | Mars 2022' },
+                { id: 1, lien: '', image: 'images/Raphael/Raphael_Flyers_Vignette.webp', category: 'perso', titre: 'Flyers pour Tous Ensemble Pour Raphaël', description: 'Création de flyers pour l\'association Tous Ensemble Pour Raphaël', date: 'Mai 2021', titrexs: 'Tous Ensemble Pour Raphaël', texte: 'Flyers | Mai 2021' },
             ],
         };
     },
