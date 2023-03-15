@@ -349,7 +349,7 @@
             <VagueTop class=" w-full h-auto" />
 
             <!-- App -->
-            <div class="container0 relative h-screen z-0 bg-Extended/red/50">
+            <div class="container0 relative h-16 z-0 bg-Extended/red/50">
 
             </div>
             <!-- Fin App -->
