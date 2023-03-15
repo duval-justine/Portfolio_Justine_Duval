@@ -127,6 +127,70 @@
         </div>
     </section>
 
+    <!-- Le MoodBoard -->
+    <section>
+        <!-- Titre -->
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+            <div class="flex flex-row 3xs:gap-4 items-center">
+                <div
+                    class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
+                </div>
+                <p class="font-space-grotesk font-bold 3xs:text-lg 2xs:text-2xl md:text-3xl text-Extended/red/900">04</p>
+            </div>
+            <h2 class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/true-gray/900 ">Mon MoodBoard
+                :
+            </h2>
+        </div>
+
+        <!-- Format Mobile -->
+        <div class="md:hidden">
+            <div class="flex w-full snap-x gap-0 overflow-x-auto ">
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0 ">
+                    <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll1.webp"
+                        class="shrink-0 3xs:hidden xs:flex" alt="">
+                    <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll1Phone.webp"
+                        class="shrink-0 xs:hidden h-screen" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                    <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll2.webp"
+                        class="shrink-0 3xs:hidden xs:flex" alt="">
+                    <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll2Phone.webp"
+                        class="shrink-0 xs:hidden h-screen" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                    <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll3.webp"
+                        class="shrink-0 3xs:hidden xs:flex" alt="">
+                    <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll3Phone.webp"
+                        class="shrink-0 xs:hidden h-screen" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0 xs:hidden">
+                    <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll4Phone.webp"
+                        class="shrink-0 h-screen " alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Desktop -->
+        <div class="3xs:hidden sm:flex">
+            <div class="bg-[#161616]">
+                <div class="cases-carousel my-4">
+                    <div class="case-item">
+                        <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll1.webp" class="imgscroll1"
+                            alt="">
+                    </div>
+                    <div class="case-item">
+                        <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll2.webp" class="imgscroll1"
+                            alt="">
+                    </div>
+                    <div class="case-item">
+                        <img src="../../public/images/BoulangerieCoinot/BoulangerieCoinot_Scroll3.webp" class="imgscroll1"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Les croquis -->
     <section>
         <!-- Titre -->
@@ -327,13 +391,56 @@
 </template>
 
 <script>
-
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import TopPage from "../components/TopPage.vue";
 import Footerc from "../components/Footer.vue";
 
+gsap.registerPlugin(ScrollTrigger);
 export default {
     components: { TopPage, Footerc },
+
+    mounted() {
+        window.addEventListener('load', function () {
+
+            let sections = gsap.utils.toArray(".case-item");
+
+            let scrollTween = gsap.to(sections, {
+                xPercent: -100 * (sections.length - 1),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".cases-carousel",
+                    pin: true,
+                    scrub: 0.1,
+                    end: "+=3000"
+                }
+            });
+        });
+    }
+
 
 }
 </script>
 
+
+<style>
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+.parent-element {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cases-carousel {
+    overflow-x: hidden;
+    width: 350%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+</style>
