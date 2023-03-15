@@ -60,7 +60,7 @@
     <!-- Le demande -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -84,7 +84,7 @@
     <!-- L'équipe -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -108,7 +108,7 @@
     <!-- Le concept -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -142,7 +142,7 @@
     <!-- Le MoodBoard -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -175,7 +175,7 @@
     <!-- Le fonctionnnement -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -202,7 +202,7 @@
     <!-- Mon travail -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -234,7 +234,7 @@
     <!-- La maquette -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -274,7 +274,7 @@
     <!-- L'organisation -->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -317,7 +317,7 @@
     <!-- Le site final-->
     <section>
         <!-- Titre -->
-        <div class="xs:mt-10 sm:mt-14 md:mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
+        <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-10 items-center">
             <div class="flex flex-row 3xs:gap-4 items-center">
                 <div
                     class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
@@ -356,18 +356,21 @@
                     le site</a>
             </div>
         </section>
-
     </section>
+
+    <!-- Footer -->
+    <Footerc />
 </template>
 
 <script>
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import TopPage from "../components/TopPage.vue";
+import Footerc from "../components/Footer.vue";
 
 gsap.registerPlugin(ScrollTrigger);
 export default {
-    components: { TopPage },
+    components: { TopPage, Footerc },
 
     mounted() {
         window.scrollTo(0, 0);
