@@ -192,33 +192,32 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import TopPage from "../components/TopPage.vue";
 import Footerc from "../components/Footer.vue";
 
-if (window.matchMedia("(min-width: 900px)").matches) {
-    gsap.registerPlugin(ScrollTrigger);
-}
-
 export default {
     components: { TopPage, Footerc },
 
-
     mounted() {
-        window.addEventListener('load', function () {
+        const mediaQuery = window.matchMedia('(min-width: 900px)');
 
-            let sections = gsap.utils.toArray(".case-item");
+        if (mediaQuery.matches) {
+            gsap.registerPlugin(ScrollTrigger);
 
-            let scrollTween = gsap.to(sections, {
-                xPercent: -100 * (sections.length - 1),
-                ease: "none",
-                scrollTrigger: {
-                    trigger: ".cases-carousel",
-                    pin: true,
-                    scrub: 0.1,
-                    end: "+=3000"
-                }
+            window.addEventListener('load', function () {
+
+                let sections = gsap.utils.toArray(".case-item");
+
+                let scrollTween = gsap.to(sections, {
+                    xPercent: -100 * (sections.length - 1),
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: ".cases-carousel",
+                        pin: true,
+                        scrub: 0.1,
+                        end: "+=3000"
+                    }
+                });
             });
-        });
+        }
     }
-
-
 }
 </script>
 
