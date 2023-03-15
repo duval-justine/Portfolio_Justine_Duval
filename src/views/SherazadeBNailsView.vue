@@ -114,22 +114,22 @@
                     <img src="../../public/images/Sherazade/Sherazade_Scroll1.webp" class="shrink-0 3xs:hidden xs:flex"
                         alt="">
                     <img src="../../public/images/Sherazade/Sherazade_Scroll1Phone.webp"
-                        class="shrink-0 xs:hidden h-[300px]" alt="">
+                        class="shrink-0 xs:hidden h-[900px]" alt="">
                 </div>
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0">
                     <img src="../../public/images/Sherazade/Sherazade_Scroll2.webp" class="shrink-0 3xs:hidden xs:flex"
                         alt="">
                     <img src="../../public/images/Sherazade/Sherazade_Scroll2Phone.webp"
-                        class="shrink-0 xs:hidden h-[300px]" alt="">
+                        class="shrink-0 xs:hidden h-[900px]" alt="">
                 </div>
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0">
                     <img src="../../public/images/Sherazade/Sherazade_Scroll3.webp" class="shrink-0 3xs:hidden xs:flex"
                         alt="">
                     <img src="../../public/images/Sherazade/Sherazade_Scroll3Phone.webp"
-                        class="shrink-0 xs:hidden h-[300px]" alt="">
+                        class="shrink-0 xs:hidden h-[900px]" alt="">
                 </div>
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0 xs:hidden">
-                    <img src="../../public/images/Sherazade/Sherazade_Scroll4Phone.webp" class="shrink-0 h-[300px] " alt="">
+                    <img src="../../public/images/Sherazade/Sherazade_Scroll4Phone.webp" class="shrink-0 h-[900px] " alt="">
                 </div>
             </div>
         </div>
@@ -254,4 +254,5 @@ body,
 
 .shrink-0 {
     scroll-snap-align: center;
-}</style>
+}
+</style>
