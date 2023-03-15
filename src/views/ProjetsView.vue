@@ -2,7 +2,7 @@
     <main>
         <!-- Component Accueil -->
         <section>
-            <TopPage img_test="" class="h-[100vh] bg-zinc-500" />
+            <TopPage img_test="/images/Projet_Couverture.webp" class="h-[100vh] bg-zinc-500" />
         </section>
 
         <!-- Bouton différentes section  -->
