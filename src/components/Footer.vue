@@ -17,10 +17,10 @@
             <RouterLink to="/projets">
                 Projets
             </RouterLink>
-            <RouterLink to="/">
+            <RouterLink to="/mentionslegales">
                 Mentions légales
             </RouterLink>
-            <RouterLink to="/">
+            <RouterLink to="/apropos">
                 À propos
             </RouterLink>
         </div>
