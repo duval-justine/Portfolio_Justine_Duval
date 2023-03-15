@@ -240,7 +240,8 @@
             </ul>
         </nav>
         <div class="sm:hidden bg-Extended/red/900 uppercase rounded-2xl p-3">
-            <a href="" class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">Voir sur
+            <a href="https://www.instagram.com/jdxl.pro/"
+                class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">Voir sur
                 Insta</a>
         </div>
     </section>
