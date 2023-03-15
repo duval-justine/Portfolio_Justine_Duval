@@ -9,6 +9,7 @@ import CRBXView from '../views/CRBXView.vue'
 import SherazadeBNailsView from '../views/SherazadeBNailsView.vue'
 import Fevrier2023View from '../views/Fevrier2023View.vue'
 import GaleriePhotosView from '../views/GaleriePhotosView.vue'
+import MentionsLegalesView from '../views/MentionsLegalesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +24,7 @@ const router = createRouter({
     { path: '/sherazadebnails', name: 'Affiche pour le HomeSalon Shérazade', component: SherazadeBNailsView },
     { path: '/fevrier2023', name: 'Illustration de Février 2023', component: Fevrier2023View },
     { path: '/galeriephotos', name: 'Galerie Photos', component: GaleriePhotosView },
+    { path: '/mentionslegales', name: 'Mentions Légales', component: MentionsLegalesView },
 
   ]
 })
