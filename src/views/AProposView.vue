@@ -350,33 +350,7 @@
 
             <!-- App -->
             <div class="container0 relative h-screen z-0 bg-Extended/red/50">
-                <!-- Format Mobile -->
-                <div class="sm:hidden">
-                    <div class="flex1 w-full snap-x gap-5 overflow-x-auto ">
-                        <div class="shrink-0 snap-center first:pl-0 last:pr-0 ">
-                            <img src="../../public/images/Sherazade/Sherazade_Scroll1.webp"
-                                class="shrink-0 3xs:hidden xs:flex" alt="">
-                            <img src="../../public/images/Sherazade/Sherazade_Scroll1Phone.webp"
-                                class="shrink-0 xs:hidden h-[900px]" alt="">
-                        </div>
-                        <div class="shrink-0 snap-center first:pl-0 last:pr-0">
-                            <img src="../../public/images/Sherazade/Sherazade_Scroll2.webp"
-                                class="shrink-0 3xs:hidden xs:flex" alt="">
-                            <img src="../../public/images/Sherazade/Sherazade_Scroll2Phone.webp"
-                                class="shrink-0 xs:hidden h-[900px]" alt="">
-                        </div>
-                        <div class="shrink-0 snap-center first:pl-0 last:pr-0">
-                            <img src="../../public/images/Sherazade/Sherazade_Scroll3.webp"
-                                class="shrink-0 3xs:hidden xs:flex" alt="">
-                            <img src="../../public/images/Sherazade/Sherazade_Scroll3Phone.webp"
-                                class="shrink-0 xs:hidden h-[900px]" alt="">
-                        </div>
-                        <div class="shrink-0 snap-center first:pl-0 last:pr-0 xs:hidden">
-                            <img src="../../public/images/Sherazade/Sherazade_Scroll4Phone.webp" class="shrink-0 h-[900px] "
-                                alt="">
-                        </div>
-                    </div>
-                </div>
+
             </div>
             <!-- Fin App -->
 
@@ -395,6 +369,7 @@ import Activites from "../components/icons/ActivitesIcon.vue";
 import VagueTop from "../components/VagueTop.vue";
 import VagueBott from "../components/VagueBott.vue";
 import Footerc from "../components/Footer.vue";
+
 export default {
     components: { Header, VagueTop, VagueBott, Footerc, Graphisme, Photographie, Activites }
 }

@@ -109,7 +109,7 @@
 
         <!-- Format Mobile -->
         <div class="sm:hidden">
-            <div class="flex1 w-full snap-x gap-5 overflow-x-auto ">
+            <div class="flex1 w-full snap-x gap-0 overflow-x-auto ">
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0 ">
                     <img src="../../public/images/Sherazade/Sherazade_Scroll1.webp" class="shrink-0 3xs:hidden xs:flex"
                         alt="">
