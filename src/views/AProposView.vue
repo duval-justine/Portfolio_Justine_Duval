@@ -28,22 +28,26 @@
             <section>
                 <div class="container0 relative z-0 bg-Extended/red/50">
                     <!-- Titre -->
-                    <div class="mt-16 flex flex-row gap-16 items-center">
+                    <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-16 items-center">
                         <div class="flex flex-row gap-4 items-center">
                             <div
                                 class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
                             </div>
-                            <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">01</p>
+                            <p
+                                class="font-space-grotesk font-bold 3xs:text-lg 2xs:text-2xl md:text-3xl text-Extended/red/900">
+                                01</p>
                         </div>
-                        <h2 class="font-karla font-bold text-2xl text-Extended/true-gray/900 uppercase ">Qui
+                        <h2
+                            class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/true-gray/900 uppercase">
+                            Qui
                             suis-je ?
                         </h2>
                     </div>
                     <!-- Contenu -->
-                    <div class="px-[70px] mt-16 flex flex-row gap-24 items-center mb-16">
+                    <div class="sm:px-[70px] mt-16 flex 3xs:flex-col sm:flex-row gap-24 items-center mb-16">
                         <!-- Textes -->
                         <div
-                            class="flex flex-col gap-3 font-karla font-light text-xl text-Extended/true-gray/900 w-[680px] text-justify">
+                            class="flex flex-col gap-3 3xs:mx-[50px] 2xs:mx-[70px] xs:mx-[70px] sm:mr-0 font-karla font-light 3xs:text-base xs:text-lg md:text-xl text-Extended/true-gray/900  sm:w-[680px] text-justify">
                             <p>Je m’appelle Justine et j’ai 19 ans. Je suis étudiante en bachelor métiers du multimédia et
                                 de l’internet à Montbéliard, où j’ai choisi de me spécialiser dans le parcours création. 
                             </p>
@@ -65,8 +69,8 @@
                         </div>
                         <!-- Image -->
                         <div>
-                            <img class="w-full h-auto" src="../../public/images/Justine/Justine_Image2.webp"
-                                alt="Image de Justine">
+                            <img class="3xs:w-80 2xs:w-96   xs:w-full h-auto object-cover shadow-lg "
+                                src="../../public/images/Justine/Justine_Image2.webp" alt="Image de Justine">
                         </div>
                     </div>
                 </div>
@@ -78,22 +82,27 @@
             <!-- Passion -->
             <div class="-mt-1 container0 relative  z-0 bg-Extended/red/900">
                 <!-- Titre -->
-                <div class="mt-16 flex flex-row gap-16 items-center">
+                <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-16 items-center">
                     <div class="flex flex-row gap-4 items-center">
                         <div
                             class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/red/50">
                         </div>
-                        <p class="font-space-grotesk font-bold text-3xl text-Extended/red/200">02</p>
+                        <p class="font-space-grotesk font-bold 3xs:text-lg 2xs:text-2xl md:text-3xl text-Extended/red/200">
+                            02</p>
                     </div>
-                    <h2 class="font-karla font-bold text-2xl text-Extended/red/50 uppercase ">Mes passions
+                    <h2 class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/red/50 uppercase ">Mes
+                        passions
                     </h2>
                 </div>
                 <!-- Contenu -->
-                <div class="flex flex-row gap-44 mt-16 px-32 mb-16 ">
+                <div
+                    class="flex 3xs:flex-col sm:flex-row 3xs:gap-14 2xs:gap-20 xs:gap-36 sm:gap-20 md:gap-32 mt-16 3xs:px-10 2xs:px-20 xs:px-28 sm:px-20 md:px-28 mb-16 ">
                     <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
                         <Graphisme />
-                        <h4 class="font-bold text-base text-center ">Graphisme / Web-Design</h4>
-                        <p class=" font-light text-sm  text-justify">J’aime beaucoup le design graphique et le web design.
+                        <h4 class="font-bold sm:text-sm md:text-base text-center ">Graphisme / Web-Design</h4>
+                        <p class=" font-light sm:text-xs md:text-sm text-justify">J’aime beaucoup le
+                            design graphique et le
+                            web design.
                             J’aime travailler avec différentes couleurs, formes et typographies pour créer des designs qui
                             attirent le regard et transmettent un message. J'apprecis également l’aspect technique du web,
                             en réalisant plusieurs maquettes et en utilisant des langages de programmation pour donner vie à
@@ -121,8 +130,9 @@
 
                     <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
                         <Photographie />
-                        <h4 class="font-bold text-base text-center ">Photographie</h4>
-                        <p class=" font-light text-sm  text-justify">Lors de mon temps libre, j’aime me plonger dans
+                        <h4 class="font-bold sm:text-sm md:text-base  text-center ">Photographie</h4>
+                        <p class=" font-light sm:text-xs md:text-sm  text-justify">Lors de mon temps libre, j’aime me
+                            plonger dans
                             l’univers de la photographie en capturant des moments de la vie quotidienne ainsi que de
                             magnifiques paysages qui m’entourent. Ceci me permet de me déconnecter du monde, de me
                             ressourcer et de pouvoir me concentrer sur le prise de vue de mes différentes photos. J’aime
@@ -149,8 +159,9 @@
                     </div>
                     <div class="flex flex-col font-karla text-Extended/red/50 gap-5 justify-center items-center">
                         <Activites />
-                        <h4 class="font-bold text-base text-center ">Activités Manuelles</h4>
-                        <p class=" font-light text-sm  text-justify">Depuis toute petite, j’aime réaliser des activités
+                        <h4 class="font-bold sm:text-sm md:text-base  text-center ">Activités Manuelles</h4>
+                        <p class=" font-light sm:text-xs md:text-sm text-justify">Depuis toute petite, j’aime réaliser des
+                            activités
                             manuelles notamment du Scrapbooking, du dessin ainsi que plein d’autres activités. J’aime
                             beaucoup la liberté créative que ses activités peuvent procurer. Aujourd’hui, je continue de
                             réaliser du scrapbooking notamment en réalisant des invitations où des albums photos pour mes
@@ -185,45 +196,52 @@
             <!-- Logiciels -->
             <div class="container0 relative  z-0 bg-Extended/red/50">
                 <!-- Titre -->
-                <div class="mt-16 flex flex-row gap-16 items-center">
+                <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-16 items-center">
                     <div class="flex flex-row gap-4 items-center">
                         <div
                             class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/true-gray/900">
                         </div>
-                        <p class="font-space-grotesk font-bold text-3xl text-Extended/red/900">03</p>
+                        <p class="font-space-grotesk font-bold 3xs:text-lg 2xs:text-2xl md:text-3xl text-Extended/red/900">
+                            03</p>
                     </div>
-                    <h2 class="font-karla font-bold text-2xl text-Extended/true-gray/900 uppercase ">Mes Logiciels
+                    <h2
+                        class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/true-gray/900 uppercase ">
+                        Mes Logiciels
                     </h2>
                 </div>
                 <!-- Contenu -->
-                <div class="flex flex-row gap-14 justify-center items-center my-36 ">
-                    <a class="hover:scale-125 ease-in-out duration-500" href="https://www.figma.com/fr/" target="_blank">
-                        <img src="../../public/logos/figma.webp" alt="">
-                    </a>
-                    <a class="hover:scale-125 ease-in-out duration-500"
-                        href="https://www.adobe.com/fr/products/illustrator.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3Loq_eYhjOx1WyQYTTEww_2qjaMX5y02e4Adza6zTmteAZNaZGHxUaAkioEALw_wcB&mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3Loq_eYhjOx1WyQYTTEww_2qjaMX5y02e4Adza6zTmteAZNaZGHxUaAkioEALw_wcB:G:s&s_kwcid=AL!3085!3!600183673895!e!!g!!illustrator!1478148655!58836721124"
-                        target="_blank">
-                        <img src="../../public/logos/illustrator.webp" alt="">
-                    </a>
-                    <a class="hover:scale-125 ease-in-out duration-500"
-                        href="https://www.adobe.com/fr/products/photoshop.html" target="_blank">
-                        <img src="../../public/logos/photoshop.webp" alt="">
-                    </a>
-                    <a class="hover:scale-125 ease-in-out duration-500"
-                        href="https://www.adobe.com/fr/products/indesign/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3a-aQ1jaguEVHurDdqesrPIiWdOPoppQ0LKxJfeunOjaXFpu-NFAwaAgNQEALw_wcB&mv=search&mv=search&sdid=LCDWTLJX&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3a-aQ1jaguEVHurDdqesrPIiWdOPoppQ0LKxJfeunOjaXFpu-NFAwaAgNQEALw_wcB:G:s&s_kwcid=AL!3085!3!600117236569!e!!g!!indesign!1435912704!58952470471"
-                        target="_blank">
-                        <img src="../../public/logos/indesign.webp" alt="">
-                    </a>
-                    <a class="hover:scale-125 ease-in-out duration-500"
-                        href="https://www.adobe.com/fr/products/premiere/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3CKkh3-6hgdKz_uJStPiWOxP-F-TxV1QkirfFTEzOJcyh9_eceKicaAkmHEALw_wcB&mv=search&mv=search&sdid=LQLZT7BT&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3CKkh3-6hgdKz_uJStPiWOxP-F-TxV1QkirfFTEzOJcyh9_eceKicaAkmHEALw_wcB:G:s&s_kwcid=AL!3085!3!341217015802!e!!g!!premiere%20pro!1435912734!56537474099"
-                        target="_blank">
-                        <img src="../../public/logos/premierepro.webp" alt="">
-                    </a>
-                    <a class="hover:scale-125 ease-in-out duration-500"
-                        href="https://www.adobe.com/fr/products/aftereffects/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3MTP77o78MDmwSe1SEG6bbxdCDBqABlWHEsk709iZuJKI2ZeUZwtsaAmxAEALw_wcB&mv=search&mv=search&sdid=MYYBRYZH&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3MTP77o78MDmwSe1SEG6bbxdCDBqABlWHEsk709iZuJKI2ZeUZwtsaAmxAEALw_wcB:G:s&s_kwcid=AL!3085!3!600183576446!e!!g!!after%20effect!1435912503!56537400619"
-                        target="_blank">
-                        <img src="../../public/logos/aftereffect.webp" alt="">
-                    </a>
+                <div class="flex flex-col items-center ">
+                    <div
+                        class="mx-auto 3xs:my-14 2xs:my-16 xs:my-24 sm:my-28 md:my-36 grid 3xs:grid-cols-2 xs:grid-cols-3  sm:grid-cols-3 md:grid-cols-6 3xs:gap-9  xs:gap-14">
+                        <a class="hover:scale-125 ease-in-out duration-500" href="https://www.figma.com/fr/"
+                            target="_blank">
+                            <img src="../../public/logos/figma.webp" alt="">
+                        </a>
+                        <a class="hover:scale-125 ease-in-out duration-500"
+                            href="https://www.adobe.com/fr/products/illustrator.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3Loq_eYhjOx1WyQYTTEww_2qjaMX5y02e4Adza6zTmteAZNaZGHxUaAkioEALw_wcB&mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3Loq_eYhjOx1WyQYTTEww_2qjaMX5y02e4Adza6zTmteAZNaZGHxUaAkioEALw_wcB:G:s&s_kwcid=AL!3085!3!600183673895!e!!g!!illustrator!1478148655!58836721124"
+                            target="_blank">
+                            <img src="../../public/logos/illustrator.webp" alt="">
+                        </a>
+                        <a class="hover:scale-125 ease-in-out duration-500"
+                            href="https://www.adobe.com/fr/products/photoshop.html" target="_blank">
+                            <img src="../../public/logos/photoshop.webp" alt="">
+                        </a>
+                        <a class="hover:scale-125 ease-in-out duration-500"
+                            href="https://www.adobe.com/fr/products/indesign/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3a-aQ1jaguEVHurDdqesrPIiWdOPoppQ0LKxJfeunOjaXFpu-NFAwaAgNQEALw_wcB&mv=search&mv=search&sdid=LCDWTLJX&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3a-aQ1jaguEVHurDdqesrPIiWdOPoppQ0LKxJfeunOjaXFpu-NFAwaAgNQEALw_wcB:G:s&s_kwcid=AL!3085!3!600117236569!e!!g!!indesign!1435912704!58952470471"
+                            target="_blank">
+                            <img src="../../public/logos/indesign.webp" alt="">
+                        </a>
+                        <a class="hover:scale-125 ease-in-out duration-500"
+                            href="https://www.adobe.com/fr/products/premiere/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3CKkh3-6hgdKz_uJStPiWOxP-F-TxV1QkirfFTEzOJcyh9_eceKicaAkmHEALw_wcB&mv=search&mv=search&sdid=LQLZT7BT&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3CKkh3-6hgdKz_uJStPiWOxP-F-TxV1QkirfFTEzOJcyh9_eceKicaAkmHEALw_wcB:G:s&s_kwcid=AL!3085!3!341217015802!e!!g!!premiere%20pro!1435912734!56537474099"
+                            target="_blank">
+                            <img src="../../public/logos/premierepro.webp" alt="">
+                        </a>
+                        <a class="hover:scale-125 ease-in-out duration-500"
+                            href="https://www.adobe.com/fr/products/aftereffects/landpb.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh3MTP77o78MDmwSe1SEG6bbxdCDBqABlWHEsk709iZuJKI2ZeUZwtsaAmxAEALw_wcB&mv=search&mv=search&sdid=MYYBRYZH&ef_id=Cj0KCQjwtsCgBhDEARIsAE7RYh3MTP77o78MDmwSe1SEG6bbxdCDBqABlWHEsk709iZuJKI2ZeUZwtsaAmxAEALw_wcB:G:s&s_kwcid=AL!3085!3!600183576446!e!!g!!after%20effect!1435912503!56537400619"
+                            target="_blank">
+                            <img src="../../public/logos/aftereffect.webp" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
             <!-- Fin Logiciels -->
@@ -233,14 +251,16 @@
             <!-- CV -->
             <div class="-mt-1 container0 relative h-screen z-0 bg-Extended/red/900">
                 <!-- Titre -->
-                <div class="mt-16 flex flex-row gap-16 items-center">
+                <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-16 items-center">
                     <div class="flex flex-row gap-4 items-center">
                         <div
                             class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[13px] xs:w-[57px] border-Extended/red/50">
                         </div>
-                        <p class="font-space-grotesk font-bold text-3xl text-Extended/red/200">04</p>
+                        <p class="font-space-grotesk font-bold 3xs:text-lg 2xs:text-2xl md:text-3xl text-Extended/red/200">
+                            04</p>
                     </div>
-                    <h2 class="font-karla font-bold text-2xl text-Extended/red/50 uppercase ">Mon CV
+                    <h2 class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/red/50 uppercase ">Mon
+                        CV
                     </h2>
                 </div>
                 <!-- Bouton CV -->
