@@ -24,7 +24,7 @@
     </div> -->
 
     <div class="sm:hidden m-5 w-[313px] h-[370px] relative">
-        <img class="rounded-[30px] absolute w-full h-[313px] object-cover " :src="image" alt="">
+        <img class="rounded-[30px] absolute w-full h-[313px] object-cover shadow-xl " :src="image" alt="">
         <div
             class="absolute h-[313px] rounded-[30px] inset-0 bg-gradient-to-b from-transparent to-Extended/true-gray/900 opacity-75">
         </div>
@@ -32,7 +32,8 @@
         <div>
             <a href="">
                 <RouterLink :to="lien">
-                    <button class="w-[158px] h-11 absolute left-[139.5px] top-[290.5px] rounded-3xl bg-Extended/red/900">
+                    <button
+                        class="w-[158px] h-11 absolute left-[139.5px] top-[290.5px] rounded-3xl bg-Extended/red/900 shadow-xl">
                         <p class="absolute text-lg ml-7 -mt-3 font-space-grotesk font-medium text-Extended/red/50">
                             Lire la
                             suite</p>
