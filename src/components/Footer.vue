@@ -62,13 +62,13 @@
         <!-- Section / Menu Footer -->
         <div
             class="font-space-grotesk font-medium 3xs:text-base 2xs:text-lg justify-center text-Extended/red/50 flex flex-row 3xs:gap-6 2xs:gap-12">
-            <RouterLink to="/projetsco">
+            <RouterLink to="/projets">
                 Projets
             </RouterLink>
-            <RouterLink to="/">
+            <RouterLink to="/mentionslegales">
                 Mentions légales
             </RouterLink>
-            <RouterLink to="/">
+            <RouterLink to="/apropos">
                 À propos
             </RouterLink>
         </div>
