@@ -118,9 +118,9 @@
                                     </RouterLink>
                                 </ul>
                             </nav>
-                            <div class="sm:hidden bg-Extended/red/50 uppercase rounded-2xl p-3">
+                            <div class="sm:hidden border-4 border-Extended/red/50  uppercase rounded-2xl p-3">
                                 <RouterLink
-                                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/900"
+                                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
                                     to="/projets">
                                     Voir mes projets
                                 </RouterLink>
@@ -148,9 +148,9 @@
                                     </RouterLink>
                                 </ul>
                             </nav>
-                            <div class="sm:hidden bg-Extended/red/50 uppercase rounded-2xl p-3">
+                            <div class="sm:hidden border-4 border-Extended/red/50   uppercase rounded-2xl p-3">
                                 <RouterLink
-                                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/900"
+                                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
                                     to="/galeriephotos">
                                     Voir mes photos
                                 </RouterLink>
@@ -178,9 +178,9 @@
                                     </RouterLink>
                                 </ul>
                             </nav>
-                            <div class="sm:hidden bg-Extended/red/50  rounded-2xl p-3">
+                            <div class="sm:hidden border-4 border-Extended/red/50   rounded-2xl p-3">
                                 <RouterLink
-                                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/900"
+                                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50 uppercase"
                                     to="/">
                                     Voir mes créations
                                 </RouterLink>
@@ -248,7 +248,7 @@
 
             <VagueBott class="w-full h-auto" />
 
-            <!-- CV -->
+            <!-- Contact -->
             <div class="-mt-1 container0 relative h-screen z-0 bg-Extended/red/900">
                 <!-- Titre -->
                 <div class="mt-16 flex flex-row 3xs:gap-2 2xs:gap-4 xs:gap-6 md:gap-16 items-center">
@@ -259,31 +259,90 @@
                         <p class="font-space-grotesk font-bold 3xs:text-lg 2xs:text-2xl md:text-3xl text-Extended/red/200">
                             04</p>
                     </div>
-                    <h2 class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/red/50 uppercase ">Mon
-                        CV
+                    <h2 class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/red/50 uppercase ">Me
+                        contacter
                     </h2>
                 </div>
-                <!-- Bouton CV -->
-                <section class="justify-center flex py-11 scroll-snap2">
-                    <nav class="navvv 3xs:hidden sm:flex">
-                        <ul class="ulll">
-                            <RouterLink class="" to="/">
-                                <li class="liii font-space-grotesk">
-                                    Télécharger mon CV
-                                    <span></span><span></span><span></span><span></span>
-                                </li>
-                            </RouterLink>
-                        </ul>
-                    </nav>
-                    <div class="sm:hidden bg-Extended/red/50 uppercase rounded-2xl p-3">
-                        <RouterLink
-                            class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
-                            to="/projets">
-                            Télécharger mon CV
-                        </RouterLink>
+
+                <!-- Mes réseaux sociaux  -->
+                <section>
+                    <div class="flex flex-row gap-8 items-center justify-center mt-32">
+                        <div
+                            class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[23px] xs:w-[50px] border-Extended/red/50">
+                        </div>
+                        <div>
+                            <h3
+                                class="font-karla font-bold 3xs:text-lg 2xs:text-xl md:text-2xl text-Extended/red/50 text-center ">
+                                Mes
+                                réseaux sociaux</h3>
+                        </div>
+                        <div
+                            class=" 3xs:border-t-2 2xs:border-t-[3px] 3xs:w-2 2xs:w-[23px] xs:w-[50px] border-Extended/red/50">
+                        </div>
+                    </div>
+                    <div
+                        class="flex mt-16 flex-row 3xs:gap-6 2xs:gap-8 xs:gap-4 sm:gap-8 md:gap-10 items-center justify-center mb-16">
+                        <a href="https://www.instagram.com/jdxl.pro/" target="_blank"
+                            class="hover:scale-110 ease-in-out duration-300">
+                            <img class="3xs:w-14 2xs:w-16 xs:w-12 sm:w-14 md:w-16"
+                                src="../../public/logos/Instagram_Glyph_White-1.webp" alt="Logo Instagram">
+                        </a>
+                        <a href="https://www.tiktok.com/@justine.pro" target="_blank"
+                            class="hover:scale-110 ease-in-out duration-300">
+                            <img class="3xs:w-16 2xs:w-20 xs:w-14 sm:w-16 md:w-24" src="../../public/logos/tiktok_logo.webp"
+                                alt="Logo TikTok">
+                        </a>
+                        <a href="https://www.behance.net/justineduvalpro" target="_blank"
+                            class="hover:scale-110 ease-in-out duration-300">
+                            <img class="3xs:w-14 2xs:w-16 xs:w-12 sm:w-14 md:w-16"
+                                src="../../public/logos/behance_logo.webp" alt="Logo Behance">
+                        </a>
                     </div>
                 </section>
-                <!-- Fin du Bouton CV -->
+                <div class="flex 3xs:flex-col xs:flex-row 3xs:gap-10 xs:gap-9 items-center justify-center">
+                    <!-- Bouton Mail -->
+                    <section class="justify-center flex xs:py-11 scroll-snap2">
+                        <nav class="navvv 3xs:hidden sm:flex">
+                            <ul class="ulll">
+                                <RouterLink class="" to="/">
+                                    <li class="liii font-space-grotesk">
+                                        M'envoyer un mail
+                                        <span></span><span></span><span></span><span></span>
+                                    </li>
+                                </RouterLink>
+                            </ul>
+                        </nav>
+                        <div class="sm:hidden  border-4 border-Extended/red/50 uppercase rounded-2xl p-3">
+                            <RouterLink
+                                class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
+                                to="/projets">
+                                M'envoyer un mail
+                            </RouterLink>
+                        </div>
+                    </section>
+                    <!-- Fin du Bouton Mail -->
+                    <!-- Bouton CV -->
+                    <section class="justify-center flex xs:py-11 scroll-snap2">
+                        <nav class="navvv 3xs:hidden sm:flex">
+                            <ul class="ulll">
+                                <RouterLink class="" to="/">
+                                    <li class="liii font-space-grotesk">
+                                        Télécharger mon CV
+                                        <span></span><span></span><span></span><span></span>
+                                    </li>
+                                </RouterLink>
+                            </ul>
+                        </nav>
+                        <div class="sm:hidden border-4 border-Extended/red/50  uppercase rounded-2xl p-3">
+                            <RouterLink
+                                class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
+                                to="/projets">
+                                Télécharger mon CV
+                            </RouterLink>
+                        </div>
+                    </section>
+                    <!-- Fin du Bouton CV -->
+                </div>
             </div>
             <!-- Fin CV -->
 
