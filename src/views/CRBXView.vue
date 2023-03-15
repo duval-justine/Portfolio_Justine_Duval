@@ -257,9 +257,9 @@
             <img src="../../public/images/CRBX/CRBX_Maquette5.webp" class="shadow-lg" alt="">
             <img src="../../public/images/CRBX/CRBX_Maquette6.webp" class="shadow-lg" alt="">
         </div>
-        <div class="flex justify-center mt-3">
+        <!-- <div class="flex justify-center mt-3">
             <img src="../../public/images/CRBX/CRBX_Demo.gif" class="shadow-lg" alt="">
-        </div>
+        </div> -->
     </section>
 
     <!-- L'organisation -->
