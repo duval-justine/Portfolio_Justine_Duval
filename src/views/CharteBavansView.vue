@@ -347,7 +347,7 @@
                     apporté beaucoup plus d’espace en supprimant certains cadres et en structurant mieux les textes.
                 </p>
                 <div
-                    class="flex 3xs:flex-col xs:flex-row 3xs:gap-10 xs:gap-8 sm:gap-11 justify-center items-center 3xs:mt-6 xs:mt-8 sm:mt-10 md:mt-12 mb-44">
+                    class="flex 3xs:flex-col xs:flex-row 3xs:gap-10 xs:gap-8 sm:gap-11 justify-center items-center 3xs:mt-6 xs:mt-8 sm:mt-10 md:mt-12 mb-10">
                     <div>
                         <img src="../../public/images/Bavans/Bavans-InfoAvant.webp" class="shadow-lg" alt="">
                     </div>
@@ -355,6 +355,24 @@
                         <img src="../../public/images/Bavans/Bavans-InfoApres.webp" class="shadow-lg" alt="">
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Bouton Voir sur insta -->
+        <section class="justify-center flex py-11 scroll-snap2 mb-24">
+            <nav class="navv 3xs:hidden sm:flex">
+                <ul class="ull">
+                    <a href="../../public/images/Bavans/DUVAL_Justine_CharteComplete_Web.pdf" download target="_blank">
+                        <li class="lii font-space-grotesk">
+                            Télécharger
+                            <span></span><span></span><span></span><span></span>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="sm:hidden bg-Extended/red/900 uppercase rounded-2xl p-3">
+                <a href="../../public/images/Bavans/DUVAL_Justine_CharteComplete_Web.pdf" download
+                    class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">Télécharger</a>
             </div>
         </section>
 
