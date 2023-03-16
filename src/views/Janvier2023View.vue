@@ -103,42 +103,38 @@
         <div class="md:hidden">
             <div class="flex w-full snap-x gap-0 overflow-x-auto ">
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0 ">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll1.webp" class="shrink-0 3xs:hidden xs:flex"
+                    <img src="../../public/images/Janvier2023/Janvier2023_Scroll1.webp" class="shrink-0 3xs:hidden xs:flex"
                         alt="">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll1Phone.webp"
+                    <img src="../../public/images/Janvier2023/Janvier2023_Scroll1Phone.webp"
                         class="shrink-0 xs:hidden h-screen" alt="">
                 </div>
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll2.webp" class="shrink-0 3xs:hidden xs:flex"
+                    <img src="../../public/images/Janvier2023/Janvier2023_Scroll2.webp" class="shrink-0 3xs:hidden xs:flex"
                         alt="">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll2Phone.webp"
+                    <img src="../../public/images/Janvier2023/Janvier2023_Scroll2Phone.webp"
                         class="shrink-0 xs:hidden h-screen" alt="">
                 </div>
                 <div class="shrink-0 snap-center first:pl-0 last:pr-0">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll3.webp" class="shrink-0 3xs:hidden xs:flex"
+                    <img src="../../public/images/Janvier2023/Janvier2023_Scroll3.webp" class="shrink-0 3xs:hidden xs:flex"
                         alt="">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll3Phone.webp"
+                    <img src="../../public/images/Janvier2023/Janvier2023_Scroll3Phone.webp"
                         class="shrink-0 xs:hidden h-screen" alt="">
-                </div>
-                <div class="shrink-0 snap-center first:pl-0 last:pr-0 xs:hidden">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll4Phone.webp" class="shrink-0 h-screen "
-                        alt="">
                 </div>
             </div>
         </div>
 
         <!-- Desktop -->
         <div class="3xs:hidden sm:flex">
-            <div class="bg-[#FFDED9]">
+            <div class="bg-[#0B7FA4]">
                 <div class="cases-carousel my-4">
                     <div class="case-item">
-                        <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll1.webp" class="imgscroll1" alt="">
+                        <img src="../../public/images/Janvier2023/Janvier2023_Scroll1.webp" class="imgscroll1" alt="">
                     </div>
                     <div class="case-item">
-                        <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll2.webp" class="imgscroll1" alt="">
+                        <img src="../../public/images/Janvier2023/Janvier2023_Scroll2.webp" class="imgscroll1" alt="">
                     </div>
                     <div class="case-item">
-                        <img src="../../public/images/Fevrier2023/Fevrier2023_Scroll3.webp" class="imgscroll1" alt="">
+                        <img src="../../public/images/Janvier2023/Janvier2023_Scroll3.webp" class="imgscroll1" alt="">
                     </div>
                 </div>
             </div>
@@ -170,7 +166,7 @@
             <div
                 class="flex flex-row 3xs:gap-2 xs:gap-8 sm:gap-11 justify-center items-center 3xs:mt-6 xs:mt-8 sm:mt-10 md:mt-12 ">
                 <div>
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_CartePostaleMockup.webp" class="shadow-lg" alt="">
+                    <img src="../../public/images/Janvier2023/Janvier2023_CartePostaleMockup.webp" class="shadow-lg" alt="">
                 </div>
                 <div>
                     <img src="../../public/images/Janvier2023/Janvier2023_CartePostale.webp" class="shadow-lg" alt="">
@@ -217,10 +213,10 @@
                         class="h-auto w-[390px] shadow-lg" alt="">
                 </div>
                 <div class="xs:flex flex-col xs:gap-12 sm:gap-20 md:gap-24 3xs:hidden">
-                    <img src="../../public/images/Janvier2023/Janvier2023_Illustration1.webp" class="w-[300px] shadow-lg"
-                        alt="">
-                    <img src="../../public/images/Janvier2023/Janvier2023_Illustration2.webp" class="w-[300px] shadow-lg"
-                        alt="">
+                    <img src="../../public/images/Janvier2023/Janvier2023_Illustration1.webp"
+                        class="w-[300px] shadow-lg 3xs:hidden  xs:flex" alt="">
+                    <img src="../../public/images/Janvier2023/Janvier2023_Illustration2.webp"
+                        class="w-[300px] shadow-lg 3xs:hidden xs:flex" alt="">
                 </div>
                 <div class="xs:hidden">
                     <img src="../../public/images/Janvier2023/Janvier2023_Illustration2.webp" class="w-[390px] shadow-lg"
