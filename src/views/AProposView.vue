@@ -325,20 +325,20 @@
                     <section class="justify-center flex xs:py-11 scroll-snap2">
                         <nav class="navvv 3xs:hidden sm:flex">
                             <ul class="ulll">
-                                <RouterLink class="" to="/">
+                                <a href="../../public/images/CV_Justine_Duval.pdf" download target="_blank">
                                     <li class="liii font-space-grotesk">
                                         Télécharger mon CV
                                         <span></span><span></span><span></span><span></span>
                                     </li>
-                                </RouterLink>
+                                </a>
                             </ul>
                         </nav>
                         <div class="sm:hidden border-4 border-Extended/red/50  uppercase rounded-2xl p-3">
-                            <RouterLink
-                                class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
-                                to="/projets">
+                            <a href="../../public/images/CV_Justine_Duval.pdf" download
+                                class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">
                                 Télécharger mon CV
-                            </RouterLink>
+                            </a>
+
                         </div>
                     </section>
                     <!-- Fin du Bouton CV -->
