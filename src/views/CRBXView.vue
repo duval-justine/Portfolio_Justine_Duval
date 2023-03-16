@@ -155,8 +155,31 @@
             </h2>
         </div>
 
-        <div>
-            <div class="bg-[#17181F]">
+
+        <!-- Format Mobile -->
+        <div class="md:hidden">
+            <div class="flex w-full snap-x gap-0 overflow-x-auto ">
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0 ">
+                    <img src="../../public/images/CRBX/CRBX_Scroll1.jpg" class="shrink-0 3xs:hidden xs:flex" alt="">
+                    <img src="../../public/images/CRBX/CRBX_Scroll1Phone.jpg" class="shrink-0 xs:hidden h-screen" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                    <img src="../../public/images/CRBX/CRBX_Scroll2.jpg" class="shrink-0 3xs:hidden xs:flex" alt="">
+                    <img src="../../public/images/CRBX/CRBX_Scroll2Phone.jpg" class="shrink-0 xs:hidden h-screen" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0">
+                    <img src="../../public/images/CRBX/CRBX_Scroll3.jpg" class="shrink-0 3xs:hidden xs:flex" alt="">
+                    <img src="../../public/images/CRBX/CRBX_Scroll3Phone.jpg" class="shrink-0 xs:hidden h-screen" alt="">
+                </div>
+                <div class="shrink-0 snap-center first:pl-0 last:pr-0 xs:hidden">
+                    <img src="../../public/images/CRBX/CRBX_Scroll4Phone.jpg" class="shrink-0 h-screen " alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Desktop -->
+        <div class="3xs:hidden sm:flex">
+            <div class="bg-[#161616]">
                 <div class="cases-carousel my-4">
                     <div class="case-item">
                         <img src="../../public/images/CRBX/CRBX_Scroll1.jpg" class="imgscroll1" alt="">
