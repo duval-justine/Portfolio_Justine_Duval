@@ -214,10 +214,10 @@
                         class="h-auto w-[390px] shadow-lg" alt="">
                 </div>
                 <div class="xs:flex flex-col xs:gap-12 sm:gap-20 md:gap-24 2xs:hidden">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration1.webp" class="w-[300px] shadow-lg"
-                        alt="">
-                    <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration2.webp" class="w-[300px] shadow-lg"
-                        alt="">
+                    <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration1.webp"
+                        class="w-[300px] shadow-lg 3xs:hidden xs:flex" alt="">
+                    <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration2.webp"
+                        class="w-[300px] shadow-lg 3xs:hidden xs:flex" alt="">
                 </div>
                 <div class="xs:hidden">
                     <img src="../../public/images/Fevrier2023/Fevrier2023_Illustration2.webp" class="w-[390px] shadow-lg"
