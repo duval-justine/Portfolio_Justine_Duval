@@ -252,7 +252,7 @@
 <script>
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
-import TopPage from "../components/TopPage.vue";
+import TopPage from "../components/TopPageNoir.vue";
 import Footerc from "../components/Footer.vue";
 
 gsap.registerPlugin(ScrollTrigger);

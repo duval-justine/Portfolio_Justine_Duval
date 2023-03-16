@@ -71,7 +71,7 @@
 </template>
 
 <script>
-import TopPage from "../components/TopPage.vue";
+import TopPage from "../components/TopPageNoir.vue";
 import Vignette from "../components/Vignette.vue";
 import Footerc from "../components/Footer.vue";
 export default {
