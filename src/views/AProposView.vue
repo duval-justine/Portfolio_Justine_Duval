@@ -8,14 +8,16 @@
 
                     <!-- Header -->
                     <Header class="relative z-10" />
-                    <div class="flex flex-row justify-center items-center">
-                        <div class="w-2/3">
+                    <div class="flex 3xs:flex-col xs:flex-row justify-center items-center">
+                        <div class="xs:w-1/2 3xs:mt-28 3xs:mb-10 xs:mb-0 xs:mt-0">
 
-                            <p class="font-karla text-center font-bold text-Extended/red/50 text-4xl">Justine Duval
+                            <p
+                                class="font-karla text-center duration-100 hover:scale-110 ease-in-out font-normal hover:font-bold text-Extended/red/50 3xs:text-4xl xs:text-2xl sm:text-4xl md:text-5xl">
+                                Justine Duval
                             </p>
                         </div>
                         <div>
-                            <img src="../../public/images/Apropos_Justine.webp" alt="">
+                            <img src="../../public/images/Apropos_Justine.webp" class="3xs:w-96 sm:w-full" alt="">
                         </div>
                     </div>
                 </div>
