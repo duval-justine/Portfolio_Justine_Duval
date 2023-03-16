@@ -304,20 +304,18 @@
                     <section class="justify-center flex xs:py-11 scroll-snap2">
                         <nav class="navvv 3xs:hidden sm:flex">
                             <ul class="ulll">
-                                <RouterLink class="" to="/">
+                                <a href="mailto:justinepro.duval@gmail.com">
                                     <li class="liii font-space-grotesk">
                                         M'envoyer un mail
                                         <span></span><span></span><span></span><span></span>
                                     </li>
-                                </RouterLink>
+                                </a>
                             </ul>
                         </nav>
                         <div class="sm:hidden  border-4 border-Extended/red/50 uppercase rounded-2xl p-3">
-                            <RouterLink
-                                class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50"
-                                to="/projets">
-                                M'envoyer un mail
-                            </RouterLink>
+                            <a href="mailto:justinepro.duval@gmail.com"
+                                class="font-space-grotesk font-medium text-sm 2xs:text-base xs:text-lg text-Extended/red/50">
+                                M'envoyer un mail</a>
                         </div>
                     </section>
                     <!-- Fin du Bouton Mail -->
