@@ -13,6 +13,7 @@ module.exports = {
         "pastelbleu": "#879CC9",
         "pastelrose": "#D5B3B2",
         "brun": "#5B3B3B",
+        "bleu":"#152FB5"
       },
       "fontFamily": {
         "space-grotesk": "Space Grotesk",
