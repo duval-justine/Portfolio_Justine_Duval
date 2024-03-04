@@ -17,7 +17,9 @@ module.exports = {
       },
       "fontFamily": {
         "space-grotesk": "Space Grotesk",
-        "karla": "Karla"
+        "karla": "Karla",
+        "poppins":"Poppins",
+        "getaway":"Getaway"
       },
     },
     screens: {
